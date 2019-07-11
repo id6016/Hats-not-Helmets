@@ -1,0 +1,76 @@
+SAF_historical = {
+	name = "South African historical plan"
+	desc = ""
+
+	enable = {
+		original_tag = SAF
+		has_dlc = "Together for Victory"
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = SAF_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = SAF_AI_RANDOM_DEMOCRATIC_HISTORICAL 
+			has_game_rule = {
+				rule = SAF_ai_behavior
+				option = DEMOCRATIC_HISTORICAL
+			}
+			has_country_flag = britain_enforced_our_loyalty
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		SAF_south_african_railways
+		SAF_expand_the_mining_industry
+		SAF_infrastructure_effort
+		SAF_armament_effort
+		SAF_south_african_steel
+		SAF_pretoria_arms
+		SAF_expand_the_rand_mines
+		SAF_support_the_policy_of_appeasement
+		SAF_police_windhoek
+		SAF_war_measures_act
+		SAF_csir
+		SAF_desert_equipment
+		SAF_suppress_the_stormjaers
+		SAF_secure_interests_in_africa
+		SAF_submit_to_americas_hat
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		captain_of_industry = 5
+		war_industrialist = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+

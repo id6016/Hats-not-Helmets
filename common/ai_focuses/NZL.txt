@@ -1,0 +1,68 @@
+ai_historical_focus_list_NZL = {
+	ai_national_focuses = {
+		NZL_expand_devonport_naval_base								#1943		
+		NZL_national_roads_board									#1936
+		NZL_new_zealand_steel										#1936
+		NZL_bureau_of_industry										#1940
+		#NZL_central_department_of_industry
+		NZL_wairarapa_sheep_farms									#1936
+		NZL_taranaki_oil
+		NZL_army_reforms
+		NZL_charlton_automatic_rifle
+		NZL_domestic_arms_industry									#1941
+		NZL_industrial_conscription
+		NZL_think_big	
+		NZL_transfer_the_new_zealand_division
+		NZL_form_the_rnzn											#1942
+		NZL_department_of_scientific_and_industrial_research
+		NZL_expand_the_university_of_auckland						#1940
+		
+		
+		
+		
+		NZL_long_range_patrol										#1940
+		# NZL_bob_semple_tank											#1941
+		NZL_fighter_focus											#1940
+		
+		
+		
+		
+		
+		NZL_destroyer_effort										#1942
+		NZL_coastal_defense											#1943
+		NZL_light_cruiser_effort									#1942
+		# NZL_schofield_tank											#1942
+		NZL_artillery_focus											#1940
+		NZL_the_manpower_act										#1944
+		NZL_big_bob_tank											#
+	}
+}
+
+
+# Original AI Focus List
+#ai_historical_focus_list_NZL = {
+#	ai_national_focuses = {
+#		NZL_national_roads_board									#1936
+#		NZL_new_zealand_steel										#1936
+#		NZL_wairarapa_sheep_farms									#1936
+#		NZL_bureau_of_industry										#1940
+#		NZL_central_department_of_industry
+#		NZL_industrial_conscription
+#		NZL_taranaki_oil
+#		NZL_army_reforms
+#		NZL_chariton_automatic_rifle
+#		NZL_domestic_arms_industry									#1941
+#		NZL_think_big												#1942
+#		NZL_long_range_patrol										#1940
+#		NZL_bob_semple_tank											#1941
+#		NZL_fighter_focus											#1940
+#		
+#		NZL_expand_the_university_of_auckland						#1940
+#		NZL_expand_devonport_naval_base								#1943
+#		NZL_destroyer_effort										#1942
+#		NZL_coastal_defense											#1943
+#		NZL_light_cruiser_effort									#1942
+#		NZL_schofield_tank											#1942
+#		NZL_artillery_focus											#1940
+#		NZL_the_manpow#er_act										#1944
+#		NZL_big_bob_tank											#

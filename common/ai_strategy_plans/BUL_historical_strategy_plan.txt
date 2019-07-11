@@ -1,0 +1,64 @@
+BUL_historical = {
+	name = "Bulgaria Industrial focus plan"
+	desc = ""
+
+	enable = {
+		original_tag = BUL
+		
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		BUL_Monarch_Speech
+		BUL_Nationalism
+		BUL_Highway_Development
+		BUL_Begin_2_Year_Plan
+		BUL_Build_It_Better
+		BUL_Heavy_Machines
+		BUL_Fuel_Our_Industry
+		BUL_Finnish_2_Year_Plan
+		BUL_Arms_Expansion
+		BUL_Efficent_Designs
+		BUL_Break_Western_Ties
+		BUL_Radar_Testing
+		BUL_University_Of_Sofia
+		BUL_Geological_Survey
+		BUL_Expand_Western_Mines
+		BUL_War_Production
+		# BUL_Aviation_Expansion
+		# BUL_naval_warfare
+		# BUL_thrace_dockyard_construction
+		# BUL_modernize_navy
+		BUL_submit_to_horthy
+	}
+
+	research = {
+		
+	}
+
+	ideas = {
+		
+	}
+	ai_strategy = {
+		
+	}
+	traits = {
+	
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}

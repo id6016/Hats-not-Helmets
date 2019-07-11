@@ -1,0 +1,24 @@
+ast_annexation = {
+
+	annex_new_zealand = {
+		icon = GFX_dec_hnh_nzl
+		ai_will_do = { factor = 0 }
+		cost = 20
+		visible = {
+			tag = AST
+			NZL = { is_ai = yes }
+			country_exists = NZL
+			#date > 1939.1.1
+		}
+
+		complete_effect = {
+			AST = {
+				annex_country = { target = NZL transfer_troops = yes }
+				add_state_core = 284 	#North Island
+				add_state_core = 723 	#South Island
+				add_state_core = 726 	#Somoa
+				# add_ideas = annex_new_zealand_idea
+			}
+		}
+	}
+}

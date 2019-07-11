@@ -1,0 +1,65 @@
+﻿add_namespace = czech
+
+# Ask SOV about joining Comintern
+
+# SOV says yes
+
+# SOV says no
+
+# Ask SOV about splitting ROM
+
+# SOV says yes
+
+# SOV says no
+
+# Ask SOV about splitting POL
+
+# SOV says yes
+
+# SOV says no
+
+# Ask GER about splitting POL
+
+# GER says yes
+
+# GER says no
+
+# Excluding the slovaks
+
+# Excluding the slovaks
+
+# Ask GER about joining Axis
+
+# GER says yes
+
+# GER says no
+
+# Ask GER about being a puppet
+
+# GER says yes
+
+# GER says no
+
+#Give GER Sudetenland 
+
+# GER says yes
+
+# GER says no
+
+#Invite YUG to faction
+
+# YUG says yes
+
+# YUG says no
+
+#Invite ROM to faction
+
+# ROM says yes
+
+# ROM says no
+
+# Ask HUN to be nice
+
+# HUN says yes
+
+# HUN says no

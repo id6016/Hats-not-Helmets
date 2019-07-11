@@ -1,0 +1,24 @@
+# state={
+	# id=1002
+	# name="STATE_787" # Maine
+	# manpower = 1
+	
+	# state_category = rural
+
+	# history={
+		# victory_points = {
+			# 12459 1 
+		# }
+		# owner = USA
+		# buildings = {
+			# infrastructure = 7
+			# air_base = 10
+		# }
+		# add_core_of = USA
+
+	# }
+
+	# provinces={
+		# 3732 6719 7462 12202 12459 1338 10318 12221 1282 1619 4287 10247
+	# }
+# }

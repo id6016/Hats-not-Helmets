@@ -1,0 +1,227 @@
+﻿
+units = {
+	##### Royal Australian Army #####
+	division= {	
+		#name = "5th 20 Width Garrison"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 1652 # Perth
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "1st 10 Width Cavalry"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7564 # Brisbane
+		division_template = "10 Width Cavalry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	# 2nd Military District -- New South Wales
+	division= {	
+		#name = "1st 20 Width Garrison"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12406 # Sydney
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "2nd 20 Width Garrison"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7859 # Canberra
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	# 3rd Military District -- New South Wales
+	division= {	
+		#name = "3rd 20 Width Garrison"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7798 # Melbourne
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "4th 20 Width Garrison"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 7798 # Melbourne
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "2nd 10 Width Cavalry"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7798 # Melbourne
+		division_template = "10 Width Cavalry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+}
+
+air_wings = {
+	### Royal Australian Air Force (RAAF)-- New South Wales
+	285 = {
+		# RAAF Stations Laverton, Richmond -- Hawker Demons, Avro Ansons
+		CAS_equipment_1 =  {
+			owner = "AST" 
+			amount = 24
+		}
+	}
+}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AST"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AST"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "AST"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 50
+	}
+	
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = light_tank_equipment_1
+	#		creator = "AST"
+	#	}
+	#	requested_factories = 0
+	#	progress = 0.12
+	#	efficiency = 100
+	#}
+	
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = fighter_equipment_1
+	#		creator = "AST" 
+	#	}
+	#	requested_factories = 1
+	#	progress = 0.0
+	#	efficiency = 50
+	#}
+	
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = anti_air_equipment_1
+	#		creator = "AST" 
+	#	}
+	#	requested_factories = 0
+	#	progress = 0.0
+	#	efficiency = 50
+	#}
+		
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = cv_fighter_equipment_0
+	#		creator = "AST" 
+	#	}
+	#	requested_factories = 0
+	#	progress = 0.0
+	#	efficiency = 50
+	#}
+	
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = CAS_equipment_1
+	#		creator = "AST" 
+	#	}
+	#	requested_factories = 0
+	#	progress = 0.0
+	#	efficiency = 50
+	#}
+	
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = nav_bomber_equipment_1
+	#		creator = "AST" 
+	#	}
+	#	requested_factories = 0
+	#	progress = 0.0
+	#	efficiency = 50
+	#}
+	
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = cv_nav_bomber_equipment_1
+	#		creator = "AST" 
+	#	}
+	#	requested_factories = 0
+	#	progress = 0.0
+	#	efficiency = 50
+	#}
+		
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = tac_bomber_equipment_0
+	#		creator = "AST" 
+	#	}
+	#	requested_factories = 0
+	#	progress = 0.0
+	#	efficiency = 50
+	#}
+	
+	#add_equipment_production = {
+	#	equipment = {
+	#		type = transport_plane_equipment_1
+	#		creator = "AST" 
+	#	}
+	#	requested_factories = 0
+	#	progress = 0.0
+	#	efficiency = 50
+	#}
+}

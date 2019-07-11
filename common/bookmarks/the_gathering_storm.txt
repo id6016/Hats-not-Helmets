@@ -1,0 +1,322 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_initiate_government_reform
+				FRA_support_status_quo
+				# FRA_revise_versailles
+				FRA_establish_free_france_in_gabon
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+				great_depression
+				undisturbed_isolation
+			}
+			focuses = {
+				USA_war_plan_black
+				USA_limited_intervention
+				USA_reestablish_the_gold_standard
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				george_v
+			}
+			focuses = {
+				# ENG_imperial_federation
+				# ENG_the_kings_party
+				# ENG_organize_the_blackshirts
+				uk_canada_focus
+				uk_south_africa_focus
+				uk_india_focus
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { NOT = { has_dlc = "Man the Guns" } }
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				george_v
+			}
+			focuses = {
+				tizard_mission_focus
+				# ENG_war_with_germany
+				# ENG_war_with_italy
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				# GER_revive_the_kaiserreich
+				GER_rhineland
+			}
+		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { NOT = { has_dlc = "Waking the Tiger" } }
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_1
+			}
+			focuses = {
+				GER_anschluss
+				GER_danzig_or_war
+				# GER_ussr_war_goal
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				vittoria_mutilata
+				victor_emmanuel
+			}	
+			focuses = {
+				ITA_pact_of_steel
+				# ITA_spanish_italian_faction
+				# ITA_italy_first
+				ITA_war_with_yugoslavia
+				# ITA_albania_war_goal
+				ITA_end_of_the_second_italo_ethipoan_war
+			}		
+		}
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				state_shintoism
+				JAP_zaibatsus
+				JAP_militarism
+			}	
+			focuses = {
+				JAP_the_zero
+				JAP_warrior_spirit
+				# JAP_strike_on_the_southern_resource_area
+				JAP_strike_the_giant
+			}			
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				trotskyite_plot
+				home_of_revolution
+			}
+			focuses = {
+				SOV_great_purge
+				# SOV_claims_on_baltic
+				# SOV_war_with_uk
+				SOV_stalin_constitution
+				# SOV_transformation_of_nature
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		
+		"CAN"={
+			minor = yes
+			history = "CAN_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				# CAN_skewer_the_eagle
+				# CAN_north_american_alliance
+				# CAN_join_comintern
+				CAN_compromise_with_quebec
+				CAN_alberta_coal_towns
+				CAN_mine_the_shield
+			}
+		}
+		"AST"={
+			minor = yes
+			history = "AST_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				AST_great_depression_1
+			}
+			focuses = {
+				# AST_never_another_gallipoli
+				# AST_support_indonesian_uprising
+				# AST_delegation_to_china
+				AST_rationing_and_recycling
+				AST_empire_air_training_scheme
+				AST_invest_in_victory
+			}
+		}
+		"NZL"={
+			minor = yes
+			history = "NZL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				# NZL_bob_semple_tank
+				# NZL_independent_new_zealand
+				NZL_maori_volunteers
+				NZL_submit_to_the_emus
+				NZL_amphibious_tank
+			}
+		}
+		"SAF"={
+			minor = yes
+			history = "SAF_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				SAF_ossewabrandwag
+				SAF_history_of_segregation
+			}
+			focuses = {
+				SAF_secure_interests_in_africa
+				# SAF_support_the_german_coup
+				# SAF_anti_colonialist_crusade
+				SAF_south_african_steel
+				SAF_csir
+			}
+		}
+		"RAJ"={
+			minor = yes
+			history = "RAJ_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				RAJ_agrarian_society
+				RAJ_princely_states
+			}
+			focuses = {
+				# RAJ_all_india_forward_bloc
+				RAJ_indian_gurkhas
+				# RAJ_the_smiling_buddha
+				RAJ_seize_the_port_cities
+				RAJ_clamp_down_on_corruption
+			}
+		}
+		
+
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				HUN_treaty_of_triannon
+			}
+			focuses = {
+				# HUN_proclaim_the_restoration_of_austria_hungary
+				HUN_secret_rearmament
+				HUN_renounce_the_treaty_of_trianon
+			}
+		}
+
+		"ROM"={
+			minor = yes
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				ROM_king_carol_ii_hedonist
+				neutrality_idea
+			}
+			focuses = {
+				# ROM_balkans_dominance
+				ROM_institute_royal_dictatorship
+				ROM_preserve_greater_romania
+			}
+		}
+		
+		# "BUL" = {
+			# minor = yes
+			# history = "BUL_GATHERING_STORM_DESC"
+			# ideology = neutrality
+			# ideas = {
+				
+			# }
+			# focuses = {
+			# BUL_Break_Western_Ties
+			# BUL_oppress_macedonians
+			# BUL_Expand_Western_Mines	
+			
+			# }
+		# }
+		
+		# "SPR" = {
+			# minor = yes
+			# history = "SPR_GATHERING_STORM_DESC"
+			# ideology = democratic
+			# ideas = {
+				
+			# }
+			# focuses = {
+			# SPR_Civ_Econ
+			# SPR_Mech
+			# SPR_Domestic_Tanks
+				
+			# }
+		# }
+	
+		"MAN"={
+			minor = yes
+			history = "MAN_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				MAN_banditry
+				MAN_kwantung_veto
+				MAN_low_legitimacy_5
+			}
+			focuses = {
+				MAN_obedience
+				# MAN_independence_war
+				# MAN_claim_the_mandate_of_heaven
+				JAP_light_industry_development
+				JAP_japanese_settlement
+			}
+		}
+		
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

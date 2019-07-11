@@ -1,0 +1,13 @@
+﻿###########################
+# Greek Events
+###########################
+
+add_namespace = greece
+
+# Soviet Demands
+
+# German demands to hand over territory to friends or self
+
+# Germany demands Greece become puppet
+
+# Greece gets wargoal - From Italian focus tree

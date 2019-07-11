@@ -1,0 +1,26 @@
+﻿###########################
+# Baltic Events
+###########################
+
+add_namespace = baltic
+
+# Soviet Ultimatum (Estonia)
+
+# Soviet Ultimatum (Latvia)
+
+# Soviet Ultimatum (Lithuania)
+
+
+# Germany Claims Memel (Lithuania)
+
+
+# Country becomes communist. Get's event to become part of the Soviet Union
+
+
+# Hidden event to be annexed. Needed because of problem with FROM and events in annexed countries (JH)
+
+
+#Poland Seeks Alliance With ROOT  
+#Event fired by Poland seeking to make a Baltic faction
+
+#All events removed

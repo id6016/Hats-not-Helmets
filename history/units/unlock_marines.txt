@@ -1,0 +1,25 @@
+﻿division_template = {
+	name = "Marines"
+
+	regiments = Marine = { x = 0 y = 0 }
+		Marine = { x = 0 y = 0 }
+		Marine = { x = 0 y = 1 }
+		Marine = { x = 0 y = 2 }
+		Marine = { x = 0 y = 3 }
+		Marine = { x = 0 y = 4 }
+		Marine = { x = 1 y = 0 }
+		Marine = { x = 1 y = 1 }
+		Marine = { x = 1 y = 2 }
+		Marine = { x = 1 y = 3 }
+		Marine = { x = 1 y = 4 }
+		Marine = { x = 2 y = 0 }
+		Marine = { x = 2 y = 1 }
+		Marine = { x = 2 y = 2 }
+		Marine = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+
+
+	}

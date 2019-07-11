@@ -1,0 +1,22 @@
+spr_resource = {
+
+	por_spr_dual_mine = {
+		allowed = {	original_tag = SPR }
+		available = { 
+			date > 1939.01.01 
+			# FRA = { has_war_with = GER }
+		}
+		icon = tungsten
+
+		complete_effect = {
+			# SPR = { remove_ideas = SPA_recovering_from_civil_war }
+			POR = {
+				give_resource_rights = { receiver = SPR state = 181 }
+				# country_event = {
+					# days = 1
+					# id = mexico.35
+				# }
+			}
+		}
+	}
+}

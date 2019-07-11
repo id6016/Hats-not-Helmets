@@ -1,0 +1,23 @@
+# state={
+	# id=1001
+	# name="STATE_787" # New Hampshire
+	# manpower = 1
+	
+	# state_category = rural
+
+	# history={
+		# victory_points = {
+			
+		# }
+		# owner = USA
+		# buildings = {
+			# infrastructure = 7
+		# }
+		# add_core_of = USA
+
+	# }
+
+	# provinces={
+		# 3715 3712 733 10481
+	# }
+# }

@@ -1,0 +1,86 @@
+﻿###########################
+# Italian Events
+###########################
+
+add_namespace = italy
+
+# Albania Yields
+
+# Zog Rejects Ultimatum
+
+# Albania Receives Ultimatum
+
+# Extension of the Vallo Alpino
+country_event = {
+	id = italy.4
+	title = italy.4.t
+	desc = italy.4.d
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = italy.4.a
+		158 = {
+			add_building_construction = {
+				type = bunker
+				province = 11891
+				level = 3
+			}
+			add_building_construction = {
+				type = bunker
+				province = 11721
+				level = 3
+			}
+		
+			add_building_construction = {
+				type = bunker
+				province = 9738
+				level = 3
+			}
+		}
+		160 = {
+			add_building_construction = {
+				type = bunker
+				province = 3657
+				level = 3
+			}
+			add_building_construction = {
+				type = bunker
+				province = 9613
+				level = 3
+			}
+			add_building_construction = {
+				type = bunker
+				province = 11595
+				level = 3
+			}
+		}
+	}
+}
+
+
+# Italian-German Treaty (Germans)
+
+# Germans Accept Italian-German Treaty
+
+# Germans Reject Italian-German Treaty
+
+# French national focus - French asks Italy to join french faction
+
+# Request Balearic Islands from Spain
+
+# Spain Gives Up Balearic Islands
+
+# Spain Refuses to Give Up Islands
+
+# Germany want to claim Slovenia from Yugoslavia
+
+# Italy (First Ljubljana Award) from german focus
+
+# Italy Germany rejects demands for Vichy territory
+
+# Italy Germany accepts demands for Vichy territory
+
+# Italy Germany accepts some of demands for Vichy territory
+

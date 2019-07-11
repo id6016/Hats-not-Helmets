@@ -1,0 +1,389 @@
+spriteTypes = {	
+
+	#Decisions	
+
+	spriteType = {
+		name = "GFX_ast_annex"
+		texturefile = "gfx/interface/decisions/ast_annex.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_britain_annex"
+		texturefile = "gfx/interface/decisions/britain_annex.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_germany_annex"
+		texturefile = "gfx/interface/decisions/germany_annex.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_japan_annex"
+		texturefile = "gfx/interface/decisions/japan_annex.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_usa_annex"
+		texturefile = "gfx/interface/decisions/usa_annex.dds"
+	}
+	
+	#Countries
+	
+	spriteType = {
+		name = "GFX_spain_tungsten"
+		texturefile = "gfx/interface/decisions/spain_tungsten.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_ast"
+		texturefile = "gfx/interface/decisions/dec_hnh_ast.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_can_historic"
+		texturefile = "gfx/interface/decisions/dec_hnh_can_historic.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_can_modern"
+		texturefile = "gfx/interface/decisions/dec_hnh_can_modern.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_saf"
+		texturefile = "gfx/interface/decisions/dec_hnh_saf.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_raj_historic"
+		texturefile = "gfx/interface/decisions/dec_hnh_raj_historic.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_raj_modern"
+		texturefile = "gfx/interface/decisions/dec_hnh_raj_modern.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_nzl"
+		texturefile = "gfx/interface/decisions/dec_hnh_nzl.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_phi"
+		texturefile = "gfx/interface/decisions/dec_hnh_phi.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_fra_free"
+		texturefile = "gfx/interface/decisions/dec_hnh_fra_free.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_hun"
+		texturefile = "gfx/interface/decisions/dec_hnh_hun.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_bul"
+		texturefile = "gfx/interface/decisions/dec_hnh_bul.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_rom"
+		texturefile = "gfx/interface/decisions/dec_hnh_rom.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_man"
+		texturefile = "gfx/interface/decisions/dec_hnh_man.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_sia"
+		texturefile = "gfx/interface/decisions/dec_hnh_sia.tga"
+	}
+	
+	#War Goals Decisions
+	
+	spriteType = {
+		name = "GFX_dec_hnh_bel_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_bel_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_chi_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_chi_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_fin_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_fin_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_gre_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_gre_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_irq_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_irq_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_nor_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_nor_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_pol_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_pol_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_sov_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_sov_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_swi_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_swi_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_usa_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_usa_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_yug_war"
+		texturefile = "gfx/interface/decisions/dec_hnh_yug_war.tga"
+	}
+	
+	#Zaibatsus
+	
+	spriteType = {
+		name = "GFX_dec_hnh_jap_zai"
+		texturefile = "gfx/interface/decisions/dec_hnh_jap_zai.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_jap_zai2"
+		texturefile = "gfx/interface/decisions/dec_hnh_jap_zai2.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_dec_hnh_jap_zai3"
+		texturefile = "gfx/interface/decisions/dec_hnh_jap_zai3.tga"
+	}
+	
+	#Focus
+	
+	spriteType = {
+		name = "GFX_focus_hnh_yug_war"
+		texturefile = "gfx/interface/focus/focus_hnh_yug_war.tga"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_hnh_gre_war"
+		texturefile = "gfx/interface/focus/focus_hnh_gre_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_bel_war"
+		texturefile = "gfx/interface/focus/focus_hnh_bel_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_benelux_war"
+		texturefile = "gfx/interface/focus/focus_hnh_benelux_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_benelux2_war"
+		texturefile = "gfx/interface/focus/focus_hnh_benelux2_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_albanian_occupation"
+		texturefile = "gfx/interface/focus/focus_hnh_albanian_occupation.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_irq_war"
+		texturefile = "gfx/interface/focus/focus_hnh_irq_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_pol_war"
+		texturefile = "gfx/interface/focus/focus_hnh_pol_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_vic_war"
+		texturefile = "gfx/interface/focus/focus_hnh_vic_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_weserbung_war"
+		texturefile = "gfx/interface/focus/focus_hnh_weserbung_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_crush_eth"
+		texturefile = "gfx/interface/focus/focus_hnh_crush_eth.tga"
+	}	
+	
+	spriteType = {
+		name = "GFX_focus_hnh_aus_annex"
+		texturefile = "gfx/interface/focus/focus_hnh_aus_annex.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_syr_leb"
+		texturefile = "gfx/interface/focus/focus_hnh_syr_leb.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_ast"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_ast.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_nzl"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_nzl.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_saf"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_saf.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_can_historic"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_can_historic.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_can_modern"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_can_modern.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_raj_historic"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_raj_historic.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_raj_modern"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_raj_modern.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_man"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_man.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_man_mil"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_man_mil.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_develop_man_inf"
+		texturefile = "gfx/interface/focus/focus_hnh_develop_man_inf.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_ally_italy"
+		texturefile = "gfx/interface/focus/focus_hnh_ally_italy.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_man_project"
+		texturefile = "gfx/interface/focus/focus_hnh_man_project.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_jap_settler"
+		texturefile = "gfx/interface/focus/focus_hnh_jap_settler.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_ger_lux"
+		texturefile = "gfx/interface/focus/focus_hnh_ger_lux.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_ger_memel"
+		texturefile = "gfx/interface/focus/focus_hnh_ger_memel.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_ger_sudeten"
+		texturefile = "gfx/interface/focus/focus_hnh_ger_sudeten.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_ita_yug"
+		texturefile = "gfx/interface/focus/focus_hnh_ita_yug.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_ita_fra"
+		texturefile = "gfx/interface/focus/focus_hnh_ita_fra.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_ger_cze"
+		texturefile = "gfx/interface/focus/focus_hnh_ger_cze.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_aus_annex"
+		texturefile = "gfx/interface/focus/focus_hnh_aus_annex.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_jap_indochina"
+		texturefile = "gfx/interface/focus/focus_hnh_jap_indochina.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_fra_dakar"
+		texturefile = "gfx/interface/focus/focus_hnh_fra_dakar.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_fra_mad"
+		texturefile = "gfx/interface/focus/focus_hnh_fra_mad.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_fra_syria"
+		texturefile = "gfx/interface/focus/focus_hnh_fra_syria.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_focus_hnh_fra_torch"
+		texturefile = "gfx/interface/focus/focus_hnh_fra_torch.tga"
+	}
+	
+	#Ideas
+	
+
+
+	#Leaders	
+
+	spriteType = {
+		name = "GFX_SAF_John_Boer"
+		texturefile = "gfx/leaders/SAF/Portrait_SAF_John_Boer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_HUN_Snowman"
+		texturefile = "gfx/leaders/HUN/Portrait_HUN_Snowman.dds"
+	}
+
+}

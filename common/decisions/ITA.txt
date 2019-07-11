@@ -1,0 +1,199 @@
+ita_war_goals = {
+
+ITA_war_with_greece = {
+	icon = GFX_dec_hnh_gre_war
+	allowed = { original_tag = ITA }
+	fire_only_once = yes
+	available = { 
+		has_completed_focus = ITA_greece_war_goal
+		has_government = fascism
+		}
+	cost = 0
+	ai_will_do = { factor = 10 }
+	complete_effect = {
+		
+		ITA = {
+			declare_war_on = { 
+			target = GRE
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = ENG
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = FRA
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = CAN
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = SAF
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = RAJ
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = AST
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = NZL
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = BEL
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = LUX
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = HOL
+			type = annex_everything
+			}
+		}ITA = {
+			declare_war_on = { 
+			target = DEN
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = NOR
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = POL
+			type = annex_everything
+			}
+		}
+	}
+}
+
+ITA_war_with_yugoslavia = {
+	icon = GFX_dec_hnh_yug_war
+	allowed = { original_tag = ITA }
+	fire_only_once = yes
+	available = { 
+		has_completed_focus = ITA_war_with_yugoslavia
+		has_government = fascism
+		}
+	cost = 0
+	ai_will_do = { factor = 10 }
+	complete_effect = {
+		
+		ITA = {
+			declare_war_on = { 
+			target = YUG
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = ENG
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = FRA
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = CAN
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = SAF
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = RAJ
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = AST
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = NZL
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = BEL
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = LUX
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = HOL
+			type = annex_everything
+			}
+		}ITA = {
+			declare_war_on = { 
+			target = DEN
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = NOR
+			type = annex_everything
+			}
+		}
+		ITA = {
+			declare_war_on = { 
+			target = POL
+			type = annex_everything
+			}
+		}
+	}
+}
+
+}

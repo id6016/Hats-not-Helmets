@@ -1,0 +1,23 @@
+# state={
+	# id=1000
+	# name="STATE_787" # Vermont
+	# manpower = 1
+	
+	# state_category = rural
+
+	# history={
+		# victory_points = {
+			
+		# }
+		# owner = USA
+		# buildings = {
+			# infrastructure = 7
+		# }
+		# add_core_of = USA
+
+	# }
+
+	# provinces={
+		# 7629 4445 9675
+	# }
+# }

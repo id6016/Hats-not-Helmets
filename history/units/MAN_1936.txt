@@ -1,0 +1,119 @@
+﻿
+##### OOB #####
+units = {
+	division = { # "1 20 Width Garrison"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 800
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "2 20 Width Garrison"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11771
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "3 20 Width Garrison"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3944
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "4 20 Width Garrison"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4809
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "5 20 Width Garrison"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3877
+		division_template = "20 Width Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "1 10 Width Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 800
+		division_template = "10 Width Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "2 10 Width Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11771
+		division_template = "10 Width Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "3 10 Width Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3944
+		division_template = "10 Width Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = { # "4 10 Width Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4809
+		division_template = "10 Width Cavalry"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+}
+
+
+########## STARTING PRODUCTION ##########
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MAN"
+		}
+		requested_factories = 1
+		progress = 0.52
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "MAN" 
+		}
+		requested_factories = 0
+		progress = 0.4
+		efficiency = 50
+	}
+}

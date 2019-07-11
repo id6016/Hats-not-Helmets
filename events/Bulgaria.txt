@@ -1,0 +1,17 @@
+﻿###########################
+# Bulgarian Events
+###########################
+
+add_namespace = bulgaria
+
+# Treaty of Craiova - Romania Accepts
+
+# Treaty of Craiova - Romania Refuses
+
+# Bulgaria (First Ljubljana Award) from german focus
+
+# Treaty of Craiova - Hungary gets land. So should we
+
+# Treaty of Craiova - Germany will not back us
+
+#All events removed

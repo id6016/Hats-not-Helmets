@@ -1,0 +1,27 @@
+# state={
+	# id=1005
+	# name="STATE_787" # Rhode Island
+	# manpower = 1
+	
+	# state_category = rural
+
+	# history={
+		# victory_points = {
+			# 9832 1
+		# }
+		# 9832 = {
+				# naval_base = 3
+
+			# }
+		# owner = USA
+		# buildings = {
+			# infrastructure = 7
+		# }
+		# add_core_of = USA
+
+	# }
+
+	# provinces={
+		# 9832 11830
+	# }
+# }

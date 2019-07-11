@@ -1,0 +1,603 @@
+NEW CHANGES (Not uploaded to Steam)
+
+Relations maximum from 100 to 500 for embargo testing.
+Support Companies updated from 5 to 6.
+All naval focuses now 35 days
+Removed alt history focuses.
+Added Strategy plans for nations.
+Removed unnessesary localization.
+Changed air production from 10% to 5%.
+AI Strategy Removed
+Custom events moved to new file
+Added new autononomy level economic aquisition.
+Siam, Mongolia, and Phillipines are economic aquisitions.
+Nuclear Tech Focuese removed for minors (France is a minor)
+Unecessary cores/claims removed
+Unecessary countries manpower and focus trees removed
+Join Axis focuses no longer make events
+Sicily moved from Italy Strategic Zone to Central Mediterranean
+All useless nations now have a neutrality National Spirit and a trade embargo with all player nations
+Tons of custom icons
+Total mobilization now requires Soviets and Germans to be at war
+Soft attack has been reverted to 1.4.2 values
+Resource Focii Updated
+Nation Colors Updated
+
+CHI - Annex Yunnan, Xibei, Guanxi, and Sinkiang when Japan decalres war on you
+CHI - Germany and Japan Investors removed
+CHI - Now starts with Macau, the Portugese port city
+CHI - new event that makes it easier for the allies to send attaches
+CHI - Both new events moved to HnH Events
+CHI - Both events are now combined
+CHI - New event for all player nations to remind them to send attache when the war starts
+PRC - Annex Shanxi when Japan Declares war on you.
+
+ENG - Two new events that annex the Dutch Colonies and the Danish islands
+ENG - Made the events hidden
+ENG - Dutch Colonies event now removes the East Indies Cores
+ENG - Indian Independance changed to 1941
+ENG - Now guarentees Poland, Denmark, Norway, Belgium, Luxembourg, Netherlands, Yugoslavia, and Greece
+ENG - Five New decisions: each one annexs a commonwealth nation
+ENG - Malaya is now annexed from the start
+ENG - New decision: make the Franco-British Union 
+ENG - Port on the southern tip of Siani
+ENG - New focus: Imperial Conference
+ENG - Resource rights to Iraqi and Iranian oil
+ENG - Four New Events: Imperial Conference events
+ENG - New national spirit: The Phoney War, designed to prevent a France hold. Removed if at war with Italy. Commonwealth also get the spirit.
+ENG - New Event: Gives the spirit, triggers when at war with Germany
+ENG - New Advisor: Captain of Industry
+ENG - Gibralter now impassible on 2/3 tiles connecting to Spain
+ENG - Added Reece as an Admiral
+ENG - Can now build in Dominions
+ENG - Dominions can no longer refuse to join wars
+ENG - Fighter Command renamed to Submarine Spitfire, now gives you Fighter 2 when completed
+ENG - Production Start Balanced
+ENG - new decision to take back the Anglo-Persian Oil Company
+ENG - New event: If Sealion happens the phoney war will be removed for the Commonwealth and France
+
+RAJ - Removed National Focus Indian Gentleman Officers
+RAJ - Indian Defense Research changed to be available after Modernizing Army (War Tree) and An Indian Sandhurst (General Tree) AND requiring the at war condition plus capitulation of France.
+RAJ - Tata Steel now has a Steel icon
+RAJ - New Focus: Seize the port cities
+RAJ - Given cores on all Pakistani, Bengali, and Burmese states
+RAJ - New advisor: Staunch Monarchist
+RAJ - Now has 3 starting Research Slots
+RAJ - Yunnan border now impassible
+RAJ - Updated Generals - New Field Marshal
+
+SPR - Added Names and Descriptions for focuses
+SPR - Added ideas
+SPR - New decision: get resource rights over Portugal's Tungsten after 1939
+SPR - Can no longer go War Economy unless declared on by the Allies
+SPR - New Event: Civil war will always happen on July 17th, 1936
+SPR - New Event: You have 1 year finish the Civil War before the Republicans surrender
+SPR - You will get the Recovering from the Civil War debuff for two years starting from when the war ends.
+SPR - Fleet Removed and new National spirit preventing you from building ships
+
+BUL - Added focus tree and ideas
+BUL - Resource Focuses combined in to one focus
+BUL - Claims on Macedonia, Central Macedonia, and Thrace
+BUL - New advisors: War Industrialist, Silent Workhorse, Fascist Demagogue
+BUL - New Focus: Germany will auto annex bulgaria at a certain point
+
+MAN - Added Descriptions for focuses
+MAN - Given its own version of investors tree with Germany and Japan
+MAN - Removed the two emperors focus
+MAN - Mengkukuo now annexed from the start
+MAN - New focus: Modern Chinese Logistics
+MAN - New focus: Modern Chinese Trucks
+MAN - New focus: Chinese Infantry
+MAN - New focus: Chinese Paratroopers
+MAN - Several focuses removed: Purchase Tanks, Experimental Mechanized, and others
+MAN - Train Marines moved to infatry branch of tree, no longer part of navy
+MAN - Chinese General Staff now has the effects of Wargaming Division
+MAN - Chinese Panzers and Chinese Infantry mutially exclusive
+MAN - Removed opinion requirements for every focus in investors tree
+MAN - Closer ties with Germany removed, reward moved to Invite Foreign Investors
+MAN - Invite Foreign Investors reward from 2 off map civillian factories to 3, the extra one was moved from Closer ties with Germany
+MAN - Collaboration with the Japanese now has the correct modifier
+MAN - New idea: Train paratroopers, gives +2% Special Forces capacity
+MAN - National Government Cooperation Removed
+MAN - Epand the Railways All infrastructure moved to Liotung
+MAN - New advisors: War Industrialist, Silent Workhorse, Fascist Demagogue
+MAN - Low Legitmacy changed to -10% War support and stability
+MAN - Chinese Leadership changed to Remove Low Legitmacy
+MAN - Balanced Generals
+MAN - Two new focuses: Chinese Artillery and Chinese Infantry Equipment which give bonuses to researching artillery and infantry equipment
+MAN - Marines, Mountaineers, and Paratroopers focus now combined in to one focus called Chinese Special Forces
+MAN - Chinese Panzers split in to two focuses
+MAN - New focus: Chinese Amphibious Tanks
+MAN - New focus: Japan will auto annex at a certain point
+
+ITA - New tree
+ITA - Victory in Africa now removes Ethipoia's core on Ethipoia
+ITA - Victory in Africa renamed to End of the Second Italo Ethopian War
+ITA - Albanian Occupation now removes Albania's core on Albania
+ITA - Pact of steel now joins Axis automatically
+ITA - Removed War with UK
+ITA - Claims of France now Requires both War with Greece and War with Yugoslavia
+ITA - New advisor: Silent Workhorse
+ITA - Italian Highways no longer requires both Fortification Effort and Extra Research Slot
+ITA - New Event: Ethipoia will now surrender in Mid May
+ITA - War with Yugo and Greece now 35 days
+
+SAF - Cape Defense Institute Removed
+SAF - Secure African Interests now gives you the Belgian Congo
+SAF - Infrastructure focuses changed to Transvaal and Natal
+SAF - Independance Requirement for Defense Collaborative Initiative removed
+SAF - South African Steel now has Steel icon
+SAF - Secure African Interests now annexs the territory with no event
+SAF - Joint Air Training Sceme focus moved to air branch
+SAF - New advisors: Captain of Industry, Silent Workhorse, War Industrialist, Prince of Terror
+SAF - Prince of Terror only available after completing Secure Interests in Africa
+SAF - Updated Generals and Field Marshal
+SAF - New Focus: Canada will auto annex at a certain point
+
+GER - Added Operation Weserrubung descision 
+GER - New focus: Reich Alignment
+GER - Molotov-ribbontrop changed to 35 days
+GER - Added annexation decision window for the annexation of Hungary, Romania, and Bulgaria (if AI controlled).
+GER - Added take Syria and Invade Iraq Focuses
+GER - New event, make Vichy France
+GER - changed Operation Barbarossa, War with France, Operation Tannenbaum, and Treaty with the USSR icons
+GER - New Focus: Violate Vichy Neutrality
+GER - redundant events removed. Sudetenland, Memel, Danzig, Fate of Czechoslovakia, and Anschluss no longer trigger events. The focus does what the event would do.
+GER - New decision: Schlieffen Plan Once Again. Declares war of Belgium, Luxembourg, and The Netherlands at once
+GER - New decision: Operation Weserbung. Declares war on Denmark and Norway at once
+GER - Three New decisions: Each one annexs a European Axis Minor
+GER - Three new decisions: Operation Barbarossa and Invade Iraq and Operation Tannenbaum
+GER - Groswemshaft revomed, combined with Reichsautobahn
+GER - Reichsautobahn now gives +10% infrastructure contrustion speed
+GER - Befriend Japan focus removed
+GER - Invade Iraq renamed to Operation Iraqi Freedom
+GER - New opinion modifier: Align Bulgaria
+GER - New idea: Align Bulgaria
+GER - Reich Alignment finally has the correct opinion modifiers and ideas
+GER - German-Soviet Treaty and Molotov-Ribbontrop Pact no longer require soviet approval
+GER - Befriend Italy now adds Italy to the Axis
+GER - Molotov-Ribbontrop Pact focus now causes the Soviets to annex the 3 Baltic States and Besserabia. Gains claims on Eastern Poland and parts of Finland.
+GER - New National Spirit: MEFO Bills, removed if at war with Poland or past 1940
+GER - Ally Italy removed
+GER - Improve National Spirit now requiers War with France
+GER - Vichy event now hidden
+GER - Air Innovations II renamed to FW 190, now also gives you fighter 2 when completed
+GER - Rocketry focus removed
+GER - New decision allows you to take control of the Anglo Persian oil company giving resource rights to Iran
+
+CAN - Infrastructure focuses to 35 days, infrastructure moved ontario and saint lawrence. 
+CAN - added tungsten to mine the shield, War Fueled economy no longer requires If Day and Steel Car, only one
+CAN - Retool Angus Shops, Imperial Oil, Turner Valley Oilfield changed to 35 days
+CAN - Removed Forced Quebec Conscription
+CAN - Change Canadian Commonwealth focus ties 35 days as well as Camp X, Change Canadian Defense of Canada Regularions from 20 to 15%
+CAN - Imperial Oil removed, combined with Turner Valley Oilfield
+CAN - Aluminum Company of Canada and Mine the Shield now have appropiate icons
+CAN - New Focus: Demand New Foundland and Labrador
+CAN - Demand New Foundland and Labrador now annexs the territory with no event
+CAN - Updated Generals and Field Marshal
+
+HUN - Reaffirm Claims and Greater Hungary are now 7 days
+HUN - Icon for Home Defense changed
+HUN - Home Defense renamed to Infantry Focus
+HUN - Home Defense Changed from GBP research to SF
+HUN - Mobile Focus renamed to Tank Focus
+HUN - Invite Foriegn Investors removed
+HUN - Both Paths of industry no long mutuially exclusive
+HUN - Aeronautic Technology Indtitute removed
+HUN - Expand the Technical University of Budapest now has its old prerequisites and Aeronautic Technology Institute's
+HUN - Expand Aviation Industry Renamed to Expand Domestic Arms Industry
+HUN - Light Infantry Division Doctrine focus removed
+HUN - New Focus called Take This When You Can, 0 day focus, does nothing, and is a prerequisite for Expand the Technical University of Budapest
+HUN - Infrastructure Focus moved to Northern Hungary
+HUN - Expand Aluminum Industry and Joint Aluminum Mining Company now have Aluminum icons
+HUN - Treaty of Trianon now gives +10% civillian factory construction speed
+HUN - Join the Axis no longer requires German approval
+HUN - Added Snowman as an idiot of a general
+HUN - Paratroopers focus replaced with a general special forces focus
+HUN - New focus: Romania will auto annex at a certain point
+
+ROM - Infrastructure Focus moved to Bucharest
+ROM - Danubian Transportation renamed to Bucharest Railway
+ROM - Join the Axis no longer requires German approval
+ROM - New advisor: War Industrialist
+ROM - German Advisors focus now gives a Land Doctrine bonus
+ROM - New focus: Hungary will auto annex at a certain point
+
+USA - New decision: annex Phillipines
+USA - Can no longer get a war goal on Japan through the Panay Incident
+USA - Now has resource rights to the Phillipines
+USA - Added Titanic and Baby Ali as generals and MacAlithur as an admiral
+USA - Added light tanks researched
+USA - New Tree
+USA - New event: If Sealion happens the Depression will be removed and you will join the war instantly
+
+FRA - Go with Britian icon changed
+FRA - Free France Tree Created
+FRA - Renamed Algers France to Gabonese France
+FRA - All colonial North African industy focuses have had their industry moved to Gabon
+FRA - Can no longer choose to be Vichy France
+FRA - New Focus, battle for Dakar
+FRA - Charles De Gaulle now becomes leader of Free France through Establish Free France Focus
+FRA - Go with Britian no longer causes an event.
+FRA - New national spirit: The Phoney War, designed to prevent a France hold. Removed if at war with Italy. 
+FRA - New Event: Gives the spirit, triggers when at war with Germany
+FRA - Establish Free France in Gabon now gives cores on Cameroon and Middle Congo
+FRA - Fleet reduced to 1 carrier, 2 battleships, 5 destroyers, 1 light cruiser, and 10 submarines
+
+VIC - Vichy France finally created
+VIC - Given Southern France, North Africa, half of West Africa, and Indochina when created
+VIC - New National Spirite: Vichy Neutrality, exact same as Finish Neutrality
+
+JAP - Strike South Dotrine focus no longer gives decision, just outright annexes Indochina from Vichy
+JAP - Secure China icon changed to a more appropiate one
+JAP - New Focus: Strike the Soviets
+JAP - New decision: Strike the Soviets
+JAP - New decision: Annex Manchukuo
+JAP - New decision: Annex Siam
+JAP - Marco Polo Bridge Incident and Secure China changed to 35 days
+JAP - Develop Chinese resources now removes all cores of all Chinese nations except for Manchukuo
+JAP - Develop Chinese Resources requirements changed to China and PRC does not exist.
+JAP - Added Portugese Timor, Guam, Hong Kong, Guangzhouwan, and New Caledoinia to requirements for Strike the Soviets
+JAP - Now has resource rights to Siam
+JAP - Triparte Pact no longer has event, reward is now the three Axis majors giving each other gaurentees
+JAP - New decision: Strike the Giant while it Sleeps
+JAP - New focus: Strike the Giant while it Sleeps
+JAP - Non-Agression Pact with the Soviet Union no longer causes an Event
+JAP - Strike the Southern Resource Area removed
+JAP - Manchuko Fort Focus removed
+JAP - New advisor: Captain of Industry
+JAP - Southern Expansion Doctrine now requires Vichy to control Indochina
+JAP - Manchukuo will no longer give you any industry due to its autononomy level
+JAP - Marco Polo changed to 35 days
+JAP - Four new decisions: Choose your zaibatsu, allows you to select between the four vanilla zaibatsu ideas
+
+NZL - New Zealand Steel now has Steel icon
+NZL - New Focus: Submit to the Emus
+NZL - New Strategy Plan
+NZL - Samoa is now a core state
+NZL - New advisors: Captain of Industry, War Industrialist, Silent Workhorse 
+NZL - 2NZEF removed
+NZL - Balanced Generals - Added Field Marshal
+
+AST - All starting states are now core states
+AST - Event that causes the UK to annex the East Indies also gives Australia West Papua
+AST - New Advisor: Captain of Industry
+AST - Balanced Generals
+AST - Standard Guage Railway will now give 3 infrastructure in Queensland
+AST - Western Australian Government Railways will now give 3 infrastructure in Victoria
+AST - Expand the Northern Railway will now give 3 infrastructure in Northern Territory
+AST - Research Slot focuses no longer require independence 
+
+SOV - Tannu Tuva now annexed from the start
+SOV - Annex Tannu Tuva Focus removed
+SOV - Now has resource rights to Mongolia
+SOV - Two new events: German-Soviet Treaty and Molotov-Ribbontrop Pact
+SOV - New decision: War with Finland
+SOV - Claims on Baltic renamed to Demand Baltic State Entry in to the Union
+SOV - Claims on Baltic now annexs the three Baltic states, removes their cores, and removes 60 political power from the Soviet Union
+SOV - New event: When Poland reaches 25% surrender progress Eastern Poland will be annexed and will unlock decision: War with Finland
+SOV - New National Spirit: Socialism in one nation. Grants the effects of Free Trade
+SOV - Now on Closed Economy, can not change
+SOV - New advisors: Silent Workhorse, War Industrialist
+SOV - Added Zhuk0v as a general
+SOV - New focus: LaGG-3, gives you fighter 2 when completed
+
+
+
+Tank Tree Redesign
+Amphibious 1 - 1936 technology
+Amphibious 2 - 1940 technology
+Edited Canada Focuses for tanks so that the armor buff would effect the correct tanks.
+Edited tank tree to fix an error in the new tank tree creation.
+Raj Infrastructure Focuses
+Edited Infastructure to prevent ranomization while making the infrastructure more even for supply.
+Added 2 infrastructure to 2 focuses so that all 3 infrastructure focuses give 6 infrastructure total.
+Created special decision tab for Spain.
+Created resource rights for Spain inside Portugal.
+
+COMPLETED AND ADDED TO STEAM
+
+* template xp cost to 0
+* Max Army/Navy/Air xp from 500 to 999
+* Max command power adjusted from 100 to 200.
+* Changed Special Forces Cap from 24 to 80 (Base is the same at 0.05), allows for 4 special forces including 4 Paratroop. This is temporary while I figure out the math and focuses for nations with 1.6
+* Kamikaze damage changed from 20 to 3. Temp change as we analyze the naval and air changes.
+* Added 1 research to Australia, South Africa, Canada, and the Phillipines
+* Generic Tree Naval Focuses changed to 35 days.
+* France Naval Focused changed to 35 days.
+* Australia Naval Focuses changed to 35 days.
+* New Zealand Naval Focuses changed to 35 days.
+* South Africa Naval Focuses changed to 35 days.
+* Canada Naval Focuses changed to 35 days.
+* British Raj Naval Focuses changed to 35 days.
+* German Naval Focuses changed to 35 days.
+* Germany Changed Reassert Eastern Claims, Danzig or War, First vienna Award, Fate of Czechoslovakia, First Ljubljana Award, and Fate of Yugoslavia to 35 days.
+* Italian Naval Focuses changed to 35 days.
+* Ethopian War Logistics and Triumph in Africa changed to 35 days.
+* Mexico Naval Focuses changed to 35 days.
+* China and Manchukuo shared Naval Tree changed to 35 days.
+* Netherlands naval tree changed to 35 days.
+* USA naval tree changed to 35 days.
+* USA changed Defense of the Pacific to 35 days.
+* Japan Naval tree changed to 35 days.
+* UK Naval Focuses changed to 35 days.
+* Romanian naval tree changed to 35 days.
+* Soviet naval focus (yes one focus) changed to 35 days
+* UK Fortify East Asia changed to 35 days
+* UK Fortify Malta changed to 35 days
+* UK Burma Road changed to 35 days
+* UK Mediterranean Bastion changed to 35 days
+* UK Protect the Suez changed to 35 days
+* UK Commonwealth Ties changed to 35 days
+* UK Nation Developing focuses changed to 14 days (70 days total)
+* Australia - Added Fighter 1 pre-researched.
+* Australia - Basic Light Tank 1 pre-researched.
+* Raj - Added GW Tank and Basic Light tank 1 pre-researched.
+* South Africa - Changed Transvaal base steel value from 5 to 10.
+* Italy - Changed Prospect for Oil from 8 to 16 oil.
+* Light Tank 3 armor changed from 30 to 55
+* Light Tank 3 Artillery armor changed from 25 to 50
+* Light Tank 3 Tank Destroyer armor changed from 30 to 55.
+* Light Tank 3 Anti-Air armor changed from 25 to 50
+* Added naval ship designer to Australia and New Zealand.
+* Canada changed Red Deer Training Camp, Rowell Sirois Commission, Natioanl Housing Act, and Crown Corporations to 35 days
+* Canada Removed either or requirement to National Steel Car and Send in the Zombies
+* Lend Leasing Support equipment costs half as many convoys (100 support equip for 4 convoys instead of 8).
+* Able to research across from Light 1941 to Medium 1941 as well as the other direction. More variable gameplay and prevents a dead end path.
+* Australia Volunteer Defense Corps and Citizen Military Forces Focuses changed from 70 to 35 days.
+* Iberian Coast changed from Deep Ocean to Ocean.
+* Manpower removed from : El Salvador, Ecuador, Dominican Republic, Haiti, Cuba, Peru, Guatemala, Honduras, Nicaragua, Costa Rica, Panama, Columbia, Bolivia, Paraguay, Chile, Argentina, Liberia, Bhutan, Nepal, Tibet, Afghanistan, Sweden, Turkey
+* Canada : Moved Habakkuk Carrier from North American Alliance to the Naval Tree
+* Canada : Distributed the choices between Escort Fleet and Fleet in Being to require one of either Light Cruiser Effort, Heavy Cruiser Effort, or Habakkuk Carrier.
+* Canada : switched positions of Cookier Carriers and Fund Fairchild's Development. Added a focus link to Habakkuk Carrier in the Naval Tree.
+
+* Added appropriate starting 40/20/10 width templates to the following nations with more to follow later
+Manchuko
+Japan
+Siam
+British Raj
+South Africa
+Australia
+New Zealand
+
+* Added researched equipment to the Production queue for 100% production efficiency for the following countries
+Manchuko
+Japan
+Siam
+British Raj
+South Africa
+Australia
+New Zealand
+
+* Australia Swapped CAC Boomerand and Expand the RAAF focus, added 25 air xp to CAC Boomerang.
+* Australia added optional path between Expand Northern Presence and Naval Bombers Focus.
+
+* Japanese tank divisions consolidated into one half strength 40 width
+* Japan - Deleted one motorized division to consolidate into the 40 width division.
+
+* Raj added Artillery 1 to Raj research
+
+* South Africa added heavy 1 to researcged technologies
+
+* New Zealand added light tank 1 to researched tech
+* New Zealand changed Bob Semple focus bonus to Light Armor 2 100% focus
+* New Zealand changed Schofield Tank Focus to give a 2 year ahead of time bonus on either amphibious tanks or Light tank 3 with a 100% research bonus.
+* Changed Templates and starting equipment (approximately same production cost) for the following countries:
+Phillipines, USA, Mexico, Brazil, Canada, Bulgaria, Romania, Italy, France, England, Germany, Soviet.
+* Removed divisions from countries that had manpower removed.
+* Increased Lags days for lower speed to 70
+* Increased lag days for pause to 100
+* Increased combat log from 12 to 36 months
+* Added 1 Research to Bulg
+* Removed Manpower on Galopogos Islands (missed it previously)
+* Shared slots (construction slots) raised from 25 to 50 (need to modify slots on terrain in the future for this to take effect)
+* Changed Improved Worker Conditions from 100 to 85.
+* Spanish Civil War to start in July 17 1936.
+* Added opinion modifier to Japan to potentially help with attache issues for the axis.
+* Added opinion modifier to Republican Spain and China to potentially help with allied/non-alligned attache issues.
+* Australia added option to annex New Zealand
+* Australia adjusted cores to Paupa Guinea
+* Canada, Australia, British Raj and South Africa war/defense/election focuses at 15% world tension, will also no longer cancel if WT drops under threshold.
+* Annnex Commonwealth.
+	Added annex category to England for the anenxation of British Malaya, Canada, South Africa, British Raj, Australia, and New Zealand.
+	Annex annex category to Australia for the annexation of New Zealand.
+* Research points saved maximum increased from 30 to 60.
+* Fixed a bug that I created in Australia's focus tree on Rationing and Recycling on the intial release.  It was working but throwing up errors when prioritizing Queensland.
+* Fixed all previous errors in the error log, now 100% error free (currently).
+* Australia and New Zealand naval designers have names and icons.
+* Naval Mine limt set from 1000 to 200 per naval region.
+* XP changed for all doctrine research to 999.
+* Land Doctrine switched from 1 year to 2/3 of a year.
+* Norway - 15 oil added to Nord-Noreg (north).
+* Soviet - Expand the Red Fleet from 70 to 35 days (naval focus).
+* Partial Mobilization is enabled by either; World Tension at 15%, War Support at 25%, or August 1st 1937.
+* Total Mobilization locked behind July 7 1941, does not effect countries such as Japan that get it via focus.
+* War with USSR locked behind June 1st 1941.
+* Italy - CRDA Design Company changed from a generic +10% bonus to a +10% and Heavy Capital Ships +5% stats with a 25% range penalty.
+* Italy - Added CRDA Raider design company for raiding ship stats.
+* Raj - Tata Steel and Assam Oil changed to 35 day focuses.
+* Romania - Added Fighter 1 to pre-research.
+* Naval Radar changed : Naval radar tech all moved up one.  New Naval Radar is at 1936, 1938, 1939, 1941.
+* Removed Demobilization.... Hopefully.
+* Updated spawn templates for elite units in National Focuses, let me know if there are others.
+	* Raj - Gorkha Rifles
+	* Raj - Sikh Regiment
+	* Australia - Rats of Tobruk
+Removed Manpower from Saudi Arabia, Yemen, and Oman, and Iran.
+Removed units from Saudi Arabia, Yemen, Oman, and Iran.
+Moved Middle East Oil from Saudi Arabia to Kuwait, from Yemen to UK Aden, and from Oman to UK Abu Dhabi; net gain of oil to UK 6.
+Fortress Buster from 20% increase to 5%, also changed the AI to do Factor from 1 to 10 which should be a change from 2.4% chace to use to 20%.
+Soviet - Removed Annex Tannu Tuva and War with Japan national focuses.
+Germany - Removed Ostwall national focus, reshuffled natitonal focus icons and pulled it closer into the National Focus tree.
+Naval Doctrines - Removed xp (now 999 cost)
+Naval Doctrines - First research in all naval doctrines changed to 0 days.
+Naval Doctrines - Changed naval cost from 121 to 97 days (similar to CFU).
+Mexico - Increased stability to help prevent civil wars while we analyze the Nation, (22% to 53%)
+South Africa - Reduced Support Policy of Appeasement, Police Winhoek, CSIR, Joint Air Traiing Scheme, and Desert Equipment to 35 days.
+Canada - Strengthen the Commonwealth Ties, Montreal Laboratory Collaboration, and Camp X reduced to 35 days.
+Australia - Reduced Rats of Tobruk to 35 days.
+New Zealand - Reduced First Labour Government, Strengthen the Commonwealth, 2NZEF, Arrest Pacific Leaders, and Technology Sharing with Britian to 35 days.
+British Raj - Reduced Provinical Elections, Indian National Congress, Cripps' Mission, Two-Nation Theory, and Quit Indian Movement to 35 days.
+Fleet in Being - Order changed to make more sense for both light and Battleships on the left side.
+	Previously: Fleet in Being -> Battlefleet Concentration -> Subsidiary Carrier Role -> Hunter Killer Groups -> Floating Fortress -> Floating Airfield.
+	Now : Fleeting in Being -> Hunter Killer Groups -> Battlefleet Concentration -> Floating Fortress -> Subsidiary Carrer Role -> Floating Airfield
+Germany - Removed Westwall and Atlantikwall National Focuses.
+Land Doctrines changed to CFU style for all 4 trees.
+Coups cost 999
+Temp upgraded Raj Generals moved to level 4
+Added AI National Focus template to NZL.
+Australia Daimler Dingo now available from both Royal Australian Artillery or Promote Reservists focuses.
+NZL - Changed naval tree from Transfer the New Zealand Division, Form the RNZN, Expand Devonport Naval Base to Expand Devonport Naval Base, Transfer New Zealand Division, Form the RNZN.  This leads to better production flow.
+NZL - Upgraded Taranaki Oil Focus from 5 Oil to 10.
+South Africa - Added Field Marshall Jan Smuts.
+South Africa - Added Heavy Tank Variant with 3 on Attack, Armor, Reliability, and Engine as a hold over until Heavy 2 or Medium 2/3 models are researched.
+RAJ - Moved Claude Auchinleck and Archibald Wavell from England to Raj as they historically were transfered in 1939 and 1941.
+Venezula - Removed manpower and units
+Changed the previously changed Lag days until lower speed (70) and lag days for pause (100) to 48 and 72 respectively.
+Attache cost changed to 50cp+50pp
+River Crossing Penalty changed from 0.3 to 0.2
+River Crossing (Large) penalty changed from 0.6 to 0.4
+Backing out of the London Naval Treaty increased to 999.
+Modified Raj Agrianan Society from -69% to -60%.
+Removed Submarine Snorkels (1940/1944)
+Removed many of the alt history national focuses.
+
+
+
+
+
+
+TO DO
+
+CFU or 1.4 soft attack
+
+Commonwealth additional research bonuses to Canada, Australia, South Africa, and New Zealand (to match tempo of the game research such as what was done with Raj).
+Remove ahistorical events (ceede danzig, ceede marco polo bridge incident, albania, memel, denying sudentenland, bessarabia,. finland accepting soviet demand?)
+Remove chinese warlord decision
+Remove Croatia event
+Tungsten to SAF ?
+Lock out Air, Tank and Ship 1944+ research
+Soft attack value change
+make gibralter its own airzone
+
+Italy leaves naval treaty?  check cost
+
+Japan - more oil or fuel?
+Give raj 1 ship
+Add in tooltip for how much world tension things create.
+Australia offense advisor change
+Annex czech as germany gets their field marshals?  historic or non-historic?
+give raj 3 research slots from the start
+remove mexico's divisons
+give germany 5 research slots from the start
+
+
+Vichy color
+consolidate all fleets
+PP for general and admiral traits
+Field Marshall unit update to 500?
+
+Remove Bengal Famine
+Subs are too sneaky
+Nerf German Tank shit.
+Set Soviet at 10.10% democratic
+Remove Sub 3's and 4's?
+Allow Workers Condition at 100%
+Fixed demobilization in Economic and stability_war_support files?
+Remove Public Opposes Rearm ?
+German and axis opinon textbox popup?
+Check historical generals and field marshalls for Axis minors.
+Check doctrines to see if there's a difference between CFU doctrines and vanilla in stats.
+
+Raj Field Marshal
+	1935 Sir Robert Cassels	retired in 1941
+	1941 Sir Archibald Wavell
+	1943 Sir Claude Auchinleck
+Penalties on Spain if troops are not in mainland europe.	
+More excavation decisions.
+Remove demobilize economy or change its threshold from its default
+Brazil resources (40 tungsten) ?
+Nerf Spain Dockyard efficiency to only make convoys.
+Nerf attache objection
+Change NZL ships to spawn in NZL instead of Gambia.
+Support companies are too expensive
+
+Commonwealth Dockyard companies
+Australia
+	Cockatoo Docks Escort
+	Evans Carrier
+NZL
+	Escort
+	Carrier
+	
+Raj
+	Escort
+	Carrier
+	scindia (battleship)
+Can
+	Escort
+	Carrier
+SAF
+	1 company generic +10% research
+UK
+	Escort
+	Carrier
+	Heavy Captial Ship
+	Coastal
+
+
+
+German Fighter Variant ?
+Prevent AI nations from trading oil with Romania
+
+Soviet Tank
+
+8 motorized
+11 medium tank
+2 SPA
+
+Remove the ability to do medium 3's until 41 or 42.
+Why does changing Recycling on Australia throw up errors for 521 queensland?
+Fix South Africa Focus Tree
+Look at naval doctrines and accessories cost	
+special forces cost reduction for era
+CFU special forces cap tree
+Change convoy weight on support equip
+Develop the commonwealth focuses time reduction
+Look at what to take to 35 days, development of commonwealth, danzig of war, ect.
+Build slots for minors
+Italy needs ship designer(2)
+Clone Mexico's Ship Designer to Australia
+Adjust attache xp for allies? (its in defines)
+
+Increase Canada Civs to 6-7 ?
+Increase Australia Civs from 4 to 6?
+
+Change decisions : Attache and Worker Conditions
+Check attache rules
+Australia offense advisor
+Adjust transport planes to interwar bombers and cost.
+Fix Australian Arms Production Focus
+
+Make impassible terrain between iraq and iran
+
+anti tank on iraq divisions
+
+Spanish Civil War end date.
+
+Ethipoia Civil War end date.
+
+
+
+
+Change special forces so that it costs less if you ahve that era tier
+Change doctrines for HC and BC
+Give italy carrier 1 ?
+Let china have artillery 1 ?
+
+proclaim rival government
+
+
+Eliminate Naval Accidents
+Get rid of resistance
+remove xp cost for ship modules in designer?

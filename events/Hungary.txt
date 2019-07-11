@@ -1,0 +1,19 @@
+﻿###########################
+# Hungarian Events
+###########################
+
+add_namespace = hungary
+
+# Second Vienna Award - No Territory
+
+# Second Vienna Award - Northern Transylvania
+
+# Second Vienna Award - All of Transylvania
+
+# Second Vienna Award - Romania Rejects Verdict (Northern Transylvania)
+
+# Second Vienna Award - Romania Rejects Verdict (All of Transylvania)
+
+# Hungary (First Ljubljana Award) from german focus
+
+# All events removed

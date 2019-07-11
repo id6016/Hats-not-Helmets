@@ -1,0 +1,219 @@
+HUN_alternate_AH = {
+	name = "Hungarian Alternate plan to restore Austria-Hungary"
+	desc = ""
+
+	enable = {
+		original_tag = HUN
+		has_dlc = "Death or Dishonor"
+		OR = {
+			has_country_flag = HUN_AI_RANDOM_AUSTRIA_HUNGARY
+			has_game_rule = {
+				rule = HUN_ai_behavior
+				option = AUSTRIA_HUNGARY
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+		armor = 15.0
+	}
+
+	ideas = {
+		
+	}
+	ai_strategy = {
+		type = befriend
+		id = "AUS"
+		value = 200
+	}
+	traits = {
+		captain_of_industry = 5
+		staunch_monarchist = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		HUN_boost_hungarian_aviation_industry = 10
+		HUN_claim_transylvania = 5
+		HUN_march_to_the_shore = 5
+	}
+
+}
+
+HUN_alternate_DEM = {
+	name = "Hungarian Alternate plan to become democratic"
+	desc = ""
+
+	enable = {
+		original_tag = HUN
+		has_dlc = "Death or Dishonor"
+		OR = {
+			has_country_flag = HUN_AI_RANDOM_DEMOCRATIC
+			has_game_rule = {
+				rule = HUN_ai_behavior
+				option = DEMOCRATIC
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+	
+	traits = {
+		captain_of_industry = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+HUN_alternate_FAS = {
+	name = "Hungarian Alternate plan to become fascist and ally with Italy"
+	desc = ""
+
+	enable = {
+		original_tag = HUN
+		has_dlc = "Death or Dishonor"
+		OR = {
+			has_country_flag = HUN_AI_RANDOM_FASCIST_ALTERNATE
+			has_game_rule = {
+				rule = HUN_ai_behavior
+				option = FASCIST_ALTERNATE
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+	
+	traits = {
+		captain_of_industry = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+HUN_alternate_COM = {
+	name = "Hungarian Alternate plan to become communist"
+	desc = ""
+
+	enable = {
+		original_tag = HUN
+		has_dlc = "Death or Dishonor"
+		OR = {
+			has_country_flag = HUN_AI_RANDOM_COMMUNIST
+			has_game_rule = {
+				rule = HUN_ai_behavior
+				option = COMMUNISM
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+	
+	traits = {
+		captain_of_industry = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+# state={
+	# id=1003
+	# name="STATE_787" # Massechsettes
+	# manpower = 1
+	
+	# state_category = rural
+
+	# history={
+		# victory_points = {
+			# 6732 20 
+		# }
+		# 6732 = {
+				# naval_base = 8
+
+			# }
+		# owner = USA
+		# buildings = {
+			# infrastructure = 7
+		# }
+		# add_core_of = USA
+
+	# }
+
+	# provinces={
+		# 908 718 715 3710 3906 905 6732
+	# }
+# }

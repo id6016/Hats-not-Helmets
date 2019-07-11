@@ -1,0 +1,171 @@
+ROM_allies = {
+	name = "Romanian plan to join allies"
+	desc = ""
+
+	enable = {
+		original_tag = ROM
+		has_dlc = "Death or Dishonor"
+		OR = {
+			has_country_flag = ROM_AI_RANDOM_DEMOCRATIC
+			has_game_rule = {
+				rule = ROM_ai_behavior
+				option = DEMOCRATIC
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+		air_equipment = 5.0
+	}
+
+	ideas = {
+		
+	}
+	
+	traits = {
+		captain_of_industry = 5
+		war_industrialist = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+ROM_dominance = {
+	name = "Romanian plan to dominante the balkans"
+	desc = ""
+
+	enable = {
+		original_tag = ROM
+		has_dlc = "Death or Dishonor"
+		OR = {
+			has_country_flag = ROM_AI_RANDOM_BALKAN_DOMINANCE
+			has_game_rule = {
+				rule = ROM_ai_behavior
+				option = BALKAN_DOMINANCE
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+
+	ai_national_focuses = {
+		
+		
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+		air_equipment = 5.0
+	}
+
+	ideas = {
+		
+	}
+	
+	traits = {
+		captain_of_industry = 5
+		war_industrialist = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+ROM_communist = {
+	name = "Romanian plan to side with SOV"
+	desc = ""
+
+	enable = {
+		original_tag = ROM
+		has_dlc = "Death or Dishonor"
+		OR = {
+			has_country_flag = ROM_AI_RANDOM_COMMUNIST
+			has_game_rule = {
+				rule = ROM_ai_behavior
+				option = COMMUNIST
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+		OVERLORD = {
+			not = { has_government = communism }
+		}
+	}
+
+	ai_national_focuses = {
+		
+		
+		
+	}
+
+	research = {
+		industry = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+		air_equipment = 5.0
+	}
+
+	ideas = {
+		
+	}
+	
+	traits = {
+		captain_of_industry = 5
+		war_industrialist = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+

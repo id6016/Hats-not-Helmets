@@ -1,0 +1,47 @@
+SOV_historical_plan = {
+	name = "SOV historical plan"
+	desc = ""
+
+	enable = {
+		original_tag = SOV
+		OR = {
+			has_country_flag = SOV_AI_RANDOM_COMMUNIST_ALTERNATE
+			has_game_rule = {
+				rule = SOV_ai_behavior
+				option = ALTERNATE
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+
+	ai_national_focuses = {
+		
+		
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+		captain_of_industry = 10
+		popular_figurehead = 5
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

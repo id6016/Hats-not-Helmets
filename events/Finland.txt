@@ -1,0 +1,19 @@
+﻿###########################
+# Finland Events
+###########################
+
+add_namespace = finland
+
+# Soviet Ultimatum
+
+# Request Swedish Assistance?
+
+# Swedish Support in Winter War
+
+#Surrender when Soviet has taken too much land
+
+#Soviet response to Finish surrender
+
+#Soviet says no!
+
+#All events removed

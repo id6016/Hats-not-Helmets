@@ -1,0 +1,65 @@
+can_annexation = {
+
+	annex_south_africa_can = {
+		icon = GFX_dec_hnh_saf
+		ai_will_do = { factor = 0 }
+		cost = 50
+		visible = {
+			tag = CAN
+			SAF = { is_ai = yes }
+			country_exists = SAF
+			#date > 1939.1.1
+		}
+
+		complete_effect = {
+			every_state = {
+				limit = {
+					is_core_of = SAF
+				}
+				CAN = {
+					add_state_core = PREV
+				}
+			}
+			CAN = { annex_country = { target = SAF transfer_troops = yes } }
+		}
+	}
+	
+	move_capital_to_ontario = {
+		icon = GFX_dec_hnh_can_modern
+		ai_will_do = { factor = 0 }
+		cost = 15
+		
+		available = {
+			CAN = { controls_state = 276 }
+			CAN = { capital_scope = { state = 275 } }
+		} 
+		
+		visible = {
+			tag = CAN
+		}
+		
+		complete_effect = {
+			CAN = { set_capital = 276 }
+		}
+	}
+	
+	move_capital_to_pretoria = {
+		icon = GFX_dec_hnh_can_modern
+		ai_will_do = { factor = 0 }
+		cost = 15
+		
+		available = {
+			CAN = { controls_state = 275 }
+			CAN = { capital_scope = { state = 276 } }
+		} 
+		
+		
+		visible = {
+			tag = CAN
+		}
+		
+		complete_effect = {
+			CAN = { set_capital = 275 }
+		}
+	}
+}

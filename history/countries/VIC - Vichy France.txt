@@ -1,0 +1,80 @@
+capital = 26
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_opinion_modifier = { target = MEX modifier = HNH_embargo }
+add_opinion_modifier = { target = MEX modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = GUA modifier = HNH_embargo }
+add_opinion_modifier = { target = GUA modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = HON modifier = HNH_embargo }
+add_opinion_modifier = { target = HON modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = ELS modifier = HNH_embargo }
+add_opinion_modifier = { target = ELS modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = NIC modifier = HNH_embargo }
+add_opinion_modifier = { target = NIC modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = COS modifier = HNH_embargo }
+add_opinion_modifier = { target = COS modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = PAN modifier = HNH_embargo }
+add_opinion_modifier = { target = PAN modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = CUB modifier = HNH_embargo }
+add_opinion_modifier = { target = CUB modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = HAI modifier = HNH_embargo }
+add_opinion_modifier = { target = HAI modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = DOM modifier = HNH_embargo }
+add_opinion_modifier = { target = DOM modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = VEN modifier = HNH_embargo }
+add_opinion_modifier = { target = VEN modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = COL modifier = HNH_embargo }
+add_opinion_modifier = { target = COL modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = BOL modifier = HNH_embargo }
+add_opinion_modifier = { target = BOL modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = PRU modifier = HNH_embargo }
+add_opinion_modifier = { target = PRU modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = ECU modifier = HNH_embargo }
+add_opinion_modifier = { target = ECU modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = PAR modifier = HNH_embargo }
+add_opinion_modifier = { target = PAR modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = BRA modifier = HNH_embargo }
+add_opinion_modifier = { target = BRA modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = CHL modifier = HNH_embargo }
+add_opinion_modifier = { target = CHL modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = URG modifier = HNH_embargo }
+add_opinion_modifier = { target = URG modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = POR modifier = HNH_embargo }
+add_opinion_modifier = { target = POR modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = SWE modifier = HNH_embargo }
+add_opinion_modifier = { target = SWE modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = LIB modifier = HNH_embargo }
+add_opinion_modifier = { target = LIB modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = TIB modifier = HNH_embargo }
+add_opinion_modifier = { target = TIB modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = BHU modifier = HNH_embargo }
+add_opinion_modifier = { target = BHU modifier = HNH_embargo_2 }
+add_opinion_modifier = { target = NEP modifier = HNH_embargo }
+add_opinion_modifier = { target = NEP modifier = HNH_embargo_2 }
+
+set_convoys = 200
+
+set_politics = {
+    ruling_party = fascism
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+    fascism = 97
+    communism = 1
+    neutrality = 1
+	democratic = 1
+}
+create_country_leader = {	
+	name = "Philipe Petain"
+	picture = "gfx/leaders/FRA/Portrait_France_Philippe_Petain.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {}
+}
