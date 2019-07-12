@@ -1454,7 +1454,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = USA_war_department
-			annex_country = { target = PHI transfer_troops = yes }
 		}
 	}
 	
