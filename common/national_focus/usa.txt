@@ -907,7 +907,24 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = USA_the_giant_wakes }
 		available = {
+<<<<<<< HEAD
 			has_government = democratic
+=======
+			OR = {
+				GER = { has_war_with = ENG }
+				has_war = yes
+				
+			}
+			democratic > 0.95
+		}
+		continue_if_invalid = yes
+		x = -1
+		y = 1
+		relative_position_id = USA_arsenal_of_democracy
+		cost = 10
+		ai_will_do = {
+			factor = 1
+>>>>>>> 98b1cadc0604cf9784a4d2d071c15ed9540fea84
 		}
 
 		bypass = {
