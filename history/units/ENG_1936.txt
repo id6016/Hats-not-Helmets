@@ -506,19 +506,19 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "ENG"
 		}
-		requested_factories = 2
+		requested_factories = 1
 		progress = 0.1
 		efficiency = 50
 	}
-	#add_equipment_production = {
-	#	equipment = {
-	#		type = artillery_equipment_1
-	#		creator = "ENG"
-	#	}
-	#	requested_factories = 2
-	#	progress = 0.1
-	#	efficiency = 50
-	#}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 50
+	}
 
 	add_equipment_production = {
 		equipment = {
@@ -539,6 +539,18 @@ instant_effect = {
 		progress = 0.4
 		efficiency = 50
 	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	
+	
 
 	#add_equipment_production = {
 	#	equipment = {

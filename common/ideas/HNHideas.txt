@@ -256,13 +256,78 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			
 			modifier = {
-				fuel_gain_factor = 0.75
+				# fuel_gain_factor = 0.75
 				fuel_gain_factor_from_states = 0.75
+			}
+		}
+		
+		hnh_limited_intervention = {
+			name = hnh_limited_intervention
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.20
+			}
+		}
+		
+		hnh_neutrality_act = {
+			name = hnh_neutrality_act
+			picture = generic_production_bonus
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			
+			
+			modifier = {
+				production_speed_arms_factory_factor = -0.20
+				production_speed_dockyard_factor = -0.20
 			}
 		}
 		
 		
 		
+		hnh_war_plan_silver = {
+			name = hnh_war_plan_silver
+			picture = GFX_focus_attack_italy
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			
+			
+			targeted_modifier = {
+				tag = ITA
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		
+		hnh_war_plan_black = {
+			name = hnh_war_plan_black
+			picture = GFX_focus_attack_germany
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			
+			
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		
+		hnh_war_plan_orange = {
+			name = hnh_war_plan_orange
+			picture = GFX_focus_attack_japan
+			allowed = { always = yes }
+			allowed_civil_war = { always = yes }
+			
+			
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
 		
 		
 		

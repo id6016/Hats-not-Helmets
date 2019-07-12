@@ -8882,8 +8882,21 @@ annex_canada = {
 		fire_only_once = yes
 		complete_effect = {
 			ENG = {
+					add_state_core = 444
+					add_state_core = 443
+					add_state_core = 445
+					add_state_core = 440
+					add_state_core = 442
+					add_state_core = 787
+					add_state_core = 441
+					add_state_core = 439
+					add_state_core = 433
+					add_state_core = 430	
+			}
+			ENG = {
 				annex_country = { target = RAJ transfer_troops = yes }
 				#add_ideas = annex_british_raj_idea
+				
 			}
 		}
 	}

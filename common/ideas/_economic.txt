@@ -145,7 +145,7 @@ ideas = {
 					has_war = yes
 					threat > 0.15
 					# has_war_support > 0.25
-					date > 1937.9.1
+					# date > 1937.9.1
 				}
 				#has_war_support > 0.25
 

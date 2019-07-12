@@ -13,9 +13,9 @@ NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.02			-- Amount of tensi
 
 NDefines.NCountry.BASE_MAX_COMMAND_POWER = 200.0					-- base value for maximum command power
 NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 80					-- You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
-NDefines.NCountry.MAX_STABILITY = 1.5
+NDefines.NCountry.MAX_STABILITY = 1.0
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.0				-- How much strength ticking speed gives each VP score.
-NDefines.NCountry.	RESISTANCE_STRENGTH_FROM_UNIT = 0.0			-- How much strength ticking speed is reduced from each unit in state (multiplies subunit value resistance_suppress)
+NDefines.NCountry.RESISTANCE_STRENGTH_FROM_UNIT = 0.0			-- How much strength ticking speed is reduced from each unit in state (multiplies subunit value resistance_suppress)
 
 NDefines.NTechnology.DEFAULT_XP_RESEARCH_COST = 999			-- default xp cost of a research to speed up the process
 
