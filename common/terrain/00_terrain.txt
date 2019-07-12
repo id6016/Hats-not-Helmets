@@ -87,8 +87,8 @@ categories =  {
 		sound_type = plains
 
 		units = {
-			attack = -0.3
-			#movement = -0.2
+			attack = -0.5
+			#movement = -0.4
 		}
 
 		enemy_army_bonus_air_superiority_factor = -0.50
@@ -104,8 +104,8 @@ categories =  {
 		sound_type = forest
 
 		units = {
-			attack = -0.3
-			#movement = -0.3
+			attack = -0.4
+			#movement = -0.4
 		}
 
 		enemy_army_bonus_air_superiority_factor = -0.25
@@ -116,14 +116,14 @@ categories =  {
 	marsh = {
 		color = { 76 96 35 }
 		movement_cost = 2.0
-		attrition = 0.5
+		attrition = 0.7
 		combat_width = -0.25
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
 		sound_type = forest
 
 		units = {
-			attack = -0.4
+			attack = -0.6
 			#movement = -0.4
 		}
 		
@@ -133,7 +133,7 @@ categories =  {
 	desert = {
 		color = { 255 127 0 }
 		movement_cost = 1.05
-		attrition = 0.2
+		attrition = 0.4
 		ai_terrain_importance_factor = 8.0
 		match_value = 8
 		sound_type = desert

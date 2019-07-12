@@ -5,7 +5,7 @@ state={
 	manpower = 9069000
 	state_category = large_city
 	resources={
-		chromium=52 # was: 88
+		chromium=100 # was: 88
 	}
 
 	history={
@@ -18,7 +18,7 @@ state={
 			arms_factory = 2
 			industrial_complex = 2
 			9950 = {
-				naval_base = 6
+				naval_base = 10
 
 			}
 

@@ -12,7 +12,9 @@ state={
 		add_core_of = MAN
 		#add_core_of = PRC
 		buildings = {
-			infrastructure = 4
+			infrastructure = 9
+                        industrial_complex = 5
+                        arms_factory = 2
 		}
 
 	}
