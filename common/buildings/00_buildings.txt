@@ -72,7 +72,7 @@ buildings = {
 		disabled_in_dmz = yes
 		icon_frame = 7
 		land_fort = 1
-		max_level = 10
+		max_level = 5
 		value = 1
 	}
 
@@ -107,7 +107,7 @@ buildings = {
 	
 	anti_air_building = {
 		show_on_map = 3
-		base_cost = 750+250
+		base_cost = 750
 		icon_frame = 9
 		anti_air = yes
 		disabled_in_dmz = yes

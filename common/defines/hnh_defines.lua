@@ -33,7 +33,7 @@ NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 999			--Max army experience a country c
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 999			--Max navy experience a country can store
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 999				--Max air experience a country can store
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.2                 -- small river crossing
-NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.4           -- large river crossing 
+NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.2           -- large river crossing 
 
 NDefines.NAir.AIR_NAVAL_KAMIKAZE_DAMAGE_MULT = 3.0				-- Balancing value to increase usual damage to Strength for Kamikaze
 	
