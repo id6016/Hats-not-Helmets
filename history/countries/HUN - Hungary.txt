@@ -26,6 +26,7 @@ if = {
 	add_ideas = {
 		disarmed_nation
 		HUN_treaty_of_triannon
+		hnh_fuel_for_all
 	}
 }
 add_opinion_modifier = { target = MEX modifier = HNH_embargo }

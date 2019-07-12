@@ -140,6 +140,7 @@ if = {
 		#laws
 		low_economic_mobilisation
 		limited_conscription
+		hnh_fuel_for_all
 	}
 
 	

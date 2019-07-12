@@ -13,6 +13,7 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	hnh_fascist_volunteers
+	hnh_fuel_for_all
 }
 
 add_opinion_modifier = { target = MEX modifier = HNH_embargo }
