@@ -116,7 +116,7 @@ set_convoys = 20
 
 set_convoys = 5
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = democratic
     last_election = "1932.10.30"
     election_frequency = 72
     elections_allowed = yes
@@ -142,7 +142,7 @@ create_country_leader = {
 
 1939.1.1 = {
 	set_politics = {
-    ruling_party = neutrality
+    ruling_party = democratic
     last_election = "1938.10.25"
     election_frequency = 72
     elections_allowed = yes
