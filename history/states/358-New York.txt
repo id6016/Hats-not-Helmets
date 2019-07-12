@@ -11,7 +11,6 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 9
-			arms_factory = 3
 			industrial_complex = 10
 			dockyard = 3
 			air_base = 10
