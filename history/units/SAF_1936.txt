@@ -124,15 +124,15 @@ instant_effect = {
 		efficiency = 50
 	}
 	
-	#add_equipment_production = {
-	#	equipment = {
-	#		type = artillery_equipment_1
-	#		creator = "SAF"
-	#	}
-	#	requested_factories = 0
-	#	progress = 0.75
-	#	efficiency = 50
-	#}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SAF"
+		}
+		requested_factories = 0
+		progress = 0.75
+		efficiency = 50
+	}
 	
 #	add_equipment_production = {
 #		equipment = {

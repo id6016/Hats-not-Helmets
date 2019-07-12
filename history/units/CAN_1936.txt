@@ -218,49 +218,49 @@ instant_effect = {
 		progress = 0.3
 		efficiency = 50
 	}
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_1
-			creator = "CAN"
-		}
-		requested_factories = 1
-		progress = 0.85
-		efficiency = 100
-	}
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_0
-			creator = "CAN" 
-		}
-		requested_factories = 0
-		progress = 0.15
-		efficiency = 50
-	}
-	add_equipment_production = {
-		equipment = {
-			type = nav_bomber_equipment_1
-			creator = "CAN" 
-		}
-		requested_factories = 0
-		progress = 0.0
-		efficiency = 50
-	}
-	add_equipment_production = {
-		equipment = {
-			type = tac_bomber_equipment_0
-			creator = "CAN" 
-		}
-		requested_factories = 0
-		progress = 0.2
-		efficiency = 50
-	}
-add_equipment_production = {
-		equipment = {
-			type = transport_plane_equipment_1
-			creator = "CAN" 
-		}
-		requested_factories = 0
-		progress = 0.2
-		efficiency = 50
-}
+	# add_equipment_production = {
+		# equipment = {
+			# type = light_tank_equipment_1
+			# creator = "CAN"
+		# }
+		# requested_factories = 1
+		# progress = 0.85
+		# efficiency = 100
+	# }
+	# add_equipment_production = {
+		# equipment = {
+			# type = fighter_equipment_0
+			# creator = "CAN" 
+		# }
+		# requested_factories = 0
+		# progress = 0.15
+		# efficiency = 50
+	# }
+	# add_equipment_production = {
+		# equipment = {
+			# type = nav_bomber_equipment_1
+			# creator = "CAN" 
+		# }
+		# requested_factories = 0
+		# progress = 0.0
+		# efficiency = 50
+	# }
+	# add_equipment_production = {
+		# equipment = {
+			# type = tac_bomber_equipment_0
+			# creator = "CAN" 
+		# }
+		# requested_factories = 0
+		# progress = 0.2
+		# efficiency = 50
+	# }
+# add_equipment_production = {
+		# equipment = {
+			# type = transport_plane_equipment_1
+			# creator = "CAN" 
+		# }
+		# requested_factories = 0
+		# progress = 0.2
+		# efficiency = 50
+# }
 }

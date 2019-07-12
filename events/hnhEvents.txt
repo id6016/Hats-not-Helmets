@@ -496,6 +496,7 @@ country_event = {
 			transfer_state = 91
 			transfer_state = 89
 			transfer_state = 784
+			transfer_state - 97
 			}	
 		POL = {
 			remove_state_core = 96
@@ -505,6 +506,7 @@ country_event = {
 			remove_state_core = 91
 			remove_state_core = 89
 			remove_state_core = 784
+			remove_state_core = 97
 		}
 	}
 }
@@ -521,7 +523,7 @@ country_event = {
 		has_completed_focus = SOV_great_purge
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -547,7 +549,7 @@ country_event = {
 		has_idea = officers_purged_2
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -573,7 +575,7 @@ country_event = {
 		has_idea = officers_purged_3
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -599,7 +601,7 @@ country_event = {
 		has_idea = officers_purged_4
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -625,7 +627,7 @@ country_event = {
 		has_idea = officers_purged_5
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -651,7 +653,7 @@ country_event = {
 		has_idea = officers_purged_6
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -677,7 +679,7 @@ country_event = {
 		has_idea = officers_purged_7
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -703,7 +705,7 @@ country_event = {
 		has_idea = officers_purged_8
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -729,7 +731,7 @@ country_event = {
 		has_idea = officers_purged_9
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
@@ -755,7 +757,7 @@ country_event = {
 		has_idea = officers_purged_10
 	}
 	mean_time_to_happen = {
-		days = 150
+		days = 180
 	}
 	
 	hidden = yes
