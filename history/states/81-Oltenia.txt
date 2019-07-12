@@ -5,6 +5,10 @@ state={
 	
 	
 	state_category = rural
+
+        resources={
+                   steel=26
+        }
 	
 	history={
 		victory_points = {
@@ -13,7 +17,7 @@ state={
 		owner = ROM
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 4
 		}
 		add_core_of = ROM
 	}

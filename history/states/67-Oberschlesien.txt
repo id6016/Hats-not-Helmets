@@ -4,8 +4,8 @@ state={
 	name="STATE_67"
 	manpower = 1402591
 	resources={
-		steel=19 # was: 60
-		aluminium=6 # was: 20
+		steel=96 # was: 60
+		aluminium=32 # was: 20
 	}
 	
 	state_category = city
@@ -20,6 +20,8 @@ state={
 		owner = GER
 		buildings = {
 			infrastructure = 6
+                        arms_factory = 5
+                        industrial_complex = 1
 		}
 		add_core_of = GER
 	}

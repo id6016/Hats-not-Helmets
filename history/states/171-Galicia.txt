@@ -6,6 +6,10 @@ state={
 	
 	state_category = city
 
+         resources={
+		tungsten=114
+        }
+
 	history={
 		owner = SPR
 		victory_points = {
