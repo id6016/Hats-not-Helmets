@@ -221,71 +221,26 @@ set_popularities = {
 		}
 	}
 }
-
-create_country_leader = {
-	name = "D. F. Malan"
-	desc = "POLITICS_DF_MALAN_DESC"
-	picture = "GFX_SAF_daniel_malan"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Moses Kotane"
-	desc = "POLITICS_MOSES_KOTANE_DESC"
-	picture = "GFX_SAF_moses_kotane"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pixley Ka Isaka Seme"
-	desc = "POLITICS_PIXLEY_SEME_DESC"
-	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Jan Smuts"
-	portrait_path = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
-	traits = { war_hero career_officer desert_fox commando skilled_staffer}
-	skill = 6
-		attack_skill = 5
-		defense_skill = 3
-		planning_skill = 4
-		logistics_skill = 6
-}
-
 create_corps_commander = {
 	name = "George Edwin Brink"
 	gfx = "GFX_SAF_george_edwin_brink"
-	traits = { desert_fox armor_officer panzer_leader unyielding_defender}
+	traits = { desert_fox panzer_leader  }
 	skill = 4
-	attack_skill = 3
+	attack_skill = 5
 	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
 }
 
-create_corps_commander = {
-	name = "John Boer"
-	gfx = "GFX_SAF_John_Boer"
-	traits = { infantry_officer infantry_leader hill_fighter }
+create_field_marshal = {
+	name = "Mark Wuzkangz"
+    gfx = "GFX_SAF_moses_kotane"
+	traits = { desert_fox organizer panzer_leader }
 	skill = 4
 	attack_skill = 4
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 2
+	logistics_skill = 4
 }
 
 create_navy_leader = {
@@ -297,6 +252,7 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 2
 	coordination_skill = 2
+
 }
 
 ###variants###

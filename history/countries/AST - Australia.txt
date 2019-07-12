@@ -315,36 +315,38 @@ set_popularities = {
 }
 	set_convoys = 100
 }
-
-create_field_marshal = {
+create_corps_commander = {
 	name = "Leslie Morshead"
 	gfx = "GFX_AST_leslie_morshead"
-	traits = { career_officer trait_cautious infantry_officer }
-	skill = 5
-    attack_skill = 4
+	traits = { panzer_leader desert_fox jungle_rat }
+	skill = 4
+    attack_skill = 5
     defense_skill = 3
     planning_skill = 5
-    logistics_skill = 3
+    logistics_skill = 4
 }
+
+
+
 create_corps_commander = {
 	name = "Thomas Blamey"
 	gfx = "GFX_AST_thomas_blamey"
-	traits = { commando brilliant_strategist desert_fox defensive_doctrine }
+	traits = { infantry_leader desert_fox jungle_rat }
 	skill = 4
     attack_skill = 4
     defense_skill = 3
     planning_skill = 3
     logistics_skill = 3
 }
-create_corps_commander = {
+create_field_marshal = {
 	name = "Henry Wynter"
 	gfx = "GFX_AST_henry_wynter"
-	traits = { infantry_officer infantry_leader jungle_rat logistics_wizard }
+	traits = { desert_fox jungle_rat infantry_leader panzer_leader }
 	skill = 4
-    attack_skill = 3
+    attack_skill = 4
     defense_skill = 4
     planning_skill = 3
-    logistics_skill = 4
+    logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Alan Vasey"
@@ -369,12 +371,12 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "John Northcott"
 	gfx = "GFX_AST_john_northcott"
-	traits = { armor_officer panzer_leader offensive_doctrine fortress_buster}
-	skill = 2
-	attack_skill = 3
+	traits = { armor_officer}
+	skill = 1
+	attack_skill = 1
 	defense_skill = 1
 	planning_skill = 1
-	logistics_skill = 2
+	logistics_skill = 1
 }
 create_navy_leader = {
 	name = "Harold Farncomb"
@@ -397,6 +399,7 @@ create_navy_leader = {
 	maneuvering_skill = 3
 	coordination_skill = 2
 }
+
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###

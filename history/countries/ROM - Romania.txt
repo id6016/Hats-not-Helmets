@@ -265,69 +265,35 @@ create_country_leader = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Armand Calinescu"
-	desc = "POLITICS_ARMAND_CALINESCU_DESC"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Octavian Goga"
-	desc = "POLITICS_OCTAVIAN_GOGA_DESC"
-	picture = "Portrait_Romania_Octavian_Goga.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ion Antonescu"
-	desc = "POLITICS_ION_ANTONESCU_DESC"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
 create_field_marshal = {
 	name = "Petre Dumitrescu"
 	gfx = GFX_Portrait_romania_petre_dumitrescu
-	traits = { offensive_doctrine logistics_wizard }
+	traits = { offensive_doctrine infantry_leader panzer_leader } 
 	skill = 4
 	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
 }
 
 create_field_marshal = {
 	name = "Ion Antonescu"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
-	traits = { offensive_doctrine ranger }
-	skill = 5
+	traits = { offensive_doctrine brilliant_strategist infantry_leader organizer }
+	skill = 4
 	attack_skill = 4
 	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
+	planning_skill = 5
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Ioan Mihail Racovita"
 	gfx = GFX_Portrait_romania_ioan_mihail_racovita
-	traits = { hill_fighter infantry_officer infantry_leader infantry_expert}
+	traits = { hill_fighter infantry_leader }
 	skill = 3
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 2
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
 }
@@ -335,11 +301,11 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Gheorghe Avramescu"
 	gfx = GFX_Portrait_romania_gheorghe_avramescu
-	traits = {armor_officer panzer_leader offensive_doctrine }
+	traits = { }
 	skill = 3
 	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 1
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 3
 }
 create_navy_leader = {
@@ -351,6 +317,7 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 2
 	coordination_skill = 1
+
 }
 
 

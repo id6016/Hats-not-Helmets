@@ -427,6 +427,11 @@ add_namespace = {
 	type = unit_leader
 }
 
+add_namespace = {
+	name = "ger_unit_leader"
+	type = unit_leader
+}
+
 create_field_marshal = {
 	name = "Gerd von Rundstedt"
 	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
@@ -451,52 +456,52 @@ create_field_marshal = {
 	logistics_skill = 3
 }
 
+create_field_marshal = {
+	name = "Erich von Manstein"
+	picture = "Portrait_Germany_Erich_von_Manstein.dds"
+	traits = { panzer_leader brilliant_strategist trait_engineer organizer infantry_leader }
+	skill = 7
+	id = 5
+	attack_skill = 7
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
+}
+
 create_corps_commander = {
 	name = "Friedrich Paulus"
 	picture = "Portrait_Germany_Friedrich_Paulus.dds"
-	traits = { trait_cautious armor_officer }
-	skill = 1
+	traits = { trait_cautious armor_officer infantry_leader }
+	skill = 4
 	id = 3
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Erwin Rommel"
 	picture = "Portrait_Germany_Erwin_Rommel.dds"
-	traits = { trickster trait_reckless war_hero armor_officer media_personality }
-	skill = 4
+	traits = { trait_reckless war_hero armor_officer media_personality panzer_leader}
+	skill = 5
 	id = 4
-	attack_skill = 4
+	attack_skill = 6
 	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Erich von Manstein"
-	picture = "Portrait_Germany_Erich_von_Manstein.dds"
-	traits = { trickster armor_officer brilliant_strategist trait_engineer }
-	skill = 4
-	id = 5
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
+	planning_skill = 4
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Heinz Guderian"
 	picture = "Portrait_Germany_Heinz_Guderian.dds"
-	traits = { trickster brilliant_strategist panzer_leader armor_officer career_officer }
-	skill = 4
+	traits = { brilliant_strategist panzer_leader armor_officer career_officer ranger trait_engineer }
+	skill = 6
 	id = 6
-	attack_skill = 2
+	attack_skill = 5
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 3
+	planning_skill = 6
+	logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -764,7 +769,6 @@ create_corps_commander = {
 	planning_skill = 3
 	logistics_skill = 2
 }
-
 create_navy_leader = {
 	name = "Karl Dönitz"
 	picture = "Portrait_Germany_Karl_Donitz.dds"
@@ -804,7 +808,7 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Hermann Boehm"
 		picture = "Portrait_Germany_Hermann_Boehm.dds"
-	traits = { craven superior_tactician }
+	traits = { superior_tactician }
 	skill = 4
 	id = 29
 	attack_skill = 3
@@ -835,7 +839,7 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 1
 	coordination_skill = 4
-}
+
 
 if = {
 	limit = {

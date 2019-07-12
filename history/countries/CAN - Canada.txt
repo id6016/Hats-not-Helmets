@@ -301,11 +301,10 @@ set_popularities = {
 	democratic = 100
 }
 }
-
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { commando naval_invader trait_engineer}
+	traits = {  }
 	skill = 4
     attack_skill = 2
     defense_skill = 3
@@ -316,8 +315,8 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Charles Foulkes"
 	gfx = "GFX_CAN_charles_foulkes"
-	traits = { career_officer infantry_officer}
-	skill = 5
+	traits = { cavalry_leader }
+	skill = 4
     attack_skill = 4
     defense_skill = 2
     planning_skill = 4
@@ -327,9 +326,9 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "John Montague"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { armor_officer panzer_leader desert_fox}
+	traits = { }
 	skill = 3
-    attack_skill = 2
+    attack_skill = 1
     defense_skill = 1
     planning_skill = 3
     logistics_skill = 5
@@ -337,7 +336,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Bert Hoffmeister"
 	gfx = "GFX_CAN_bert_hoffmeister"
-	traits = { hill_fighter infantry_officer }
+	traits = { hill_fighter }
 	skill = 4
     attack_skill = 4
     defense_skill = 3
@@ -385,6 +384,7 @@ create_navy_leader = {
 	defense_skill = 2
 	maneuvering_skill = 3
 	coordination_skill = 5
+
 }
 
 ### VARIANTS ###

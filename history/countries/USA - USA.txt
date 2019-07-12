@@ -348,15 +348,14 @@ create_country_leader = {
 		
 	}
 }
-
 create_corps_commander = {
 	name = "George S. Patton"
 	picture = "Portrait_USA_George_S_Patton.dds"
-	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
-	skill = 5
+	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless infantry_leader naval_invader hill_fighter }
+	skill = 6
 
 	attack_skill = 7 
-	defense_skill = 3
+	defense_skill = 5
 	planning_skill = 2
 	logistics_skill = 4
 }
@@ -376,13 +375,13 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Dwight D. Eisenhower"
 	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
-	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
+	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected infantry_leader naval_invader hill_fighter }
 	skill = 5
 	id = 602
-	attack_skill = 3
-	defense_skill = 3
+	attack_skill = 5
+	defense_skill = 4
 	planning_skill = 5
-	logistics_skill = 5
+	logistics_skill = 6
 }
 
 create_corps_commander = {
@@ -412,16 +411,16 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Mark Clark"
 	picture = "Portrait_USA_Mark_W_Clark.dds"
-	traits = { infantry_officer trait_reckless }
+	traits = { infantry_officer trait_reckless infantry_leader jungle_rat }
 	skill = 4
 
 	attack_skill = 5
-	defense_skill = 3
+	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 3
 }
 
-create_field_marshal = {
+create_field_marshal = {                     
 	name = "Douglas MacArthur"
 	id = 57
 	picture = "Portrait_USA_Douglas_MacArthur.dds"
@@ -606,28 +605,6 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
-create_corps_commander = {
-	name = "Baby Ali"
-	picture = "Portrait_USA_Baby_Ali.dds"
-	traits = { infantry_officer trait_cautious defensive_doctrine }
-	skill = 3
-	attack_skill = 1
-	defense_skill = 4
-	planning_skill = 1
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Titanic"
-	picture = "Portrait_USA_Titanic.dds"
-	traits = { infantry_officer trait_reckless offensive_doctrine commando naval_invader naval_liason trickster scavenger jungle_rat engineer fortress_buster}
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-}
-
 create_navy_leader = {
 	name = "Ernest King"
 		picture = "Portrait_USA_Earnest_King.dds"
@@ -637,17 +614,6 @@ create_navy_leader = {
 	defense_skill = 3
 	maneuvering_skill = 3
 	coordination_skill = 6
-}
-
-create_navy_leader = {
-	name = "MacAlithur"
-		picture = "Portrait_USA_MacAlithur.dds"
-	traits = { navy_career_officer caustic_personality media_personality blockade_runner superior_tactician }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 4
-	maneuvering_skill = 5
-	coordination_skill = 4
 }
 
 create_navy_leader = {
@@ -725,6 +691,7 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 2
 	coordination_skill = 3
+
 }
 
 

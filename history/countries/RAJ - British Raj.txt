@@ -230,59 +230,36 @@ create_country_leader = {
 	}
 }
 
-create_field_marshal = {
-	name = "Claude Auchinleck"
-	picture = "Portrait_Britain_Claude_Auchinleck.dds"
-	traits = { inflexible_strategist career_officer war_hero}
-	skill = 5
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Archibald Wavell" # Aristocrat
-	id = 998
-	picture = "Portrait_Britain_Archibald_Wavell.dds"
-	traits = { career_officer trait_mountaineer infantry_officer infantry_leader}
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
-}
-
 create_corps_commander = {
 	name = "Noel Beresford-Peirse"
 	gfx = "GFX_RAJ_noel_beresford_peirse"
-	traits = { armor_officer brilliant_strategist trait_reckless}
-	skill = 4
+	traits = { armor_officer panzer_leader }
+	skill = 3
 	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Frank Messervy"
 	gfx = "GFX_RAJ_frank_messervy"
-	traits = { hill_fighter trait_mountaineer infantry_officer defensive_doctrine adaptable}
-	skill = 4
-	attack_skill = 3
+	traits = { hill_fighter trait_mountaineer infantry_leader }
+	skill = 3
+	attack_skill = 4
 	defense_skill = 3
-	planning_skill = 4
+	planning_skill = 3
 	logistics_skill = 3
 }
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Douglas Gracey"
 	gfx = "GFX_RAJ_douglas_gracey"
-	traits = { desert_fox infantry_officer }
-	skill = 4
-	attack_skill = 3
+	traits = { desert_fox infantry_leader organizer }
+	skill = 3
+	attack_skill = 4
 	defense_skill = 3
-	planning_skill = 4
+	planning_skill = 3
 	logistics_skill = 3
 }
 

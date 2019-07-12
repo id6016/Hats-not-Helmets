@@ -297,16 +297,48 @@ create_country_leader = {
 		#
 	}
 }
-
 create_field_marshal = {
 	name = "José Asensio Torrado"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 2
-    attack_skill = 1
+	traits = { infantry_leader panzer_leader organizer }
+	skill = 5
+    attack_skill = 5
     defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
+    planning_skill = 4
+    logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Maxim Luis"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	traits = { panzer_leader ranger }
+	skill = 5
+    attack_skill = 5
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Henry Silent"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = { infantry_leader ranger swamp_fox hill_fighter trait_engineer commando urban_assault_specialist trickster }
+	skill = 6
+    attack_skill = 6
+    defense_skill = 6
+    planning_skill = 6
+    logistics_skill = 6
+}
+
+create_navy_leader = {
+	name = "Guy Hallifax"
+	gfx = "GFX_SAF_guy_halifax"
+	traits = { battleship_adherent }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 

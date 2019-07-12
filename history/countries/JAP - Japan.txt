@@ -397,15 +397,14 @@ create_country_leader = {
 	traits = {
 	}
 }
-
 create_corps_commander = {
 	name = "Tomoyuki Yamashita"
 		picture = "Portrait_Japan_Tomoyuki_Yamashita.dds"
 	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
+		naval_invader trickster trait_engineer brilliant_strategist politically_connected infantry_leader
 	}
-	skill = 5
-	attack_skill = 4
+	skill = 7
+	attack_skill = 5
 	defense_skill = 5
 	planning_skill = 3
 	logistics_skill = 4
@@ -415,15 +414,19 @@ create_field_marshal = {
 	name = "Hisaichi Terauchi"
 	picture = "Portrait_Japan_Hisaichi_Terauchi.dds"
 	traits = { 
+		organizer
+		hill_fighter
 		offensive_doctrine
 		JAP_samurai_lineage   # hakushaku
 		politically_connected
+		infantry_leader
+		
 	}
-	skill = 4
-	attack_skill = 4
+	skill = 6
+	attack_skill = 6
 	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
+	planning_skill = 5
+	logistics_skill = 6
 }
 
 create_field_marshal = {
@@ -462,12 +465,12 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Shizuichi Tanaka"
 		picture = "Portrait_Japan_Shizuichi_Tanaka.dds"
-	traits = { trickster career_officer infantry_officer }
-	skill = 4
-	attack_skill = 4
+	traits = { trickster career_officer infantry_officer infantry_leader jungle_rat }
+	skill = 6
+	attack_skill = 6
 	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
+	planning_skill = 3
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -550,9 +553,9 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Kenkichi Ueda"
 		picture = "Portrait_Japan_Kenkichi_Ueda.dds"
-	traits = { old_guard cavalry_officer trait_reckless }
-	skill = 4
-	attack_skill = 3
+	traits = { old_guard cavalry_officer trait_reckless panzer_leader trait_engineer }
+	skill = 6
+	attack_skill = 5
 	defense_skill = 2
 	planning_skill = 4
 	logistics_skill = 4
@@ -830,6 +833,18 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 1
 	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Gengo Hyakutake"
+		picture = "Portrait_Japan_Gengo_Hyakutake.dds"
+	traits = { gentlemanly }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+
 }
 
 create_navy_leader = {

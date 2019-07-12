@@ -282,45 +282,32 @@ set_popularities = {
 
 
 }
-
-
 create_corps_commander = {
 	name = "Géza Lakatos"
 	gfx = GFX_Portrait_hungary_geza_lakatos
-	traits = { infantry_officer infantry_leader swamp_fox }
+	traits = {  }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Iván Hindy"
 	gfx = GFX_Portrait_hungary_ivan_hindy
-	traits = {  trickster career_officer  winter_specialist}
+	traits = {  trickster panzer_leader }
 	skill = 4
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 2
 	logistics_skill = 4
 }
 
 create_corps_commander = {
-	name = "Snowman"
-	gfx = GFX_Portrait_HUN_Snowman
-	traits = { trickster trait_reckless commando paratrooper }
-	skill = 2
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
 	name = "Károly Beregfy"
 	gfx = GFX_Portrait_hungary_karoly_beregfy
-	traits = { cavalry_officer cavalry_leader }
+	traits = { }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -331,9 +318,9 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Lajos Veress"
 	gfx = GFX_Portrait_hungary_lajos_veress
-	traits = { armor_officer panzer_leader }
+	traits = { armor_officer }
 	skill = 2
-	attack_skill = 3
+	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 2
@@ -342,10 +329,11 @@ create_corps_commander = {
 create_field_marshal = {
 	name = "Ferenc Feketehalmy-Czeydner"
 	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
-	traits = { old_guard ranger offensive_doctrine }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
+	traits = { organizer panzer_leader  }
+	skill = 4   
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 5
+
 }

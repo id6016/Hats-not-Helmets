@@ -378,43 +378,31 @@ add_namespace = {
 	name = "unit_leader_sov"
 	type = unit_leader
 }
-
-create_corps_commander = {
+create_field_marshal = {
 	name = "Georgy Zhukov"
 	id = 410
 		picture = "Portrait_Soviet_Gregory_Zhukov.dds"
-	traits = { winter_specialist armor_officer media_personality war_hero }
-	skill = 5
+	traits = { trickster winter_specialist armor_officer media_personality war_hero organizer }
+	skill = 6
 
 	
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "Zhuk0v"
-	picture = "Portrait_SOV_Zhuk0v.dds"
-	traits = { winter_specialist infantry_officer infantry_leader  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 4
+	attack_skill = 6
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 6
 }
 
 create_corps_commander = {
 	name = "Konstantin Rokossovsky"
 	id = 402
 		picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
-	traits = {  armor_officer trait_cautious brilliant_strategist }
-	skill = 4
+	traits = { trickster armor_officer trait_cautious brilliant_strategist panzer_leader }
+	skill = 5
 	
-	attack_skill = 3
+	attack_skill = 5
 	defense_skill = 4
 	planning_skill = 2
-	logistics_skill = 4
+	logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -459,14 +447,14 @@ create_corps_commander = {
 	name = "Ivan Konev"
 	id = 408
 		picture = "Portrait_Soviet_Ivan_Konev.dds"
-	traits = { armor_officer harsh_leader politically_connected }
+	traits = { trait_engineer armor_officer harsh_leader politically_connected infantry_leader ranger }
 	skill = 5
 
 
 	
 	attack_skill = 4
-	defense_skill = 5
-	planning_skill = 2
+	defense_skill = 6
+	planning_skill = 3
 	logistics_skill = 5
 }
 
@@ -500,17 +488,18 @@ create_field_marshal = {
 	logistics_skill = 1
 }
 
+
 create_field_marshal = {
 	name = "Mikhail Tukhachevsky"
 	id = 401
 		picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
-	traits = { offensive_doctrine brilliant_strategist career_officer infantry_officer trait_reckless }
+	traits = { offensive_doctrine career_officer infantry_officer trait_reckless }
 	skill = 4
 
 	
-	attack_skill = 3
+	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 4
+	planning_skill = 5
 	logistics_skill = 2
 }
 
@@ -824,6 +813,7 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 1
 	logistics_skill = 1
+
 }
 
 create_navy_leader = {
