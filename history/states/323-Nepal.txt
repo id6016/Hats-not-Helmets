@@ -7,14 +7,12 @@ state={
 	
 	state_category = town
 	resources={
-		chromium=2 # was: 2
+		
 	}
 	history={
 		owner = NEP
 		buildings = {
 			infrastructure = 3
-			arms_factory = 1
-			industrial_complex = 2 
 		}
 		victory_points = {
 			4987 3 
