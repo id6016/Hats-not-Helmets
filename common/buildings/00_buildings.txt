@@ -107,7 +107,7 @@ buildings = {
 	
 	anti_air_building = {
 		show_on_map = 3
-		base_cost = 2500
+		base_cost = 750+250
 		icon_frame = 9
 		anti_air = yes
 		disabled_in_dmz = yes
@@ -130,7 +130,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 		
 		show_modifier = yes
-		fuel_gain_from_states = 2.0 #per hour
+		fuel_gain_from_states = 3.5 #per hour
 	}
 
 	fuel_silo = {
