@@ -274,6 +274,7 @@ add_ideas = {
 	FRA_disjointed_government
 	FRA_protected_by_the_maginot_line
 	limited_conscription
+	hnh_fuel_for_all
 }
 
 #give_guarantee = CZE

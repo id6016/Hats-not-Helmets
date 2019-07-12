@@ -319,10 +319,10 @@ set_politics = {
 }
 
 set_popularities = {
-    fascism = 2
+    fascism = 1
     communism = 88
     neutrality = 0
-	democratic = 10
+	democratic = 11
 }
 
 create_faction = Comintern
@@ -338,6 +338,7 @@ add_ideas = {
 	#Free Trade
 	closed_economy
 	hnh_communist_volunteers
+	hnh_fuel_for_all
 }
 
 create_country_leader = {

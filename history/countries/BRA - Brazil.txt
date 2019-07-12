@@ -118,16 +118,16 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = fascism
     last_election = "1934.7.17"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-    fascism = 0
+    fascism = 100
     communism = 0
-    neutrality = 100
+    neutrality = 0
 }
 
 create_country_leader = {
@@ -141,16 +141,23 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Plínio Salgado"
-	desc = "POLITICS_PLINIO_SALGADO_DESC"
-	picture = "Portrait_Brazil_Plinio_Salgado.dds"
+create_country_leader = {	
+	name = "Ricardo Milos"
+	picture = "gfx/leaders/BRA/Ricardo.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
-	traits = {
-		#
-	}
+	traits = {}
 }
+# create_country_leader = {
+	# name = "Plínio Salgado"
+	# desc = "POLITICS_PLINIO_SALGADO_DESC"
+	# picture = "Portrait_Brazil_Plinio_Salgado.dds"
+	# expire = "1965.1.1"
+	# ideology = fascism_ideology
+	# traits = {
+		
+	# }
+# }
 create_country_leader = {
 	name = "Luís Carlos Prestes"
 	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"

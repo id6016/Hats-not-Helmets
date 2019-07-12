@@ -9,8 +9,43 @@ focus_tree = {
 			tag = ARG
 		}
 	}
+	
+	focus = {
+		id = ARG_unmask_the_furhur
+		icon = GFX_focus_chi_mission_to_germany
+		x = 0
+		y = 0
+
+		cost = 500
+
+		ai_will_do = {
+			factor = 24
+			modifier = {
+				factor = 3
+				has_completed_focus = CAN_crown_corporations
+			}
+		}
+
+		available = {
+		
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	
 
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1100 }
 	
+}

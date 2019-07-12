@@ -516,8 +516,11 @@
  BUL_research_collaboration_desc:0 "If we combine our research efforts, we have a bigger chance of succeeding."
  BUL_modernize_navy:0 "Modernize our Navy"
  BUL_modernize_navy_desc:0 "We have gotten our naval production back on track, now to modernize it."
- BUL_submit_to_the_fuhur:0 "Submit to Fuhur"
- BUL_submit_to_the_fuhur_desc:0 "The time has come for us to submit to the Fuhur."
+ BUL_submit_to_the_fuhur:0 "Submit to the Führer"
+ BUL_submit_to_the_fuhur_desc:0 "The time has come for us to submit to the Führer."
+ 
+ ARG_unmask_the_furhur:0 "Unmask the Führer"
+ ARG_unmask_the_furhur:0 "Unmask the Führer"
  
  
  #Events

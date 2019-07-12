@@ -17,6 +17,7 @@ if = {
 	add_ideas = MAN_banditry
 	add_ideas = MAN_kwantung_veto
 	add_ideas = MAN_low_legitimacy_5
+	add_ideas = hnh_fuel_for_all
 }
 
 set_convoys = 35
