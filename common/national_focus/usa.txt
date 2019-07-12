@@ -2039,8 +2039,9 @@ focus_tree = {
 		prerequisite = { focus = USA_arsenal_of_democracy }
 		available = {
 			OR = {
+				GER = { has_war_with = ENG }
 				has_war = yes
-				has_war_support > 0.3
+				
 			}
 			democratic > 0.95
 		}

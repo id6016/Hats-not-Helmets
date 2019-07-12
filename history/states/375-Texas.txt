@@ -8,9 +8,9 @@ state={
 	state_category = megalopolis
 	
 	resources={
-		oil=395 # was: 580
+		oil=450 # was: 580
 		aluminium=68 # was: 96
-		rubber=20
+	
 	}
 
 
