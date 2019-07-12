@@ -1310,8 +1310,7 @@ focus_tree = {
 		allow_branch = {
 			has_dlc = "Man the Guns"
 		}
-		available = {
-			NOT = { has_completed_focus = USA_suspend_the_presecution } 
+		available = { 
 			has_completed_focus = USA_agricultural_adjustment_act
 		}
 		
