@@ -5,7 +5,7 @@ NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 36
 
 NDefines.NDiplomacy.MAX_OPINION_VALUE = 500
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 50					-- Political power cost to send attache
-NDefines.NDiplomacy.BASE_STAGE_COUP_DAILY_PP = 0.5					-- Daily pp cost for staging a coup
+NDefines.NDiplomacy.BASE_STAGE_COUP_DAILY_PP = 10					-- Daily pp cost for staging a coup
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 10				-- This many divisons are required for the country to be able to send volunteers.
 NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.0			-- Each province owned by the target country contributes this amount of volunteers to the limit.
 NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.0				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
@@ -33,7 +33,9 @@ NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 999			--Max army experience a country c
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 999			--Max navy experience a country can store
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 999				--Max air experience a country can store
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.2                 -- small river crossing
-NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.2           -- large river crossing 
+NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.2 
+          -- large river crossing 
+NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10 --Docks per line
 
 NDefines.NAir.AIR_NAVAL_KAMIKAZE_DAMAGE_MULT = 3.0				-- Balancing value to increase usual damage to Strength for Kamikaze
 	
