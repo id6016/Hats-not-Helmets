@@ -421,29 +421,29 @@ ideas = {
 		
 		designer = yes
 		
-		secna = {
+		# secna = {
 			
-			picture = generic_naval_manufacturer_3
+			# picture = generic_naval_manufacturer_3
 
 			
-			allowed = {
-				original_tag = SPR
-			}
+			# allowed = {
+				# original_tag = SPR
+			# }
 			
-			research_bonus = {
-				naval_equipment = 0.15
-			}
+			# research_bonus = {
+				# naval_equipment = 0.15
+			# }
 			
-			equipment_bonus = {
+			# equipment_bonus = {
 				# fast and well armed
-			}
+			# }
 			
-			traits = { naval_manufacturer }
+			# traits = { naval_manufacturer }
 			
-			modifier = {
+			# modifier = {
 				# Weak defence vs air
-			}
-		}
+			# }
+		# }
 	}
 	
 	aircraft_manufacturer = { 		

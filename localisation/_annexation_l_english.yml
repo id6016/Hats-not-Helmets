@@ -630,3 +630,7 @@
  hnh_war_plan_silver:0 "War Plan Silver"
  hnh_war_plan_black:0 "War Plan Black"
  hnh_war_plan_orange:0 "War Plan Orange"
+ hnh_the_blue_division:0 "The Blue Division"
+ 
+ SPR_MAN:0 "MAN"
+ SPR_MAN_desc:0 "Medium Tank Designer"

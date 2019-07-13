@@ -386,21 +386,21 @@ tank_manufacturer = {
 	}
 
 	naval_manufacturer = {
-		SECN = {
-			picture = GFX_SPR_idea_SECN
+		# SECN = {
+			# picture = GFX_SPR_idea_SECN
 
-			allowed = {
-				original_TAG = SPR
-			}
+			# allowed = {
+				# original_TAG = SPR
+			# }
 
-			research_bonus = {
-				naval_equipment = 0.15
-			}
+			# research_bonus = {
+				# naval_equipment = 0.15
+			# }
 
-			traits = { raiding_fleet_naval_manufacturer }
+			# traits = { raiding_fleet_naval_manufacturer }
 
-			modifier = {
-			}
-		}
+			# modifier = {
+			# }
+		# }
 	}
 }
