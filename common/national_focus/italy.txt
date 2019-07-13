@@ -27,7 +27,6 @@ focus = {
 		available_if_capitulated = yes
 
 		bypass = {
-			550 = { NOT = { is_owned_and_controlled_by = ITA } }
 		}
 
 		completion_reward = {
