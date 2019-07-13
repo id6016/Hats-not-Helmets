@@ -8811,7 +8811,11 @@ focus = {
 		relative_position_id = GER_war_with_france
 	available = { 
 		# NOT = { USA = { has_completed_focus = USA_operation_torch } }
-		date > 1942.1.1
+		OR = { 
+			date > 1942.1.1
+			VIC = { has_war_with = USA }
+		}
+		
 	}
 	
 	completion_reward = {

@@ -2,8 +2,8 @@
 state={
 	id=294
 	name="STATE_294"
-	manpower = 1
-	#manpower = 369000
+	# manpower = 1
+	manpower = 369000
 	
 	state_category = rural
 	
@@ -24,7 +24,7 @@ state={
 		victory_points = {
 			10760 3 
 		}
-		add_core_of = OMA
+		# add_core_of = OMA
 	}
 
 	provinces={
