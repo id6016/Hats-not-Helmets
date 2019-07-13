@@ -12,7 +12,7 @@ NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.0				-- Each army unit owned
 NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.02			-- Amount of tension generated for each sent division
 
 NDefines.NCountry.BASE_MAX_COMMAND_POWER = 200.0					-- base value for maximum command power
-NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 80					-- You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
+NDefines.NCountry.SPECIAL_FORCES_CAP_MIN = 320					-- You can have a minimum of this many special forces battalions, regardless of the number of non-special forces battalions you have, this can also be modified by a country modifier
 NDefines.NCountry.MAX_STABILITY = 1.0
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.0				-- How much strength ticking speed gives each VP score.
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_UNIT = 0.0			-- How much strength ticking speed is reduced from each unit in state (multiplies subunit value resistance_suppress)
@@ -37,4 +37,4 @@ NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.2           -- large river 
 
 NDefines.NAir.AIR_NAVAL_KAMIKAZE_DAMAGE_MULT = 3.0				-- Balancing value to increase usual damage to Strength for Kamikaze
 	
-NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 200.0								-- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
+NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1.0								-- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.

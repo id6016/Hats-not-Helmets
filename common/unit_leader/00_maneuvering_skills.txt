@@ -2,7 +2,7 @@ leader_maneuvering_skills = {
 
 	### NAVY ###
 	1 = {
-		cost = 100
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.025
@@ -11,7 +11,7 @@ leader_maneuvering_skills = {
 	}
 
 	2 = {
-		cost = 200
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.05
@@ -20,7 +20,7 @@ leader_maneuvering_skills = {
 	}
 
 	3 = {
-		cost = 400
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.75
@@ -29,7 +29,7 @@ leader_maneuvering_skills = {
 	}
 
 	4 = {
-		cost = 800
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.1
@@ -38,7 +38,7 @@ leader_maneuvering_skills = {
 	}
 
 	5 = {
-		cost = 1600
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.125
@@ -47,7 +47,7 @@ leader_maneuvering_skills = {
 	}
 
 	6 = {
-		cost = 3200
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.15
@@ -56,7 +56,7 @@ leader_maneuvering_skills = {
 	}
 
 	7 = {
-		cost = 6400
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.175
@@ -65,7 +65,7 @@ leader_maneuvering_skills = {
 	}
 
 	8 = {
-		cost = 12800
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.2
@@ -74,7 +74,7 @@ leader_maneuvering_skills = {
 	}
 
 	9 = {
-		cost = 25600
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.225
@@ -83,7 +83,7 @@ leader_maneuvering_skills = {
 	}
 
 	10 = {
-		cost = 51200
+		cost = 1000000
 		type = navy
 		modifier = {
 			positioning = 0.25
