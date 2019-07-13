@@ -1,7 +1,9 @@
-#United Kingdom 
+﻿
 
+#United Kingdom 
+#Annex Greenland, Iceland, and Faroe Islands
 country_event = {
-	#Annex Greenland, Iceland, and Faroe Islands
+	
 	id = britain.100
     title = britain.100.t
     desc = britain.100.d
@@ -496,7 +498,7 @@ country_event = {
 			transfer_state = 91
 			transfer_state = 89
 			transfer_state = 784
-			transfer_state - 97
+			transfer_state = 97
 			}	
 		POL = {
 			remove_state_core = 96
@@ -1073,8 +1075,6 @@ country_event = {
 		}
 	}
 }
-
-add_namespace = hnhevent
 
 
 
