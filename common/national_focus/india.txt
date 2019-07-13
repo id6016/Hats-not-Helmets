@@ -2885,28 +2885,28 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = RAJ_expand_mazagon_dock
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-				if = {
-					limit = { has_state_flag = RAJ_expand_mazagon_dock_NB }
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						instant_build = yes
-						province = 1349
-					}
-				}
-			}
-		}
+		# complete_tooltip = {
+			# random_state = {
+				# limit = {
+					# has_state_flag = RAJ_expand_mazagon_dock
+				# }
+				# add_extra_state_shared_building_slots = 1
+				# add_building_construction = {
+					# type = dockyard
+					# level = 1
+					# instant_build = yes
+				# }
+				# if = {
+					# limit = { has_state_flag = RAJ_expand_mazagon_dock_NB }
+					# add_building_construction = {
+						# type = naval_base
+						# level = 1
+						# instant_build = yes
+						# province = 1349
+					# }
+				# }
+			# }
+		# }
 
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -2919,23 +2919,23 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = RAJ_expand_mazagon_dock
-				if = {
-					limit = { state = 429 }
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						instant_build = yes
-						province = 1349
-					}
-					set_state_flag = RAJ_expand_mazagon_dock_NB
-				}
+				# if = {
+					# limit = { state = 429 }
+					# add_building_construction = {
+						# type = naval_base
+						# level = 1
+						# instant_build = yes
+						# province = 1349
+					# }
+					# set_state_flag = RAJ_expand_mazagon_dock_NB
+				# }
 			}
 		}
 	}
@@ -2966,28 +2966,28 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = RAJ_found_scindia_shipyard
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = dockyard
-					level = 1
-					instant_build = yes
-				}
-				if = {
-					limit = { has_state_flag = RAJ_found_scindia_shipyard_NB }
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						instant_build = yes
-						province = 10255
-					}
-				}
-			}
-		}
+		# complete_tooltip = {
+			# random_state = {
+				# limit = {
+					# has_state_flag = RAJ_found_scindia_shipyard
+				# }
+				# add_extra_state_shared_building_slots = 1
+				# add_building_construction = {
+					# type = dockyard
+					# level = 1
+					# instant_build = yes
+				# }
+				# if = {
+					# limit = { has_state_flag = RAJ_found_scindia_shipyard_NB }
+					# add_building_construction = {
+						# type = naval_base
+						# level = 1
+						# instant_build = yes
+						# province = 10255
+					# }
+				# }
+			# }
+		# }
 
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -3000,23 +3000,23 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = RAJ_found_scindia_shipyard
-				if = {
-					limit = { state = 426 }
-					add_building_construction = {
-						type = naval_base
-						level = 1
-						instant_build = yes
-						province = 10255
-					}
-					set_state_flag = RAJ_found_scindia_shipyard_NB
-				}
+				# if = {
+					# limit = { state = 426 }
+					# add_building_construction = {
+						# type = naval_base
+						# level = 1
+						# instant_build = yes
+						# province = 10255
+					# }
+					# set_state_flag = RAJ_found_scindia_shipyard_NB
+				# }
 			}
 		}
 	}
