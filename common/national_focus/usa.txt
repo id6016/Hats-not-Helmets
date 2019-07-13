@@ -55,7 +55,7 @@ focus_tree = {
 	focus = {
 		id = USA_continue_the_new_deal
 		icon = GFX_focus_generic_self_management
-		x = 6
+		x = 2
 		y = 0
 		offset = {
 			x = -12
@@ -337,7 +337,7 @@ focus_tree = {
 		icon = GFX_goal_generic_territory_or_war
 		prerequisite = { focus = USA_continue_the_new_deal }
 		continue_if_invalid = yes
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = USA_continue_the_new_deal
 		cost = 5
@@ -394,8 +394,8 @@ focus_tree = {
 		id = USA_lend_lease_act
 		icon = GFX_focus_generic_treaty
 		x = 2
-		y = 2
-		prerequisite = { focus = USA_neutrality_act } 
+		y = 1
+		#prerequisite = { focus = USA_neutrality_act } 
 		prerequisite = { focus = USA_limited_intervention } 
 		relative_position_id = USA_limited_intervention
 		cost = 10
@@ -497,7 +497,7 @@ focus_tree = {
 		}
 		continue_if_invalid = yes
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = USA_lend_lease_act
 		cost = 0.2
 		ai_will_do = {
@@ -586,91 +586,91 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = USA_neutrality_act
-		icon = GFX_goal_generic_neutrality_focus
-		x = 2
-		y = 1
-		prerequisite = { focus = USA_continue_the_new_deal }
-		relative_position_id = USA_continue_the_new_deal
-		cost = 10
+	#focus = {
+	#	id = USA_neutrality_act
+	#	icon = GFX_goal_generic_neutrality_focus
+	#	x = 2
+	#	y = 1
+	#	prerequisite = { focus = USA_continue_the_new_deal }
+	#	relative_position_id = USA_continue_the_new_deal
+	#	cost = 10
 
-		ai_will_do = {
-			factor = 1
-		}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
 
-		available = {
-			has_political_power > -25
-			has_completed_focus = USA_agricultural_adjustment_act
-			OR = {
-				date < 1936.11.1
-				date > 1937.5.2
-			}
-		}
+	#	available = {
+	#		has_political_power > -25
+	#		has_completed_focus = USA_agricultural_adjustment_act
+	#		OR = {
+	#			date < 1936.11.1
+	#			date > 1937.5.2
+	#		}
+	#	}
 		
-		bypass = {
+	#	bypass = {
 
-		}
+	#	}
 
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
+	#	cancel_if_invalid = no
+	#	continue_if_invalid = yes
+	#	available_if_capitulated = no
 
-		completion_reward = {
-			add_ideas = USA_giant_sleeps_idea
-			add_political_power = 200
-			add_ideas = USA_neutrality_act 
-			add_war_support = -0.05
-			if = {
-				limit = {
-					has_war_support < 0.4
-				}
-				add_political_power = 8
-			}
-			hidden_effect = {
-				news_event = { id = mtg_news.3 days = 3 random = 5 }
-			}
-		}
-	}
+	#	completion_reward = {
+	#		add_ideas = USA_giant_sleeps_idea
+	#		add_political_power = 200
+	#		add_ideas = USA_neutrality_act 
+	#		add_war_support = -0.05
+	#		if = {
+	#			limit = {
+	#				has_war_support < 0.4
+	#			}
+	#			add_political_power = 8
+	#		}
+	#		hidden_effect = {
+	#			news_event = { id = mtg_news.3 days = 3 random = 5 }
+	#		}
+	#	}
+	#}
 	
-	focus = {
-		id = USA_guarantee_the_american_dream
-		icon = GFX_focus_usa_guarantee_the_american_dream
-		x = 0
-		y = 2
-		prerequisite = { focus = USA_neutrality_act }
+	#focus = {
+	#	id = USA_guarantee_the_american_dream
+	#	icon = GFX_focus_usa_guarantee_the_american_dream
+	#	x = 0
+	#	y = 2
+	#	prerequisite = { focus = USA_neutrality_act }
+#
+	#	relative_position_id = USA_neutrality_act
+	#	cost = 5
+	#	
+	#	available = { 
+	#		has_idea = USA_giant_sleeps_idea
+	#	} 
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+#
+	#	available = {
+	#		date > 1939.2.1 
 
-		relative_position_id = USA_neutrality_act
-		cost = 5
+	#	}
 		
-		available = { 
-			has_idea = USA_giant_sleeps_idea
-		} 
-		
-		ai_will_do = {
-			factor = 1
-		}
+	#	bypass = {
 
-		available = {
-			date > 1939.2.1 
+	#	}
 
-		}
-		
-		bypass = {
+	#	cancel_if_invalid = no
+	#	continue_if_invalid = yes
+	#	available_if_capitulated = no
 
-		}
-
-		cancel_if_invalid = no
-		continue_if_invalid = yes
-		available_if_capitulated = no
-
-		completion_reward = {
-			swap_ideas = { 
-			remove_idea = USA_giant_sleeps_idea
-			add_idea = USA_giant_sleeps_idea_2
-			}
-		}
-	}
+	#	completion_reward = {
+	#		swap_ideas = { 
+	#		remove_idea = USA_giant_sleeps_idea
+	#		add_idea = USA_giant_sleeps_idea_2
+	#		}
+	#	}
+	#}
 	
 
 	
@@ -697,7 +697,7 @@ focus_tree = {
 	focus = {
 		id = USA_destroyers_for_bases
 		icon = GFX_goal_generic_navy_cruiser
-		prerequisite = { focus = USA_neutrality_act } 
+		#prerequisite = { focus = USA_neutrality_act } 
 		prerequisite = { focus = USA_limited_intervention } 
 		available = {
 			country_exists = GER
@@ -723,9 +723,9 @@ focus_tree = {
 			ENG = { exists = no }
 		}
 
-		x = -1
-		y = -1
-		relative_position_id = USA_lend_lease_act
+		x = -2
+		y = 1
+		relative_position_id = USA_limited_intervention
 		cost = 5
 		#ai_will_do = {
 		#	factor = 1
@@ -754,10 +754,10 @@ focus_tree = {
 	focus = { 
 		id = USA_ships_for_victory
 		icon = GFX_goal_generic_construct_naval_dockyard
-		prerequisite = { focus = USA_guarantee_the_american_dream } 
-		x = 0 
+		prerequisite = { focus = USA_destroyers_for_bases } 
+		x = 0
 		y = 1 
-		relative_position_id = USA_guarantee_the_american_dream
+		relative_position_id = USA_destroyers_for_bases
 		cost = 5
 		ai_will_do = {
 			factor = 1 
@@ -777,7 +777,7 @@ focus_tree = {
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = USA_limited_intervention }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = USA_limited_intervention
 		cost = 5
 		ai_will_do = {
@@ -1302,7 +1302,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_continue_the_new_deal }
 		relative_position_id = USA_continue_the_new_deal
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1335,7 +1335,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_america_first }
 		relative_position_id = USA_america_first
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1384,7 +1384,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_america_first }
 		relative_position_id = USA_america_first
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1424,7 +1424,7 @@ focus_tree = {
 	focus = {
 		id = USA_war_department
 		icon = GFX_goal_generic_army_doctrines
-		x = 28
+		x = 24
 		y = 0
 		offset = {
 			x = -26
