@@ -9004,6 +9004,7 @@ annex_canada = {
 			}
 			}
 			ENG = { annex_country = { target = FRA transfer_troops = yes } }
+			set_cosmetic_tag = HNH_franco_british_union
 			
 			custom_effect_tooltip = FRA_franco_british_cores
 			country_event = { hours = 6 id = news.35 }
