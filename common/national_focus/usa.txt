@@ -340,7 +340,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_continue_the_new_deal
-		cost = 5
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -491,14 +491,15 @@ focus_tree = {
 	focus = {
 		id = USA_the_giant_wakes
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = USA_lend_lease_act } 
+		prerequisite = { focus = USA_the_giant_rumbles } 
 		available = {
 			has_war = yes 
+			date > 1941.1.1
 		}
 		continue_if_invalid = yes
 		x = 0
 		y = 1
-		relative_position_id = USA_lend_lease_act
+		relative_position_id = USA_the_giant_rumbles
 		cost = 0.2
 		ai_will_do = {
 			factor = 1
@@ -779,7 +780,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_limited_intervention
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}
@@ -964,7 +965,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = USA_arsenal_of_democracy
-		cost = 5
+		cost = 10
 		#ai_will_do = {
 		#	factor = 1
 		#}
@@ -1172,6 +1173,36 @@ focus_tree = {
 					set_state_flag = USA_military_construction_3Inf
 				}
 			}			
+		}
+	}
+
+	focus = {
+		id = USA_the_giant_rumbles
+		icon = GFX_goal_generic_consumer_goods
+		x = 0
+		y = 1
+		prerequisite = { focus = USA_military_construction }
+		relative_position_id = USA_military_construction
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		date > 1939.1.1
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = civilian_economy
 		}
 	}
 
