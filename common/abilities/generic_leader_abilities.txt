@@ -78,8 +78,8 @@ ability = {
 			add_temporary_buff_to_units = {
 				combat_defense = 0.2
 				combat_entrenchment = 0.25
-				org_damage_multiplier = -1.0
-				str_damage_multiplier = 0.6
+				org_damage_multiplier = -0.5
+				str_damage_multiplier = 0.9
 				war_support_reduction_on_damage = 0.2
 				cannot_retreat_while_defending = 1.0
 				
@@ -154,9 +154,7 @@ ability = {
 		}
 		
 		unit_modifiers = {
-			fort = {
-				attack = 0.2
-			}
+			
 			fortification_damage = 2.0
 			fortification_collateral_chance = 2.0
 		}
@@ -255,7 +253,7 @@ ability = {
 		
 		
 		unit_modifiers = {
-			river_crossing_factor = -0.4
+			river_crossing_factor = -0.2
 			river = {
 				attack = 0.2
 			}
