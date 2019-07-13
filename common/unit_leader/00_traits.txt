@@ -246,7 +246,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		
 		field_marshal_modifier = {
 			supply_consumption_factor = -0.20
@@ -265,7 +265,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		field_marshal_modifier = {
 			org_loss_when_moving = -0.50
 		}
@@ -286,7 +286,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		field_marshal_modifier = {
 			max_dig_in_factor = 0.30
 		}
@@ -304,7 +304,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		field_marshal_modifier = {
 			planning_speed = 0.10
 		}
@@ -324,7 +324,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		field_marshal_modifier = {
 			max_planning = 0.1
 		}
@@ -349,7 +349,7 @@ leader_traits = {
 			has_trait = inflexible_strategist
 		}
 
-		cost = 1000
+		cost = 1000000
 		field_marshal_modifier = {
 			defence = 0.10
 		}
@@ -373,7 +373,7 @@ leader_traits = {
 		prerequisites = {
 			has_trait = brilliant_strategist
 		}
-		cost = 1000
+		cost = 1000000
 		modifier = {
 		}
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
@@ -391,7 +391,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		field_marshal_modifier = {
 			land_reinforce_rate = 0.02
 		}
@@ -409,7 +409,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		field_marshal_modifier = {
 			army_morale_factor = 0.10
 		}
@@ -426,7 +426,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		
 		field_marshal_modifier = {
 			max_army_group_size = 2
@@ -452,7 +452,7 @@ leader_traits = {
 		}
 		custom_gain_xp_trigger_tooltip = is_using_battle_plans
 		
-		cost = 1000
+		cost = 1000000
 		modifier = {
 			planning_speed = 0.1
 		}
@@ -499,7 +499,7 @@ leader_traits = {
 		}
 		custom_gain_xp_trigger_tooltip = infantry_ratio_over_80
 		
-		cost = 1000
+		cost = 1000000
 		modifier = {
 			army_infantry_defence_factor = 0.15
 		}
@@ -517,7 +517,7 @@ leader_traits = {
 		}
 		custom_gain_xp_trigger_tooltip = fighting_with_at_least_23_units
 		
-		cost = 2000
+		cost = 1000000
 		
 		corps_commander_modifier = {
 			max_commander_army_size = 6
@@ -540,7 +540,7 @@ leader_traits = {
 		}
 		custom_gain_xp_trigger_tooltip = has_flanked
 		
-		cost = 500
+		cost = 1000000
 		modifier = {
 			recon_factor = 0.25
 		}
@@ -558,7 +558,7 @@ leader_traits = {
 		gain_xp = {
 			temperature < -10
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			winter_attrition_factor = -0.5
 		}
@@ -576,7 +576,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		modifier = {
 			terrain_penalty_reduction = 0.5
 			acclimatization_cold_climate_gain_factor = 0.1
@@ -632,7 +632,7 @@ leader_traits = {
 				has_combat_modifier = river_crossing
 			}
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			river = {
 				attack = 0.1
@@ -658,7 +658,7 @@ leader_traits = {
 			check_variable = { num_armored > temp }
 		}
 		custom_gain_xp_trigger_tooltip = armored_ratio_over_40
-		cost = 700
+		cost = 1000000
 		modifier = {
 			army_armor_speed_factor = 0.05 
 			army_armor_attack_factor = 0.1 
@@ -683,7 +683,7 @@ leader_traits = {
 				has_combat_modifier = amphibious_attack
 			}
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			out_of_supply_factor = -0.5
 		}
@@ -699,7 +699,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = desert
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			desert = {
 				movement = 0.05
@@ -720,7 +720,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = marsh
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			marsh = {
 				movement = 0.05
@@ -741,7 +741,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = mountain
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			mountain = {
 				movement = 0.05
@@ -762,7 +762,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = hills
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			hills = {
 				movement = 0.05
@@ -783,7 +783,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = jungle
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			jungle = {
 				movement = 0.05
@@ -804,7 +804,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = forest
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			forest = {
 				movement = 0.05
@@ -825,7 +825,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_in_terrain = urban
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			urban = {
 				movement = 0.05
@@ -847,7 +847,7 @@ leader_traits = {
 		gain_xp = {
 			is_amphibious_invasion = yes
 		}
-		cost = 100
+		cost = 1000000
 		modifier = {
 			amphibious_invasion = 0.3 # 30% faster invasions
 			invasion_preparation = -0.3
@@ -870,7 +870,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 1000
+		cost = 1000000
 		modifier = {
 			army_armor_defence_factor = 0.15 
 		}
@@ -895,7 +895,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			motorized_defence_factor = 0.15
 			mechanized_defence_factor = 0.15
@@ -923,7 +923,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			cavalry_attack_factor = 0.10
 			cavalry_defence_factor = 0.15
@@ -950,7 +950,7 @@ leader_traits = {
 				dig_in > 10
 			}
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			fort = {
 				attack = 0.05
@@ -974,7 +974,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			equipment_capture = 0.03
 		}
@@ -995,7 +995,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			army_infantry_attack_factor = 0.15
 		}
@@ -1016,7 +1016,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			max_dig_in = 10
 			recon_factor_while_entrenched = 0.25
@@ -1038,7 +1038,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			extra_marine_supply_grace = 240
 		}
@@ -1059,7 +1059,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			shore_bombardment_bonus = 0.25
 		}
@@ -1079,7 +1079,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 		}
 		
@@ -1100,7 +1100,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			extra_paratrooper_supply_grace = 240
 		}
@@ -1123,7 +1123,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			cas_damage_reduction = 0.5
 			air_superiority_bonus_in_combat = -0.5
@@ -1144,7 +1144,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			desert = {
 				movement = 0.1
@@ -1195,7 +1195,7 @@ leader_traits = {
 		gain_xp = {
 			always = no # not gainable
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			dig_in_speed_factor = 0.25
 		}
@@ -1222,7 +1222,7 @@ leader_traits = {
 		gain_xp = {
 			submarine > 0.8 # at least 80% subs
 		}
-		cost = 700
+		cost = 1000000
 		modifier = {
 			navy_submarine_attack_factor = 0.2 # +X% stronger damage for submarines
 		}
@@ -1241,7 +1241,7 @@ leader_traits = {
 			#should gain XP when screening_ratio > 0.5
 		}
 		custom_gain_xp_trigger_tooltip = FLEET_PROTECTOR_TRIGGER_TT
-		cost = 500
+		cost = 1000000
 		modifier = {
 			screening_efficiency = 0.2
 		}
@@ -1255,7 +1255,7 @@ leader_traits = {
 
 	blockade_runner = { 
 		type = navy
-		cost = 500
+		cost = 1000000
 		gain_xp = {
 			#gains XP when running away
 		}
@@ -1277,7 +1277,7 @@ leader_traits = {
 		gain_xp = {
 			is_winning = yes
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			positioning = 0.25
 		}
@@ -1295,7 +1295,7 @@ leader_traits = {
 			always = no 
 		}
 		gain_xp_on_spotting = 10
-		cost = 500
+		cost = 1000000
 		modifier = {
 			spotting_chance = 0.1
 		}
@@ -1312,7 +1312,7 @@ leader_traits = {
 		gain_xp = {
 			is_fighting_air_units = yes
 		}
-		cost = 300
+		cost = 1000000
 		modifier = {
 			navy_anti_air_attack_factor = 0.1
 		}
@@ -1333,7 +1333,7 @@ leader_traits = {
 			}
 		}
 		custom_gain_xp_trigger_tooltip = IRONSIDE_TRIGGER_TT
-		cost = 500
+		cost = 1000000
 		modifier = {
 			navy_capital_ship_defence_factor = 0.1
 		}
@@ -1353,7 +1353,7 @@ leader_traits = {
 				has_carrier_airwings_in_own_combat = yes
 			}
 		}
-		cost = 500
+		cost = 1000000
 		modifier = {
 			navy_carrier_air_targetting_factor = 0.1 # Airplanes from carriers has better naval targetting
 			sortie_efficiency = 0.1
@@ -1793,7 +1793,7 @@ leader_traits = {
 			is_fighting_in_weather = arctic_water
 		}
 		
-		cost = 1000
+		cost = 1000000
 		modifier = {
 			naval_attrition = -0.08
 		}
@@ -1812,7 +1812,7 @@ leader_traits = {
 			is_fighting_in_terrain = water_fjords
 		}
 		
-		cost = 1000
+		cost = 1000000
 		modifier = {
 			water_fjords = {
 				attack = 0.1
@@ -1835,7 +1835,7 @@ leader_traits = {
 			is_fighting_in_terrain = water_deep_ocean
 		}
 		
-		cost = 1000
+		cost = 1000000
 		modifier = {
 			water_deep_ocean = {
 				attack = 0.1
@@ -1858,7 +1858,7 @@ leader_traits = {
 			is_fighting_in_terrain = water_shallow_sea
 		}
 		
-		cost = 1000
+		cost = 1000000
 		modifier = {
 			water_shallow_sea = {
 				attack = 0.1

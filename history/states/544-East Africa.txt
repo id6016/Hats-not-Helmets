@@ -11,7 +11,7 @@ state={
 		owner = POR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			# industrial_complex = 1
 			8245 = {
 				naval_base = 1
 			}

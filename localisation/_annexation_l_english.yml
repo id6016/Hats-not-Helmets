@@ -1,14 +1,14 @@
 ﻿l_english:
  #Decisions
- uk_annexation:0 "Annexation into the Union Jack"
+ uk_annexation:0 "The Sun Never Sets"
  ast_annexation:0 ""Slouch and Parade hats ?  She'll be apples !""
- annex_canada:0 "United Kingdom annexes Canada"
- annex_british_raj:0 "United Kingdom annexes British Raj"
- annex_south_africa:0 "United Kingdom annexes South Africa"
- annex_australia:0 "United Kingdom annexes Australia"
- annex_new_zealand_uk:0 "United Kingdom annexes New Zealand"
+ annex_canada:0 "Annex Canada"
+ annex_british_raj:0 "Annex British Raj"
+ annex_south_africa:0 "Annex South Africa"
+ annex_australia:0 "Annex Australia"
+ annex_new_zealand_uk:0 "Annex New Zealand"
  annex_british_malaya:0 "United Kingdom annexes British Malaya"
- annex_new_zealand:0 "Australia annexes New Zealand"
+ annex_new_zealand:0 "Annex New Zealand"
  ger_annexation:0 "Reichskommissariat Jackboot"
  annex_hungary:0 "Annex Hungary"
  annex_romania:0 "Annex Romania"
@@ -17,6 +17,7 @@
  annex_manchukuo:0 "Annex Manchukuo"
  usa_annexation:0 "American Imperialism wrapped in Freedom"
  annex_phillipines:0 "Add the Phillipines to our list of territories"
+ ENG_form_the_franco_british_union:0 "Form the Franco-British Union"
  
  sov_war_goals:0 "War Goals"
  eng_war_goals:0 "War Goals"
@@ -161,7 +162,7 @@
  CAN_saint_lawerence_railway:0 "Saint Lawrence Railway"
  CAN_saint_lawerence_railway_desc:0 "Our Eastern provinces have been underserved by rail lines since the sale of the Intercolonial Railway to the Canadian National Railway. We are encouraging and undertaking a new Maritime Colonial Railway to expand connections between the central provinces and the Atlantic provinces."
 
- ENG_form_the_franco_british_union:0 "Form the Franco-British Union"
+
 
  RAJ_seize_the_port_cities:0 "Seize the port cities"
  RAJ_seize_the_port_cities_desc:0 "With the war in Europe in full force and a war coming soon to Asia, we must seize French India from France and Goa from Portugal for our own security."
