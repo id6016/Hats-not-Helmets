@@ -1886,7 +1886,7 @@ focus_tree = {
 
 		}
 
-		cancel_if_invalid = yes
+		# cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 

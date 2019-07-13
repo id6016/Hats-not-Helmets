@@ -276,58 +276,59 @@ ideas = {
 		
 		
 		
-		hnh_war_plan_silver = {
-			name = hnh_war_plan_silver
-			picture = GFX_focus_attack_italy
-			allowed = { always = yes }
-			allowed_civil_war = { always = yes }
+		# hnh_war_plan_silver = {
+			# name = hnh_war_plan_silver
+			# picture = GFX_focus_attack_italy
+			# allowed = { always = yes }
+			# allowed_civil_war = { always = yes }
 			
 			
-			targeted_modifier = {
-				tag = ITA
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-		}
+			# targeted_modifier = {
+				# tag = ITA
+				# attack_bonus_against = 0.1
+				# defense_bonus_against = 0.1
+			# }
+		# }
 		
-		hnh_war_plan_black = {
-			name = hnh_war_plan_black
-			picture = GFX_focus_attack_germany
-			allowed = { always = yes }
-			allowed_civil_war = { always = yes }
+		# hnh_war_plan_black = {
+			# name = hnh_war_plan_black
+			# picture = GFX_focus_attack_germany
+			# allowed = { always = yes }
+			# allowed_civil_war = { always = yes }
 			
 			
-			targeted_modifier = {
-				tag = GER
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-		}
+			# targeted_modifier = {
+				# tag = GER
+				# attack_bonus_against = 0.1
+				# defense_bonus_against = 0.1
+			# }
+		# }
 		
-		hnh_war_plan_orange = {
-			name = hnh_war_plan_orange
-			picture = GFX_focus_attack_japan
-			allowed = { always = yes }
-			allowed_civil_war = { always = yes }
+		# hnh_war_plan_orange = {
+			# name = hnh_war_plan_orange
+			# picture = GFX_focus_attack_japan
+			# allowed = { always = yes }
+			# allowed_civil_war = { always = yes }
 			
 			
-			targeted_modifier = {
-				tag = JAP
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
-			}
-		}
+			# targeted_modifier = {
+				# tag = JAP
+				# attack_bonus_against = 0.1
+				# defense_bonus_against = 0.1
+			# }
+		# }
+		
+		
 		
 		hnh_the_blue_division = {
 			name = hnh_the_blue_division
-			picture = GFX_focus_attack_soviet
-			allowed = { always }
+			picture = generic_fascism_drift_bonus
+			allowed = { always = yes }
 			allowed_civil_war = { always = yes }
 			
-			targeted_modifier = {
+			modifier = {
 				send_volunteer_size = 19
 			}
-
 		}
 		
 		
