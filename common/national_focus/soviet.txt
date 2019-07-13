@@ -748,7 +748,8 @@ focus_tree = {
 			remove_ideas = trotskyite_plot
 			add_ideas = trotskyite_plot_purged
 			add_ideas = officers_purged
-			SOV_great_purge_level_down = yes
+			set_country_flag = { flag = hnh_great_purge_1 value = 1 days = 180 }
+			
 			
 			# custom_effect_tooltip = SOV_great_purge_tt
 			# custom_effect_tooltip = SOV_great_purge_tt2
@@ -1341,21 +1342,21 @@ focus_tree = {
 				bonus = 1.0
 				category = land_doctrine
 			}
-			if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
-			if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
-			if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }
-			if = { limit = { has_idea = officers_purged_4 } remove_ideas = officers_purged_4 }
-			if = { limit = { has_idea = officers_purged_5 } remove_ideas = officers_purged_5 }
-			if = { limit = { has_idea = officers_purged_6 } remove_ideas = officers_purged_6 }
-			if = { limit = { has_idea = officers_purged_7 } remove_ideas = officers_purged_7 }
-			if = { limit = { has_idea = officers_purged_8 } remove_ideas = officers_purged_8 }
-			if = { limit = { has_idea = officers_purged_9 } remove_ideas = officers_purged_9 }
-			if = { limit = { has_idea = officers_purged_10 } remove_ideas = officers_purged_10 }			
-			if = { limit = { has_idea = SOV_great_patriotic_war } remove_ideas = SOV_great_patriotic_war }
-			if = { limit = { has_idea = SOV_great_patriotic_war_2 } remove_ideas = SOV_great_patriotic_war_2 }
-			if = { limit = { has_idea = SOV_great_patriotic_war_3 } remove_ideas = SOV_great_patriotic_war_3 }
-			if = { limit = { has_idea = SOV_great_patriotic_war_4 } remove_ideas = SOV_great_patriotic_war_4 }
-			if = { limit = { has_idea = SOV_great_patriotic_war_5 } remove_ideas = SOV_great_patriotic_war_5 }			
+			# if = { limit = { has_idea = officers_purged } remove_ideas = officers_purged }
+			# if = { limit = { has_idea = officers_purged_2 } remove_ideas = officers_purged_2 }
+			# if = { limit = { has_idea = officers_purged_3 } remove_ideas = officers_purged_3 }
+			# if = { limit = { has_idea = officers_purged_4 } remove_ideas = officers_purged_4 }
+			# if = { limit = { has_idea = officers_purged_5 } remove_ideas = officers_purged_5 }
+			# if = { limit = { has_idea = officers_purged_6 } remove_ideas = officers_purged_6 }
+			# if = { limit = { has_idea = officers_purged_7 } remove_ideas = officers_purged_7 }
+			# if = { limit = { has_idea = officers_purged_8 } remove_ideas = officers_purged_8 }
+			# if = { limit = { has_idea = officers_purged_9 } remove_ideas = officers_purged_9 }
+			# if = { limit = { has_idea = officers_purged_10 } remove_ideas = officers_purged_10 }			
+			# if = { limit = { has_idea = SOV_great_patriotic_war } remove_ideas = SOV_great_patriotic_war }
+			# if = { limit = { has_idea = SOV_great_patriotic_war_2 } remove_ideas = SOV_great_patriotic_war_2 }
+			# if = { limit = { has_idea = SOV_great_patriotic_war_3 } remove_ideas = SOV_great_patriotic_war_3 }
+			# if = { limit = { has_idea = SOV_great_patriotic_war_4 } remove_ideas = SOV_great_patriotic_war_4 }
+			# if = { limit = { has_idea = SOV_great_patriotic_war_5 } remove_ideas = SOV_great_patriotic_war_5 }			
 		}
 	}
 	

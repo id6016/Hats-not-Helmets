@@ -489,7 +489,7 @@ country_event = {
 	option = {
 		name = soviet.1003.a
 		ai_chance = { factor = 100 }
-		set_global_flag = SOV_war_with_finland
+		set_global_flag = SOV_seize_eastern_poland
 		SOV = {
 			transfer_state = 96
 			transfer_state = 95
@@ -522,10 +522,8 @@ country_event = {
 	
 	trigger = {
 		original_tag = SOV
-		has_completed_focus = SOV_great_purge
-	}
-	mean_time_to_happen = {
-		days = 180
+		has_idea = officers_purged 
+		NOT = { has_country_flag = hnh_great_purge_1 }
 	}
 	
 	hidden = yes
@@ -534,6 +532,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_2 value = 1 days = 180 }
 		remove_ideas = officers_purged
 		add_ideas = officers_purged_2
 	}
@@ -549,9 +548,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_2
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_2 }
 	}
 	
 	hidden = yes
@@ -560,6 +557,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_3 value = 1 days = 180 }
 		remove_ideas = officers_purged_2
 		add_ideas = officers_purged_3
 	}
@@ -575,9 +573,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_3
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_3 }
 	}
 	
 	hidden = yes
@@ -586,6 +582,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_4 value = 1 days = 180 }
 		remove_ideas = officers_purged_3
 		add_ideas = officers_purged_4
 	}
@@ -601,9 +598,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_4
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_4 }
 	}
 	
 	hidden = yes
@@ -612,6 +607,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_5 value = 1 days = 180 }
 		remove_ideas = officers_purged_4
 		add_ideas = officers_purged_5
 	}
@@ -627,9 +623,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_5
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_5 }
 	}
 	
 	hidden = yes
@@ -638,6 +632,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_6 value = 1 days = 180 }
 		remove_ideas = officers_purged_5
 		add_ideas = officers_purged_6
 	}
@@ -653,9 +648,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_6
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_6 }
 	}
 	
 	hidden = yes
@@ -664,6 +657,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_7 value = 1 days = 180 }
 		remove_ideas = officers_purged_6
 		add_ideas = officers_purged_7
 	}
@@ -679,9 +673,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_7
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_7 }
 	}
 	
 	hidden = yes
@@ -690,6 +682,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_8 value = 1 days = 180 }
 		remove_ideas = officers_purged_7
 		add_ideas = officers_purged_8
 	}
@@ -705,9 +698,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_8
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_8 }
 	}
 	
 	hidden = yes
@@ -716,6 +707,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_9 value = 1 days = 180 }
 		remove_ideas = officers_purged_8
 		add_ideas = officers_purged_9
 	}
@@ -731,9 +723,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_9
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_9 }
 	}
 	
 	hidden = yes
@@ -742,6 +732,7 @@ country_event = {
 	
 	option = {
 		name = soviet.1004.a
+		set_country_flag = { flag = hnh_great_purge_10 value = 1 days = 180 }
 		remove_ideas = officers_purged_9
 		add_ideas = officers_purged_10
 	}
@@ -757,9 +748,7 @@ country_event = {
 	trigger = {
 		original_tag = SOV
 		has_idea = officers_purged_10
-	}
-	mean_time_to_happen = {
-		days = 180
+		NOT = { has_country_flag = hnh_great_purge_10 }
 	}
 	
 	hidden = yes

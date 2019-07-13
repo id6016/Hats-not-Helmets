@@ -1460,7 +1460,7 @@ sov_war_goals = {
 	
 		allowed = { original_tag = SOV }
 		available = { 
-			has_global_flag = SOV_war_with_finland
+			has_global_flag = SOV_seize_eastern_poland
 			has_government = communism
 			}
 		cost = 0
