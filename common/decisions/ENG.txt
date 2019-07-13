@@ -8989,14 +8989,14 @@ annex_canada = {
 		}
 		fire_only_once = yes
 		complete_effect = {
-			every_state = {
-				limit = {
-					is_core_of = FRA
-				}
-				ENG = {
-					add_state_core = PREV
-				}
-			}
+			# every_state = {
+				# limit = {
+					# is_core_of = FRA
+				# }
+				# ENG = {
+					# add_state_core = PREV
+				# }
+			# }
 			FRA = {
 			every_unit_leader = {
 				set_unit_leader_flag = flag_former_french_general
