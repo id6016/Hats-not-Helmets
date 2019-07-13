@@ -2828,102 +2828,102 @@ country_event = {
 
 
 # German Dutch-aided civil war
-country_event = {
-	id = mtg_netherlands.73
-	title = mtg_netherlands.73.t
-	desc = mtg_netherlands.73.d
-	picture = GFX_report_event_ger_civil_war
+# country_event = {
+	# id = mtg_netherlands.73
+	# title = mtg_netherlands.73.t
+	# desc = mtg_netherlands.73.d
+	# picture = GFX_report_event_ger_civil_war
 
-	is_triggered_only = yes
+	# is_triggered_only = yes
 
-	immediate = {
-		hidden_effect = {
-			random_country = {
-				limit = {
-					original_tag = GER
-					has_government = neutrality
-				}
-				save_global_event_target_as = HOL_kaiserreich_germany
-			}
-		}
-	}
+	# immediate = {
+		# hidden_effect = {
+			# random_country = {
+				# limit = {
+					# original_tag = GER
+					# has_government = neutrality
+				# }
+				# save_global_event_target_as = HOL_kaiserreich_germany
+			# }
+		# }
+	# }
 	
 	# Good
-	option = {
-		name = mtg_netherlands.73.a
-		GER = {
-			start_civil_war = {
-				ruling_party = fascism
-				ideology = neutrality
-				size = 0.05
-				states = all
-				states_filter = {
-					has_state_flag = HOL_german_states_kaiser
-				}
-			}
-		}
-		hidden_effect = { news_event = { id = mtg_news.58 } }
-		random_country = {
-			limit = {
-				original_tag = GER
-				has_government = neutrality
-			}
-			hidden_effect = {
-				set_cosmetic_tag = GER_german_empire
-				every_unit_leader = {
-					limit = {
-						OR = {
-							has_id = 10
-							has_id = 15
-							has_id = 20
-							has_id = 24
-						}
-					}
-					set_nationality = GER
-				}
-			}
-			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
-			ROOT = {
-				puppet = PREV
-				add_to_war = { 
-				    targeted_alliance = PREV 
-				    enemy = GER
-				    hostility_reason = asked_to_join
-				}
-			}
-			if = {
-				limit = {
-					HOL = { NOT = { has_country_flag = HOL_wilhelm_ii_died } }
-				}
-				create_country_leader = {
-					name = "Wilhelm II"
-					desc = "POLITICS_WILHELM_II_DESC"
-					picture = GFX_portrait_ger_wilhelm_ii
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						anti_democrat imperial_connections
-					}
-				}
-			}
-			if = {
-				limit = {
-					HOL = { has_country_flag = HOL_wilhelm_ii_died }
-				}
-				create_country_leader = {
-					name = "Wilhelm III"
-					desc = "POLITICS_WILHELM_III_DESC"
-					picture = GFX_portrait_ger_wilhelm_iii
-					expire = "1965.1.1"
-					ideology = despotism
-					traits = {
-						popular_figurehead2
-					}
-				}
-			}
-		}
-	}
-}
+	# option = {
+		# name = mtg_netherlands.73.a
+		# GER = {
+			# start_civil_war = {
+				# ruling_party = fascism
+				# ideology = neutrality
+				# size = 0.05
+				# states = all
+				# states_filter = {
+					# has_state_flag = HOL_german_states_kaiser
+				# }
+			# }
+		# }
+		# hidden_effect = { news_event = { id = mtg_news.58 } }
+		# random_country = {
+			# limit = {
+				# original_tag = GER
+				# has_government = neutrality
+			# }
+			# hidden_effect = {
+				# set_cosmetic_tag = GER_german_empire
+				# every_unit_leader = {
+					# limit = {
+						# OR = {
+							# has_id = 10
+							# has_id = 15
+							# has_id = 20
+							# has_id = 24
+						# }
+					# }
+					# set_nationality = GER
+				# }
+			# }
+			# set_party_name = { ideology = neutrality long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
+			# ROOT = {
+				# puppet = PREV
+				# add_to_war = { 
+				    # targeted_alliance = PREV 
+				    # enemy = GER
+				    # hostility_reason = asked_to_join
+				# }
+			# }
+			# if = {
+				# limit = {
+					# HOL = { NOT = { has_country_flag = HOL_wilhelm_ii_died } }
+				# }
+				# create_country_leader = {
+					# name = "Wilhelm II"
+					# desc = "POLITICS_WILHELM_II_DESC"
+					# picture = GFX_portrait_ger_wilhelm_ii
+					# expire = "1965.1.1"
+					# ideology = despotism
+					# traits = {
+						# anti_democrat imperial_connections
+					# }
+				# }
+			# }
+			# if = {
+				# limit = {
+					# HOL = { has_country_flag = HOL_wilhelm_ii_died }
+				# }
+				# create_country_leader = {
+					# name = "Wilhelm III"
+					# desc = "POLITICS_WILHELM_III_DESC"
+					# picture = GFX_portrait_ger_wilhelm_iii
+					# expire = "1965.1.1"
+					# ideology = despotism
+					# traits = {
+						# popular_figurehead2
+					# }
+				# }
+			# }
+		# }
+	# }
+# }
 
 # Imperial GER suggesting they become allies when the war has ended and HOL is no longer in a faction
 
