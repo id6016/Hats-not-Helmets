@@ -318,6 +318,18 @@ ideas = {
 			}
 		}
 		
+		hnh_the_blue_division = {
+			name = hnh_the_blue_division
+			picture = GFX_focus_attack_soviet
+			allowed = { always }
+			allowed_civil_war = { always = yes }
+			
+			targeted_modifier = {
+				send_volunteer_size = 19
+			}
+
+		}
+		
 		
 		
 	}

@@ -77,7 +77,7 @@ set_technology = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
-<<<<<<< HEAD
+
 		# early_submarine = 1
 		# early_destroyer = 1
 		# basic_destroyer = 1
@@ -86,22 +86,22 @@ if = {
 		# basic_heavy_cruiser = 1
 		# early_battleship = 1
 		# transport = 1
-=======
-		early_submarine = 0
-		early_destroyer = 0
-		basic_destroyer = 0
-		early_light_cruiser = 0
-		early_heavy_cruiser = 0
-		basic_heavy_cruiser = 0
-		early_battleship = 0
+
+		# early_submarine = 0
+		# early_destroyer = 0
+		# basic_destroyer = 0
+		# early_light_cruiser = 0
+		# early_heavy_cruiser = 0
+		# basic_heavy_cruiser = 0
+		# early_battleship = 0
 		transport = 1
->>>>>>> 4840ed2754e812cd7f81b344b0d50104f2c984e3
+
 	}
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-<<<<<<< HEAD
+
 		# basic_naval_mines = 1
 		# submarine_mine_laying = 1
 		# early_ship_hull_light = 1
@@ -117,23 +117,23 @@ if = {
 		# basic_torpedo = 1
 		# basic_depth_charges = 1
 		# mtg_transport = 1
-=======
-		basic_naval_mines = 0
-		submarine_mine_laying = 0
-		early_ship_hull_light = 0
-		basic_ship_hull_light = 0
-		early_ship_hull_submarine = 0
-		basic_ship_hull_submarine = 0
-		early_ship_hull_cruiser = 0
-		basic_ship_hull_cruiser = 0
-		early_ship_hull_heavy = 0
-		basic_battery = 0
-		basic_medium_battery = 0
-		basic_secondary_battery = 0
-		basic_torpedo = 0
-		basic_depth_charges = 0
-		mtg_transport = 1
->>>>>>> 4840ed2754e812cd7f81b344b0d50104f2c984e3
+
+		# basic_naval_mines = 0
+		# submarine_mine_laying = 0
+		# early_ship_hull_light = 0
+		# basic_ship_hull_light = 0
+		# early_ship_hull_submarine = 0
+		# basic_ship_hull_submarine = 0
+		# early_ship_hull_cruiser = 0
+		# basic_ship_hull_cruiser = 0
+		# early_ship_hull_heavy = 0
+		# basic_battery = 0
+		# basic_medium_battery = 0
+		# basic_secondary_battery = 0
+		# basic_torpedo = 0
+		# basic_depth_charges = 0
+		# mtg_transport = 1
+
 	}
 }
 
@@ -151,7 +151,10 @@ set_popularities = {
 	democratic = 47
 }
 
-add_ideas = { hnh_incompetent_spanish_ship_building }
+add_ideas = { 
+	hnh_incompetent_spanish_ship_building 
+	hnh_the_blue_division
+}
 
 set_convoys = 150
 set_stability = 0.5
