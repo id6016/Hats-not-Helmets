@@ -436,7 +436,7 @@ air_wings = {
 
 instant_effect = {
 
-		add_equipment_production = {
+	add_equipment_production = {
 		equipment = {
 			type = fighter_equipment_1
 			creator = "GER" 
@@ -515,15 +515,15 @@ instant_effect = {
 		progress = 0.1
 		efficiency = 50
 	}
-	add_equipment_production = {
-		equipment = {
-			type = CAS_equipment_1
-			creator = "GER" 
-		}
-		requested_factories = 1
-		progress = 0.0
-		efficiency = 50
-	}
+	# add_equipment_production = {
+		# equipment = {
+			# type = CAS_equipment_1
+			# creator = "GER" 
+		# }
+		# requested_factories = 1
+		# progress = 0.0
+		# efficiency = 50
+	# }
 	
 	#add_equipment_production = {
 	#	equipment = {
