@@ -839,7 +839,7 @@ create_navy_leader = {
 	defense_skill = 1
 	maneuvering_skill = 1
 	coordination_skill = 4
-
+}
 
 if = {
 	limit = {
@@ -1090,9 +1090,9 @@ if = {
 		}
 		obsolete = yes
 	}
-}
 
-create_equipment_variant = {
+
+	create_equipment_variant = {
 	name = "Ju 86"
 	type = tac_bomber_equipment_0
 	upgrades = {
@@ -1104,7 +1104,7 @@ create_equipment_variant = {
 	obsolete = yes
 }
 
-create_equipment_variant = {
+	create_equipment_variant = {
 	name = "Do 17"
 	type = tac_bomber_equipment_0
 	upgrades = {
@@ -1114,7 +1114,8 @@ create_equipment_variant = {
 		plane_reliability_upgrade = 5
 	}
 	obsolete = yes
-}
+	}
+	
 	create_equipment_variant = {
 		name = "Bf 109e"
 		type = fighter_equipment_1
@@ -1125,7 +1126,7 @@ create_equipment_variant = {
 			plane_reliability_upgrade = 1
 		}
 	}
-
+}
 
 ## 1939 Start ##
 1939.1.1 = {
@@ -1222,16 +1223,7 @@ create_equipment_variant = {
 			plane_reliability_upgrade = 2
 		}
 	}
-	create_equipment_variant = {
-		name = "Bf 109 E"
-		type = fighter_equipment_1
-		upgrades = {
-			plane_gun_upgrade = 2
-			plane_range_upgrade = 1  
-			plane_engine_upgrade = 2
-			plane_reliability_upgrade = 4
-		}
-	}
+
 	# Heavy Cruisers #
 	#create_equipment_variant = {
 	#	name = "Deutschland Class"
