@@ -8784,6 +8784,10 @@ focus = {
 		y = 1
 		relative_position_id = GER_war_with_france
 		available = {
+			VIC = { controls_state = 553 }
+			VIC = { controls_state = 554 }
+			VIC = { controls_state = 680 }
+			VIC = { controls_state = 677 }
 			452 = { CONTROLLER = { is_in_faction_with = GER } }
 			447 = { CONTROLLER = { is_in_faction_with = GER } }
 			446 = { CONTROLLER = { is_in_faction_with = GER } }
