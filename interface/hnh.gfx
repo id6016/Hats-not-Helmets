@@ -370,6 +370,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/focus/focus_hnh_fra_torch.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_focus_hnh_rhineland"
+		texturefile = "gfx/interface/focus/focus_hnh_rhineland.tga"
+	}
+	
 	#Ideas
 	
 	spriteType = {
