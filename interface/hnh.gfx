@@ -372,6 +372,11 @@ spriteTypes = {
 	
 	#Ideas
 	
+	spriteType = {
+		name = "GFX_bluedivision"
+		texturefile = "gfx/interface/ideas/BlueDivision.dds"
+	}
+	
 
 
 	#Leaders	
