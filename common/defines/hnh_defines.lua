@@ -35,6 +35,8 @@ NDefines.NMilitary.MAX_AIR_EXPERIENCE = 999				--Max air experience a country ca
 NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.2                 -- small river crossing
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.2 
           -- large river crossing 
+		  
+NDefines.NMilitary.NAVAL_EQUIPMENT_RAMP_COST = 0
 NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10 --Docks per line
 
 NDefines.NAir.AIR_NAVAL_KAMIKAZE_DAMAGE_MULT = 3.0				-- Balancing value to increase usual damage to Strength for Kamikaze

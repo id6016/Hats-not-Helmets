@@ -1041,7 +1041,7 @@ country_event = {
 #Japan
 
 country_event = {
-	#Reminder to send atache
+	#So AI Japan always wins
 	id = japan.100
 	title = japan.100.t
 	desc = japan.100.d
@@ -1064,6 +1064,94 @@ country_event = {
 		}
 	}
 }
+
+#Brazil
+
+country_event = {
+	#Ricardo Milos
+	id = japan.101
+	title = japan.101.t
+	desc = japan.101.d
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = {
+		#Democracy
+		name = japan.101.a
+		ai_chance = { factor = 25 }
+		BRA = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+			set_popularities = {
+				democratic = 100
+			}
+			create_country_leader = {	
+				name = "Ricardo Milos"
+				picture = "gfx/leaders/BRA/RicardoD.dds"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {}
+			}
+		}
+	}
+	
+	option = {
+		#Communism
+		name = japan.101.b
+		ai_chance = { factor = 25 }
+		BRA = {
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 100
+			}
+			create_country_leader = {	
+				name = "Ricardo Milos"
+				picture = "gfx/leaders/BRA/RicardoC.dds"
+				expire = "1965.1.1"
+				ideology = marxism
+				traits = {}
+			}
+		}
+	}
+	
+	option = {
+		#Fascism
+		name = japan.101.c
+		ai_chance = { factor = 25 }
+	}
+	
+	option = {
+		#Non-Aligned
+		name = japan.101.e
+		ai_chance = { factor = 25 }
+		BRA = {
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			set_popularities = {
+				neutrality = 100
+			}
+			create_country_leader = {	
+				name = "Ricardo Milos"
+				picture = "gfx/leaders/BRA/RicardoN.dds"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {}
+			}
+		}
+	}
+
+}
+
+
 
 
 

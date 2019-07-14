@@ -47,6 +47,8 @@
  
  
  #Focuses
+ BRA_the_future_of_the_empire:0 "The Future of our Empire?"
+ BRA_the_future_of_the_empire_desc:0 "The Future of our Empire?"
  USA_operation_torch:0 "Operation Torch"
  USA_operation_torch_desc:0 "Vichy France must know that we do not accept their fake neutrality."
  
@@ -587,6 +589,14 @@
  spain.100.t:0 "End of the Civil War?"
  spain.100.d:0 "The war has gone on too long. The Republicans can no longer keep their men in line. They wish to discuss surrender."
  spain.100.a:0 "Complete victory over the commies will be the only acceptable option."
+ 
+ japan.101.t:0 "The future of our empire?"
+ japan.101.d:0 "What shall we do?"
+ japan.101.a:0 "Democracy"
+ japan.101.b:0 "Communism"
+ japan.101.c:0 "Fascism"
+ 
+ japan.101.e:0 "Monarchism"
  #World Tension
  SPR_civil_war_threat:0 "Spanish Civil War"
  SPR_civil_war:0 "End of the Spanish Civil War"

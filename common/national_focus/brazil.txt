@@ -10,6 +10,31 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = BRA_the_future_of_the_empire
+		icon = GFX_focus_hun_elect_a_king
+		x = 0
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+
+		completion_reward = {
+			BRA = { country_event = japan.101 }
+		}
+	}
+	
 	default = no
 
 	continuous_focus_position = { x = 50 y = 1100 }

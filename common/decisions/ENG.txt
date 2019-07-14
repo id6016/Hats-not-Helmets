@@ -8821,7 +8821,7 @@ uk_annexation = {
 annex_canada = {
 		icon = GFX_dec_hnh_can_modern
 		ai_will_do = { factor = 0 }
-		cost = 50	
+		cost = 0	
 		visible = {
 			tag = ENG
 			CAN = { is_ai = yes }
@@ -8872,7 +8872,7 @@ annex_canada = {
 	annex_british_raj = {
 		icon = GFX_dec_hnh_raj_historic
 		ai_will_do = { factor = 0 }
-		cost = 50
+		cost = 0
 		visible = {
 			tag = ENG
 			RAJ = { is_ai = yes }
@@ -8904,7 +8904,7 @@ annex_canada = {
 	annex_south_africa = {
 		icon = GFX_dec_hnh_saf
 		ai_will_do = { factor = 0 }
-		cost = 30
+		cost = 0
 		visible = {
 			tag = ENG
 			SAF = { is_ai = yes }
@@ -8927,7 +8927,7 @@ annex_canada = {
 	annex_australia = {
 		icon = GFX_dec_hnh_ast
 		ai_will_do = { factor = 0 }
-		cost = 30
+		cost = 0
 		visible = {
 			tag = ENG
 			AST = { is_ai = yes }
@@ -8957,7 +8957,7 @@ annex_canada = {
 	annex_new_zealand_uk = {
 		icon = GFX_dec_hnh_nzl
 		ai_will_do = { factor = 0 }
-		cost = 20
+		cost = 0
 		visible = {
 			tag = ENG
 			NZL = { is_ai = yes }
@@ -8979,7 +8979,7 @@ annex_canada = {
 	ENG_form_the_franco_british_union = {
 		icon = GFX_dec_hnh_fra_free
 		ai_will_do = { factor = 0 }
-		cost = 20
+		cost = 0
 		available = { FRA = { has_capitulated = yes } }
 		visible = { 
 			tag = ENG
@@ -9006,7 +9006,7 @@ annex_canada = {
 			ENG = { annex_country = { target = FRA transfer_troops = yes } }
 			set_cosmetic_tag = HNH_franco_british_union
 			
-			custom_effect_tooltip = FRA_franco_british_cores
+			# custom_effect_tooltip = FRA_franco_british_cores
 			country_event = { hours = 6 id = news.35 }
 		}
 		
