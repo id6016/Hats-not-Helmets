@@ -58,17 +58,17 @@ set_convoys = 20
 }
 
 set_politics = {
-    ruling_party = democratic
+    ruling_party = communism
     last_election = "1936.1.10"
     election_frequency = 48
-    elections_allowed = yes
+    elections_allowed = no
 }
 
 set_popularities = {
     fascism = 0
-    communism = 0
+    communism = 100
     neutrality = 0
-	democratic = 100
+	democratic = 0
 }
 
 create_country_leader = {
@@ -77,6 +77,17 @@ create_country_leader = {
 	picture = "GFX_portrait_cuba_jose_barnet"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Alizzaar"
+	desc = "Alizzaar"
+	picture = "gfx/leaders/CUB/alizzaar.tga"
+	expire = "1965.1.1"
+	ideology = marxism
 	traits = {
 		#
 	}
