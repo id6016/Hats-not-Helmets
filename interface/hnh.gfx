@@ -373,8 +373,8 @@ spriteTypes = {
 	#Ideas
 	
 	spriteType = {
-		name = "GFX_bluedivision"
-		texturefile = "gfx/interface/ideas/BlueDivision.dds"
+		name = "GFX_idea_bluedivision"
+		texturefile = "gfx/interface/ideas/BlueDivision.tga"
 	}
 	
 

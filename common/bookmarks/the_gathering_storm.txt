@@ -280,38 +280,39 @@ bookmarks = {
 			# }
 		# }
 		
-		# "SPR" = {
-			# minor = yes
-			# history = "SPR_GATHERING_STORM_DESC"
-			# ideology = democratic
-			# ideas = {
-				
-			# }
-			# focuses = {
-			# SPR_Civ_Econ
-			# SPR_Mech
-			# SPR_Domestic_Tanks
-				
-			# }
-		# }
-	
-		"MAN"={
+		"SPR" = {
 			minor = yes
-			history = "MAN_GATHERING_STORM_DESC"
-			ideology = fascism
+			history = "SPR_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
-				MAN_banditry
-				MAN_kwantung_veto
-				MAN_low_legitimacy_5
+				hnh_the_blue_division
+				hnh_incompetent_spanish_ship_building
 			}
 			focuses = {
-				MAN_obedience
-				# MAN_independence_war
-				# MAN_claim_the_mandate_of_heaven
-				JAP_light_industry_development
-				JAP_japanese_settlement
+				SPR_Civ_Econ
+				SPR_Mech
+				SPR_Domestic_Tanks
+				
 			}
 		}
+	
+		# "MAN"={
+			# minor = yes
+			# history = "MAN_GATHERING_STORM_DESC"
+			# ideology = fascism
+			# ideas = {
+				# MAN_banditry
+				# MAN_kwantung_veto
+				# MAN_low_legitimacy_5
+			# }
+			# focuses = {
+				# MAN_obedience
+				# MAN_independence_war
+				# MAN_claim_the_mandate_of_heaven
+				# JAP_light_industry_development
+				# JAP_japanese_settlement
+			# }
+		# }
 		
 
 		effect = {

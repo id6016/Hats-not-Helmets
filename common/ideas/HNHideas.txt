@@ -322,7 +322,7 @@ ideas = {
 		
 		hnh_the_blue_division = {
 			name = hnh_the_blue_division
-			picture = generic_fascism_drift_bonus
+			picture = bluedivision
 			allowed = { always = yes }
 			allowed_civil_war = { always = yes }
 			
