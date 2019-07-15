@@ -108,8 +108,8 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
+		# basic_naval_mines = 1
+		# submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1
@@ -302,7 +302,7 @@ if = {
 		limit = { has_dlc = "Man the Guns" }
 		set_technology = {
 			improved_ship_hull_light = 1
-			improved_ship_hull_submarine = 1
+			# improved_ship_hull_submarine = 1
 			basic_ship_hull_cruiser = 1
 		}
 	}
@@ -338,7 +338,7 @@ add_ideas = {
 	#Free Trade
 	closed_economy
 	hnh_communist_volunteers
-	hnh_fuel_for_all
+	# hnh_fuel_for_all
 }
 
 create_country_leader = {

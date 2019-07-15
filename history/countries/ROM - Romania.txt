@@ -39,8 +39,8 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
+		# basic_naval_mines = 1
+		# submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		early_ship_hull_submarine = 1
 		basic_ship_hull_submarine = 1
@@ -57,7 +57,7 @@ if = {
 	}
 	add_ideas = {
 		ROM_king_carol_ii_hedonist
-		hnh_fuel_for_all
+		# hnh_fuel_for_all
 	}
 	give_guarantee = CZE
 	give_guarantee = GRE

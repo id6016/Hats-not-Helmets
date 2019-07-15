@@ -17,7 +17,7 @@ add_ideas = {
 	JAP_zaibatsus
 	JAP_duplicate_research_efforts
 	JAP_militarism
-	hnh_fuel_for_all
+	# hnh_fuel_for_all
 }
 
 if = {
@@ -117,8 +117,8 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
+		# basic_naval_mines = 1
+		# submarine_mine_laying = 1
 		basic_torpedo = 1
 		basic_battery = 1
 		basic_light_battery = 1
@@ -277,7 +277,7 @@ create_import = {
 			has_dlc = "Man the Guns"
 		}
 		set_technology = {
-			improved_ship_hull_submarine = 1
+			# improved_ship_hull_submarine = 1
 			basic_ship_hull_light = 1
 			improved_ship_hull_light = 1
 			improved_ship_hull_cruiser = 1

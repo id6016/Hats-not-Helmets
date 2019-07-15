@@ -77,8 +77,8 @@ if = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
+		# basic_naval_mines = 1
+		# submarine_mine_laying = 1
 		early_ship_hull_light = 1
 		basic_ship_hull_light = 1
 		early_ship_hull_submarine = 1
@@ -289,7 +289,7 @@ add_ideas = {
 	disarmed_nation
 	free_trade
 	home_of_the_free
-	hnh_fuel_for_all
+	# hnh_fuel_for_all
 }
 
 
