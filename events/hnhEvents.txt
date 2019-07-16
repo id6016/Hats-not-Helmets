@@ -796,6 +796,38 @@ country_event = {
 			transfer_state = 1
 			#Set the Capital
 			set_capital = 26
+			
+			add_ideas = hnh_vichy_neutrality
+		}
+		FRA = {
+			create_country_leader = {	
+				name = "Charles De Gaulle"
+				picture = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {}
+			}
+		}
+		GER = { country_event = { id = germany.2001 } }
+	}
+}
+
+country_event = {
+	#Give cores on Southern France
+	id = germany.2001
+	title = germany.2000.t
+	desc = germany.2000.d
+	picture = GFX_event_bulgarian_soldiers
+	fire_only_once = yes	
+	hidden = yes
+	mean_time_to_happen = {
+        days = 3
+    }
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.2000.a
+		VIC = {
 			# Cores on Southern France
 			add_state_core = 31
 			add_state_core = 25
@@ -806,6 +838,27 @@ country_event = {
 			add_state_core = 735
 			add_state_core = 32
 			add_state_core = 1
+		}
+		GER = { country_event = { id = germany.2002 } }
+	}
+}
+
+country_event = {
+	#Give North Africa
+	id = germany.2002
+	title = germany.2000.t
+	desc = germany.2000.d
+	picture = GFX_event_bulgarian_soldiers
+	fire_only_once = yes	
+	hidden = yes
+	mean_time_to_happen = {
+        days = 3
+    }
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.2000.a
+		VIC = {
 			# North Africa
 			transfer_state = 665
 			transfer_state = 458
@@ -819,6 +872,27 @@ country_event = {
 			transfer_state = 515
 			transfer_state = 775
 			transfer_state = 786
+		}
+		GER = { country_event = { id = germany.2003 } }
+	}
+}
+
+country_event = {
+	#Give West Africa and the Indian Ocean
+	id = germany.2003
+	title = germany.2000.t
+	desc = germany.2000.d
+	picture = GFX_event_bulgarian_soldiers
+	fire_only_once = yes	
+	hidden = yes
+	mean_time_to_happen = {
+        days = 3
+    }
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.2000.a
+		VIC = {
 			# West Africa and Indian Ocean
 			transfer_state = 543
 			transfer_state = 706
@@ -827,6 +901,27 @@ country_event = {
 			transfer_state = 556
 			transfer_state = 557
 			transfer_state = 272
+		}
+		GER = { country_event = { id = germany.2004 } }
+	}
+}
+
+country_event = {
+	#Give Middle East and Indochina
+	id = germany.2004
+	title = germany.2000.t
+	desc = germany.2000.d
+	picture = GFX_event_bulgarian_soldiers
+	fire_only_once = yes	
+	hidden = yes
+	mean_time_to_happen = {
+        days = 3
+    }
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.2000.a
+		VIC = {
 			# Syria and Lebanon
 			transfer_state = 553 
 			transfer_state = 554 
@@ -836,18 +931,7 @@ country_event = {
 			transfer_state = 741
 			transfer_state = 286
 			transfer_state = 670
-			transfer_state = 671
-			
-			add_ideas = hnh_vichy_neutrality
-		}
-		FRA = {
-			create_country_leader = {	
-				name = "Charles De Gaulle"
-				picture = "gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
-				expire = "1965.1.1"
-				ideology = conservatism
-				traits = {}
-			}
+			transfer_state = 671	
 		}
 	}
 }
