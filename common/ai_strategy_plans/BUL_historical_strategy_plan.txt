@@ -31,7 +31,8 @@ BUL_historical = {
 		# BUL_naval_warfare
 		# BUL_thrace_dockyard_construction
 		# BUL_modernize_navy
-		BUL_submit_to_horthy
+		# BUL_submit_to_horthy
+		BUL_submit_to_the_fuhur
 	}
 
 	research = {

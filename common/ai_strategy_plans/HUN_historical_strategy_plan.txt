@@ -33,14 +33,14 @@ HUN_historical = {
 		HUN_announce_the_gyor_program
 		HUN_civilian_industry
 		HUN_expand_the_manfred_weiss_steel_works
-		HUN_expands_the_aluminum_industry
+		HUN_expand_the_aluminum_industry
 		HUN_domestic_arms_industry
 		HUN_boost_domestic_arms_industry
 		HUN_economic_intervention
-		HUN_strengthen_facists
+		HUN_strengthen_fascists
 		HUN_renounce_the_treaty_of_trianon
 		HUN_trade_deal_with_germany
-		HUN_join_aluminum_mining_company
+		HUN_joint_aluminum_mining_company
 		HUN_join_axis
 		HUN_submit_to_king_michael
 	}
