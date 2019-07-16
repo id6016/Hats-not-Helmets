@@ -248,6 +248,7 @@ usa_annexation = {
 			type = annex_everything
 				}
 			}
+			GER = { add_to_faction = VIC }
 		}
 	}
 }
