@@ -341,30 +341,7 @@ ideas = {
 		
 		designer = yes
 		
-		HNH_light_tanks = {
-
-			picture = generic_tank_manufacturer_2
-			
-			allowed = {
-				OR = {
-					original_tag = ENG
-					original_tag = CAN
-					original_tag = SAF
-					original_tag = AST
-					original_tag = RAJ
-					original_tag = NZL
-				}
-			}
-
-			research_bonus = {
-				armor = 0.10
-			}
-			
-			traits = { light_tank_manufacturer }
-	
-		}
-		
-		HNH_medium_tanks = {
+		HNH_commonwealth_medium_tanks = {
 
 			picture = generic_tank_manufacturer_2
 			
@@ -387,7 +364,7 @@ ideas = {
 	
 		}
 		
-		HNH_heavy_tanks = {
+		HNH_commonwealth_heavy_tanks = {
 
 			picture = generic_tank_manufacturer_2
 			
@@ -409,7 +386,7 @@ ideas = {
 	
 		}
 		
-		HNH_mobile_tanks = {
+		HNH_commonwealth_mobile_tanks = {
 
 			picture = generic_tank_manufacturer_1
 			
