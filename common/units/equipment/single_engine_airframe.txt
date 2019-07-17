@@ -34,8 +34,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 		
-		# build_cost_ic = 22
-		build_cost_ic = 44
+		build_cost_ic = 22
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -82,8 +81,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 8
 		
-		# build_cost_ic = 22
-		build_cost_ic = 44
+		build_cost_ic = 22
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -128,8 +126,7 @@ equipments = {
 		naval_strike_attack = 3
 		naval_strike_targetting = 10
 		
-		# build_cost_ic = 22
-		build_cost_ic = 44
+		build_cost_ic = 22
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -175,8 +172,7 @@ equipments = {
 		naval_strike_attack = 4
 		naval_strike_targetting = 10
 		
-		# build_cost_ic = 22
-		build_cost_ic = 44
+		build_cost_ic = 22
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -218,8 +214,7 @@ equipments = {
 		naval_strike_attack = 15
 		naval_strike_targetting = 7.5
 		
-		# build_cost_ic = 26
-		build_cost_ic = 52
+		build_cost_ic = 26
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -263,8 +258,7 @@ equipments = {
 		naval_strike_attack = 15
 		naval_strike_targetting = 7.5
 		
-		# build_cost_ic = 26
-		52
+		build_cost_ic = 26
 		resources = {
 			#oil = 1
 			aluminium = 2
@@ -306,8 +300,7 @@ equipments = {
 		naval_strike_attack = 5
 		naval_strike_targetting = 10
 		
-		# build_cost_ic = 30
-		build_cost_ic = 60
+		build_cost_ic = 30
 		resources = {
 			aluminium = 2
 			tungsten = 3
@@ -352,8 +345,7 @@ equipments = {
 		air_defence = 10
 		
 				
-		# build_cost_ic = 36
-		build_cost_ic = 72
+		build_cost_ic = 36
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -379,8 +371,7 @@ equipments = {
 		air_defence = 12		
 
 				
-		# build_cost_ic = 39
-		build_cost_ic = 78
+		build_cost_ic = 39
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -406,8 +397,7 @@ equipments = {
 		air_defence = 14	
 		
 				
-		# build_cost_ic = 42
-		build_cost_ic = 84
+		build_cost_ic = 42
 		resources = {
 			#oil = 2
 			aluminium = 4
@@ -448,8 +438,7 @@ equipments = {
 		air_attack = 40
 		air_defence = 18
 
-		# build_cost_ic = 32
-		build_cost_ic = 64
+		build_cost_ic = 32
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -471,8 +460,8 @@ equipments = {
 		air_attack = 9
 		air_defence = 8
 		
-		# build_cost_ic =	26.4 # cv_version costs 20% more of base archetype
-		build_cost_ic = 52.8
+		build_cost_ic =	26.4 # cv_version costs 20% more of base archetype
+
 		naval_strike_attack = 2
 		naval_strike_targetting = 10
 	}
@@ -491,8 +480,7 @@ equipments = {
 		air_attack = 18
 		air_defence = 11
 		
-		# build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
-		build_cost_ic = 56.8
+		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -517,8 +505,7 @@ equipments = {
 		air_attack = 27
 		air_defence = 13
 
-		# build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
-		build_cost_ic = 60.8
+		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
 			aluminium = 2
@@ -542,8 +529,7 @@ equipments = {
 		air_attack = 32
 		air_defence = 15
 		
-		# build_cost_ic = 32.4 # cv_version costs 20% more of base archetype
-		build_cost_ic = 64.8
+		build_cost_ic = 32.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -587,8 +573,7 @@ equipments = {
 		air_defence = 16
 		air_ground_attack = 17
 		
-		# build_cost_ic = 24
-		build_cost_ic = 48
+		build_cost_ic = 24
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -614,8 +599,7 @@ equipments = {
 		air_defence = 20
 		air_ground_attack = 20
 		
-		# build_cost_ic = 26
-		build_cost_ic = 52
+		build_cost_ic = 26
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -641,8 +625,8 @@ equipments = {
 		air_defence = 14
 		air_ground_attack = 12
 		
-		# build_cost_ic = 26.4 # cv_version costs 20% more of base archetype
-		build_cost_ic = 52.8
+		build_cost_ic = 26.4 # cv_version costs 20% more of base archetype
+
 		naval_strike_attack = 4
 		naval_strike_targetting = 10
 	}
@@ -662,8 +646,7 @@ equipments = {
 		air_defence = 16
 		air_ground_attack = 15
 		
-		# build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
-		build_cost_ic = 56.8
+		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -689,8 +672,7 @@ equipments = {
 		air_defence = 20
 		air_ground_attack = 20
 		
-		# build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
-		build_cost_ic = 60.8
+		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -731,8 +713,7 @@ equipments = {
 		naval_strike_attack = 20
 		naval_strike_targetting = 10
 		
-		# build_cost_ic = 28
-		build_cost_ic = 56
+		build_cost_ic = 28
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -756,8 +737,7 @@ equipments = {
 		naval_strike_attack = 25
 		naval_strike_targetting = 12.5
 	
-		# build_cost_ic = 30
-		build_cost_ic = 60
+		build_cost_ic = 30
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -779,8 +759,7 @@ equipments = {
 		air_attack = 6
 		air_defence = 13
 		
-		# build_cost_ic = 31.2 # cv_version costs 20% more of base archetype
-		build_cost_ic = 62.4
+		build_cost_ic = 31.2 # cv_version costs 20% more of base archetype
 	}
 	# Improved Carrier nav_bomber
 	cv_nav_bomber_equipment_2 = {
@@ -798,8 +777,7 @@ equipments = {
 		air_defence = 15
 		naval_strike_attack = 20
 		naval_strike_targetting = 10
-		# build_cost_ic = 33.2 # cv_version costs 20% more of base archetype
-		build_cost_ic = 66.4
+		build_cost_ic = 33.2 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 1
 			aluminium = 3
@@ -822,8 +800,7 @@ equipments = {
 		air_defence = 17
 		naval_strike_attack = 25
 		naval_strike_targetting = 12.5
-		# build_cost_ic = 35.2 # cv_version costs 20% more of base archetype
-		build_cost_ic = 70.4
+		build_cost_ic = 35.2 # cv_version costs 20% more of base archetype
 		resources = {
 			#oil = 2
 			aluminium = 3
@@ -855,8 +832,7 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		# build_cost_ic = 14
-		build_cost_ic = 28
+		build_cost_ic = 14
 		resources = {
 			aluminium = 2
 			tungsten = 2
@@ -883,8 +859,7 @@ equipments = {
 		air_defence = 5		
 		reliability = 0.3
 		
-		# build_cost_ic = 16
-		build_cost_ic = 32
+		build_cost_ic = 16
 		resources = {
 			aluminium = 3
 			tungsten = 2
@@ -906,8 +881,7 @@ equipments = {
 		air_attack = 56
 		air_defence = 7	
 		reliability = 0.5
-		# build_cost_ic = 18
-		build_cost_ic = 36
+		build_cost_ic = 18
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -929,8 +903,7 @@ equipments = {
 		air_attack = 60
 		air_defence = 10	
 		reliability = 0.8
-		# build_cost_ic = 20
-		build_cost_ic = 40
+		build_cost_ic = 20
 		resources = {
 			aluminium = 3
 			tungsten = 3
@@ -959,8 +932,7 @@ equipments = {
 		upgrades = {
 		}
 
-		# build_cost_ic = 14
-		build_cost_ic = 28
+		build_cost_ic = 14
 		resources = {
 			aluminium = 2
 			tungsten = 2
