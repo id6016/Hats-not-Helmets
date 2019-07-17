@@ -337,4 +337,101 @@ ideas = {
 		
 	}
 	
+	tank_manufacturer = {
+		
+		designer = yes
+		
+		HNH_light_tanks = {
+
+			picture = generic_tank_manufacturer_2
+			
+			allowed = {
+				OR = {
+					original_tag = ENG
+					original_tag = CAN
+					original_tag = SAF
+					original_tag = AST
+					original_tag = RAJ
+					original_tag = NZL
+				}
+			}
+
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { light_tank_manufacturer }
+	
+		}
+		
+		HNH_medium_tanks = {
+
+			picture = generic_tank_manufacturer_2
+			
+			allowed = {
+				OR = {
+					# original_tag = ENG
+					# original_tag = CAN
+					# original_tag = SAF
+					original_tag = AST
+					original_tag = RAJ
+					original_tag = NZL
+				}
+			}
+
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { medium_tank_manufacturer }
+	
+		}
+		
+		HNH_heavy_tanks = {
+
+			picture = generic_tank_manufacturer_2
+			
+			allowed = {
+				OR = {
+					original_tag = ENG
+					original_tag = CAN
+					original_tag = SAF
+					original_tag = AST
+					original_tag = RAJ
+				}
+			}
+
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { heavy_tank_manufacturer }
+	
+		}
+		
+		HNH_mobile_tanks = {
+
+			picture = generic_tank_manufacturer_1
+			
+			allowed = {
+				OR = {
+					original_tag = ENG
+					original_tag = CAN
+					original_tag = SAF
+					# original_tag = AST
+					original_tag = RAJ
+					# original_tag = NZL
+				}
+			}
+	
+			research_bonus = {
+				armor = 0.10
+			}
+			
+			traits = { fast_tank_manufacturer }
+			
+		}
+		
+		
+	}
 }
