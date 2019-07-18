@@ -343,7 +343,7 @@ ideas = {
 		
 		HNH_commonwealth_medium_tanks = {
 
-			picture = generic_tank_manufacturer_2
+			picture = generic_tank_manufacturer_3
 			
 			allowed = {
 				OR = {

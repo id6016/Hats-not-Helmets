@@ -5,10 +5,10 @@ NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 36
 
 NDefines.NDiplomacy.MAX_OPINION_VALUE = 500
 NDefines.NDiplomacy.BASE_SEND_ATTACHE_COST = 50					-- Political power cost to send attache
-NDefines.NDiplomacy.BASE_STAGE_COUP_DAILY_PP = 10					-- Daily pp cost for staging a coup
+NDefines.NDiplomacy.BASE_STAGE_COUP_DAILY_PP = 0.1					-- Daily pp cost for staging a coup
 NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 10				-- This many divisons are required for the country to be able to send volunteers.
-NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.0			-- Each province owned by the target country contributes this amount of volunteers to the limit.
-NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.0				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
+NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.1			-- Each province owned by the target country contributes this amount of volunteers to the limit.
+NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.9				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
 NDefines.NDiplomacy.TENSION_VOLUNTEER_FORCE_DIVISION = 0.02			-- Amount of tension generated for each sent division
 
 NDefines.NCountry.BASE_MAX_COMMAND_POWER = 200.0					-- base value for maximum command power
@@ -18,13 +18,14 @@ NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0.0				-- How much strength tick
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_UNIT = 0.0			-- How much strength ticking speed is reduced from each unit in state (multiplies subunit value resistance_suppress)
 
 NDefines.NTechnology.DEFAULT_XP_RESEARCH_COST = 999			-- default xp cost of a research to speed up the process
+NDefines.NTechnology.LICENSE_PRODUCTION_TECH_BONUS = 0 		--License production tech bonus
 
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50				-- Max slots shared by factories
 NDefines.NBuildings.SABOTAGE_FACTORY_DAMAGE = 0.01		-- How much damage takes a factory building in sabotage when state is occupied. Damage is mult by (1 + resistance strength), i.e. up to 2 x base value.
 
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 0 	--Base cost to unlock a regiment slot,
 NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 0	--Base cost to change a regiment column.
-NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 00 	--Base cost to unlock a support slot
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 0 	--Base cost to unlock a support slot
 NDefines.NMilitary.MAX_DIVISION_SUPPORT_HEIGHT = 6
 	
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 100     --General Command Limit
@@ -39,5 +40,9 @@ NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.2
 NDefines.NProduction.CAPITAL_SHIP_MAX_NAV_FACTORIES_PER_LINE = 10 --Docks per line
 
 NDefines.NAir.AIR_NAVAL_KAMIKAZE_DAMAGE_MULT = 3.0				-- Balancing value to increase usual damage to Strength for Kamikaze
+-- NDefines.NAir.ACCIDENT_CHANCE_BASE = 0							--Base chance % (0 - 100) for accident to happen. Reduced with higher reliability stat.
+-- NDefines.NAir.ACCIDENT_CHANCE_CARRIER_MULT = 0					--The total accident chance is scaled up when it happens on the carrier ship.
+-- NDefines.NAir.ACCIDENT_CHANCE_BALANCE_MULT = 0					--Multiplier for balancing how often the air accident really happens. The higher mult, the more often.
+-- NDefines.NAir.ACCIDENT_EFFECT_MULT = 0							--Multiplier for balancing the effect of accidents
 	
 NDefines.NNavy.NAVAL_MINES_IN_REGION_MAX = 1.0								-- Max number of mines that can be layed by the ships. The value should be hidden from the user, as we present % so it's an abstract value that should be used for balancing.
