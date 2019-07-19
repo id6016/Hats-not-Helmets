@@ -15,7 +15,9 @@ ideas = {
 
 			modifier = {
 				conscription = 0.015
-				research_speed_factor = 0.01
+				research_speed_factor = 0.03
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 			}
 			
 			cancel_if_invalid = no
@@ -51,6 +53,9 @@ ideas = {
 
 			modifier = {
 				conscription = 0.023
+				research_speed_factor = 0.01
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
 			}
 			
 			default = yes

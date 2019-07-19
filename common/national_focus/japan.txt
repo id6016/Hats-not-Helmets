@@ -1296,64 +1296,64 @@ focus_tree = {
 				limit = { has_dlc = "Waking the Tiger" }
 				unlock_decision_category_tooltip = prospect_for_resources
 			}
-			hidden_effect = {
-				every_state = {
-					limit = {
-						is_core_of = CHI
-					}
-					CHI = {
-						remove_state_core = PREV
-					}
-				}
-				every_state = {
-					limit = {
-						is_core_of = PRC
-					}
-					PRC = {
-						remove_state_core = PREV
-					}
-				}
-				every_state = {
-					limit = {
-						is_core_of = SIK
-					}
-					SIK = {
-						remove_state_core = PREV
-					}
-				}
-				every_state = {
-					limit = {
-						is_core_of = XSM
-					}
-					XSM = {
-						remove_state_core = PREV
-					}
-				}
-				every_state = {
-					limit = {
-						is_core_of = YUN
-					}
-					YUN = {
-						remove_state_core = PREV
-					}
-				}
-				every_state = {
-					limit = {
-						is_core_of = GXC
-					}
-					GXC = {
-						remove_state_core = PREV
-					}
-				}
-				every_state = {
-					limit = {
-						is_core_of = SHX
-					}
-					SHX = {
-						remove_state_core = PREV
-					}
-				}
-			}
+			# hidden_effect = {
+				# every_state = {
+					# limit = {
+						# is_core_of = CHI
+					# }
+					# CHI = {
+						# remove_state_core = PREV
+					# }
+				# }
+				# every_state = {
+					# limit = {
+						# is_core_of = PRC
+					# }
+					# PRC = {
+						# remove_state_core = PREV
+					# }
+				# }
+				# every_state = {
+					# limit = {
+						# is_core_of = SIK
+					# }
+					# SIK = {
+						# remove_state_core = PREV
+					# }
+				# }
+				# every_state = {
+					# limit = {
+						# is_core_of = XSM
+					# }
+					# XSM = {
+						# remove_state_core = PREV
+					# }
+				# }
+				# every_state = {
+					# limit = {
+						# is_core_of = YUN
+					# }
+					# YUN = {
+						# remove_state_core = PREV
+					# }
+				# }
+				# every_state = {
+					# limit = {
+						# is_core_of = GXC
+					# }
+					# GXC = {
+						# remove_state_core = PREV
+					# }
+				# }
+				# every_state = {
+					# limit = {
+						# is_core_of = SHX
+					# }
+					# SHX = {
+						# remove_state_core = PREV
+					# }
+				# }
+			# }
 		}
 	}
 
