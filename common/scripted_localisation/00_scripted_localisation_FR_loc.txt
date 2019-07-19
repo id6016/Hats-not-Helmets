@@ -16816,7 +16816,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				# LOWER PRIORITY
 				AND = { is_in_faction_with = SOV SOV = { is_faction_leader = yes } has_government = communism } # Comintern
 			}
@@ -16898,7 +16897,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				# LOWER PRIORITY
 				AND = { is_in_faction_with = SOV SOV = { is_faction_leader = yes } has_government = communism } # Comintern
 			}
@@ -16982,7 +16980,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				# LOWER PRIORITY
 				AND = { is_in_faction_with = SOV SOV = { is_faction_leader = yes } has_government = communism } # Comintern
 			}
@@ -17063,7 +17060,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				# LOWER PRIORITY
 				AND = { is_in_faction_with = SOV SOV = { is_faction_leader = yes } has_government = communism } # Comintern
 			}
@@ -17147,7 +17143,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				# LOWER PRIORITY
 				AND = { is_in_faction_with = SOV SOV = { is_faction_leader = yes } has_government = communism } # Comintern
 			}
@@ -17227,7 +17222,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				# LOWER PRIORITY
 				AND = { is_in_faction_with = SOV SOV = { is_faction_leader = yes } has_government = communism } # Comintern
 			}
@@ -17311,7 +17305,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				# LOWER PRIORITY
 				AND = { is_in_faction_with = SOV SOV = { is_faction_leader = yes } has_government = communism } # Comintern
@@ -17380,7 +17373,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17442,7 +17434,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17504,7 +17495,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17566,7 +17556,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
@@ -17628,7 +17617,6 @@ defined_text = {
 				#AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_government = neutrality } } # anti_soviet_pact
 				AND = { is_in_faction_with = PRC PRC = { is_faction_leader = yes } PRC = { has_completed_focus = PRC_socialism_with_chinese_characteristics } } # PRC_mao_faction
 				AND = { OR = { CAN = { is_faction_leader = yes } SAF = { is_faction_leader = yes } RAJ = { is_faction_leader = yes } AST = { is_faction_leader = yes } NZL = { is_faction_leader = yes } } has_country_flag = ENG_abdication_crisis_dominion_will_leave } # ENG_commonwealth_of_nations
-				AND = { is_in_faction_with = USA USA = { is_faction_leader = yes } USA = { has_completed_focus = USA_hemisphere_defense } } # USA_hemisphere_defense_faction
 				AND = { is_in_faction_with = GER GER = { is_faction_leader = yes } GER = { has_idea = soviet_german_friendship } } # the_berlin_moscow_axis
 				AND = { is_in_faction_with = JAP JAP = { is_faction_leader = yes } has_government = fascism JAP = { has_completed_focus = JAP_greater_east_asian_co_prosperity_sphere } } # daitoa_kyoeiken
 				AND = { is_in_faction_with = SWE is_in_faction_with = HUN OR = { HUN = { is_faction_leader = yes } SWE = { is_faction_leader = yes } } HUN = { has_idea = HUN_dynastic_ties } } # SWE_HUN_ALLIANCE
