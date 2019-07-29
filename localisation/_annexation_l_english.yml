@@ -601,6 +601,7 @@
  SPR_civil_war_threat:0 "Spanish Civil War"
  SPR_civil_war:0 "End of the Spanish Civil War"
  ITA_second_italo_eth_war: "End of the Second Italo-Ethiopian War"
+ HNH_albanian_occupation:0 "Albanian Occupation"
  
  #Countries
  VIC_fascism:0 "Vichy France"
@@ -613,6 +614,7 @@
  HNH_fighter_2_sov:0 "Enables production of the Lavochkin-Gorbunov-Gudkov LaGG-3"
  HNH_fighter_2_ger:0 "Enables production of the Focke-Wulf Fw 190"
  HNH_fighter_2_eng:0 "Enables production of the Supermarine Spitfire"
+
  
  
  #Ideas

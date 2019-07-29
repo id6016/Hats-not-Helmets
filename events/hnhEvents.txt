@@ -65,7 +65,10 @@ country_event = {
 			transfer_state = 309
 			transfer_state = 695
 		}
-		AST = { transfer_state = 669 }
+		if = {		
+			limit = { AST = { exists = yes } }
+			AST = { transfer_state = 669 }
+		}
 		INS = {
 			remove_state_core = 672
 			remove_state_core = 335
