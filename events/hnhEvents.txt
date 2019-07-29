@@ -324,6 +324,152 @@ country_event = {
 	
 }
 
+#Transfer of capitulated nations navy
+
+country_event = {
+	#Polish Navy
+	id = britain.110
+	title = britain.110.t
+	desc = britain.110.d
+	hidden = yes
+	fire_only_once = yes
+	picture = GFX_event_bulgarian_soldiers
+	
+	trigger = { 
+		original_tag = POL
+		POL = { has_capitulated = yes }
+	}
+	
+	#Accept
+	option = {
+		name = britain.110.a
+		ai_chance = { factor = 100 }
+		transfer_navy = {
+			target = ENG
+		}
+	}
+}
+
+country_event = {
+	#Dutch Navy
+	id = britain.111
+	title = britain.110.t
+	desc = britain.110.d
+	hidden = yes
+	fire_only_once = yes
+	picture = GFX_event_bulgarian_soldiers
+	
+	trigger = { 
+		original_tag = HOL
+		HOL = { has_capitulated = yes }
+	}
+	
+	#Accept
+	option = {
+		name = britain.110.a
+		ai_chance = { factor = 100 }
+		transfer_navy = {
+			target = ENG
+		}
+	}
+}
+
+country_event = {
+	#Danish Navy
+	id = britain.113
+	title = britain.110.t
+	desc = britain.110.d
+	hidden = yes
+	fire_only_once = yes
+	picture = GFX_event_bulgarian_soldiers
+	
+	trigger = { 
+		original_tag = DEN
+		DEN = { has_capitulated = yes }
+	}
+	
+	#Accept
+	option = {
+		name = britain.110.a
+		ai_chance = { factor = 100 }
+		transfer_navy = {
+			target = ENG
+		}
+	}
+}
+
+country_event = {
+	#Norwegian Navy
+	id = britain.114
+	title = britain.110.t
+	desc = britain.110.d
+	hidden = yes
+	fire_only_once = yes
+	picture = GFX_event_bulgarian_soldiers
+	
+	trigger = { 
+		original_tag = NOR
+		NOR = { has_capitulated = yes }
+	}
+	
+	#Accept
+	option = {
+		name = britain.110.a
+		ai_chance = { factor = 100 }
+		transfer_navy = {
+			target = ENG
+		}
+	}
+}
+
+country_event = {
+	#Greek Navy
+	id = britain.115
+	title = britain.110.t
+	desc = britain.110.d
+	hidden = yes
+	fire_only_once = yes
+	picture = GFX_event_bulgarian_soldiers
+	
+	trigger = { 
+		original_tag = GRE
+		GRE = { has_capitulated = yes }
+	}
+	
+	#Accept
+	option = {
+		name = britain.110.a
+		ai_chance = { factor = 100 }
+		transfer_navy = {
+			target = ENG
+		}
+	}
+}
+
+country_event = {
+	#Yugoslav Navy
+	id = britain.116
+	title = britain.110.t
+	desc = britain.110.d
+	hidden = yes
+	fire_only_once = yes
+	picture = GFX_event_bulgarian_soldiers
+	
+	trigger = { 
+		original_tag = YUG
+		YUG = { has_capitulated = yes }
+	}
+	
+	#Accept
+	option = {
+		name = britain.110.a
+		ai_chance = { factor = 100 }
+		transfer_navy = {
+			target = ENG
+		}
+	}
+}
+
 #France
 
 country_event = {

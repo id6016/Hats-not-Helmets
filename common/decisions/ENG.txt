@@ -8818,7 +8818,7 @@ operations = {
 
 uk_annexation = {
 
-annex_canada = {
+	annex_canada = {
 		icon = GFX_dec_hnh_can_modern
 		ai_will_do = { factor = 0 }
 		cost = 0	
@@ -8828,8 +8828,17 @@ annex_canada = {
 			country_exists = CAN
 			#date > 1939.1.1
 		}
+		available = {
+			date > 1938.6.1
+		}
 		#fire_only_once = yes
 		complete_effect = {
+			CAN = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_commonwealth_general
+					set_nationality = ENG
+				}
+			}
 			ENG = {
 				add_state_core = 276
 				add_state_core = 331
@@ -8879,8 +8888,17 @@ annex_canada = {
 			country_exists = RAJ
 			#date > 1939.1.1
 		}
+		available = {
+			date > 1938.6.1
+		}
 		fire_only_once = yes
 		complete_effect = {
+			RAJ = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_commonwealth_general
+					set_nationality = ENG
+				}
+			}
 			ENG = {
 					add_state_core = 444
 					add_state_core = 443
@@ -8911,8 +8929,17 @@ annex_canada = {
 			country_exists = SAF
 			#date > 1939.1.1
 		}
+		available = {
+			date > 1938.6.1
+		}
 		fire_only_once = yes
 		complete_effect = {
+			SAF = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_commonwealth_general
+					set_nationality = ENG
+				}
+			}
 			ENG = {
 				add_state_core = 275
 				add_state_core = 541
@@ -8934,8 +8961,17 @@ annex_canada = {
 			country_exists = AST
 			#date > 1939.1.1
 		}
+		available = {
+			date > 1938.6.1
+		}
 		fire_only_once = yes
 		complete_effect = {
+			AST = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_commonwealth_general
+					set_nationality = ENG
+				}
+			}
 			ENG = {
 				add_state_core = 285
 				add_state_core = 517
@@ -8964,8 +9000,19 @@ annex_canada = {
 			country_exists = NZL
 			#date > 1939.1.1
 		}
+		available = {
+			date > 1938.6.1
+		}
 		fire_only_once = yes
 		complete_effect = {
+			NZL = {
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_commonwealth_general
+					set_nationality = ENG
+				}
+			}
+			
+			
 			ENG = {
 				add_state_core = 284
 				add_state_core = 723
@@ -8998,10 +9045,10 @@ annex_canada = {
 				# }
 			# }
 			FRA = {
-			every_unit_leader = {
-				set_unit_leader_flag = flag_former_french_general
-				set_nationality = ENG
-			}
+				every_unit_leader = {
+					set_unit_leader_flag = flag_former_french_general
+					set_nationality = ENG
+				}
 			}
 			ENG = { annex_country = { target = FRA transfer_troops = yes } }
 			set_cosmetic_tag = HNH_franco_british_union

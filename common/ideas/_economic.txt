@@ -268,7 +268,7 @@ ideas = {
 			
 			available = {
 				
-			
+				threat > 0.15
 				# has_war_support > 0.5
 				OR = {
 					has_government = fascism
@@ -284,18 +284,18 @@ ideas = {
 						}
 					}
 				}
-				if = { 
-					limit = { original_tag = GER }
-					date > 1938.1.1
-				}
-				if = { 
-					limit = { original_tag = SOV }
-					date > 1938.1.1
-				}
-				if = { 
-					limit = { original_tag = ITA }
-					date > 1938.1.1
-				}
+				# if = { 
+					# limit = { original_tag = GER }
+					# date > 1938.1.1
+				# }
+				# if = { 
+					# limit = { original_tag = SOV }
+					# date > 1938.1.1
+				# }
+				# if = { 
+					# limit = { original_tag = ITA }
+					# date > 1938.1.1
+				# }
 				if = {
 					limit = {
 						original_tag = SPR
@@ -313,14 +313,14 @@ ideas = {
 					}
 					NOT = { has_idea = HUN_treaty_of_triannon }
 				}
-				if = {
-					limit = {
-						has_completed_focus = USA_limited_intervention
-						has_defensive_war = no
-					}
-					has_war_support > 0.75
+				# if = {
+					# limit = {
+						# has_completed_focus = USA_limited_intervention
+						# has_defensive_war = no
+					# }
+					# has_war_support > 0.75
 				
-				}		
+				# }		
 			}
 		
 			cost = 150

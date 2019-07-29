@@ -1591,7 +1591,7 @@ GER_aid_hun_rom_democratic_civil_war = {
 
 ger_annexation = {
 
-annex_hungary = {
+	annex_hungary = {
 		icon = GFX_dec_hnh_hun
 		ai_will_do = { factor = 0 }
 		cost = 50	
@@ -1601,6 +1601,7 @@ annex_hungary = {
 			country_exists = HUN
 			#date > 1939.1.1
 		}
+		available = { FRA = { has_capitulated = yes } }
 		#fire_only_once = yes
 		complete_effect = {
 			GER = {
@@ -1619,6 +1620,7 @@ annex_hungary = {
 			country_exists = ROM
 			#date > 1939.1.1
 		}
+		available = { FRA = { has_capitulated = yes } } 
 		fire_only_once = yes
 		complete_effect = {
 			GER = {
@@ -1637,6 +1639,7 @@ annex_hungary = {
 			country_exists = BUL
 			#date > 1939.1.1
 		}
+		available = { FRA = { has_capitulated = yes } } 
 		fire_only_once = yes
 		complete_effect = {
 			GER = {
