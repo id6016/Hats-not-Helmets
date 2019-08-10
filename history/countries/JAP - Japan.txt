@@ -333,6 +333,23 @@ if = {
 	}
 }
 
+add_equipment_to_stockpile = {
+         type = CAS_equipment_1
+         amount = 250
+         producer = JAP
+} 
+
+add_equipment_to_stockpile = {
+         type = tac_bomber_equipment_1
+         amount = 200
+         producer = JAP
+} 
+
+add_equipment_to_stockpile = {
+         type = fighter_equipment_1
+         amount = 300
+         producer = JAP
+} 
 
 set_politics = {
     ruling_party = fascism

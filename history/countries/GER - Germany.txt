@@ -334,6 +334,31 @@ create_import = {
 	# }
 # }
 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_2
+         amount = 2000
+         producer = GER
+} 
+
+add_equipment_to_stockpile = {
+         type = CAS_equipment_1
+         amount = 250
+         producer = GER
+} 
+
+add_equipment_to_stockpile = {
+         type = tac_bomber_equipment_1
+         amount = 300
+         producer = GER
+} 
+
+add_equipment_to_stockpile = {
+         type = fighter_equipment_1
+		 version_name = "Bf 109e"
+         amount = 400
+         producer = GER
+} 
+
 set_politics = {
     ruling_party = fascism
     last_election = "1933.3.5"

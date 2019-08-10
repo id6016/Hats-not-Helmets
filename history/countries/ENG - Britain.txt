@@ -382,6 +382,12 @@ create_country_leader = {
 	set_convoys = 200
 }
 
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_2
+         amount = 750
+         producer = ENG
+} 
+
 set_politics = {
     ruling_party = democratic
     last_election = "1935.11.14"
